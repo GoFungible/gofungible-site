@@ -75,7 +75,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'Go Fungible',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -85,9 +85,21 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Stack',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Value',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Value Chain',
+        },
+				{to: '/blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
