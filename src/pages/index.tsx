@@ -6,7 +6,10 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/sections/HomepageFeatures';
 import Heading from '@theme/Heading';
 
+import 'bootstrap/dist/css/bootstrap.css';
+
 import styles from './index.module.css';
+import ValueChainSection from '../components/sections/ValueChainSection';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -38,6 +41,7 @@ export default function Home(): ReactNode {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+				<ValueChainSection />
       </main>
     </Layout>
   );
