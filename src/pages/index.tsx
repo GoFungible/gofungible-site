@@ -10,6 +10,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 import styles from './index.module.css';
 import ValueChainSection from '../components/sections/ValueChainSection';
+import EcosystemSection from '../components/sections/EcosystemSection';
+import SoundMoneySection from '../components/sections/SoundMoneySection';
+import DecentralizationSection from '../components/sections/DecentralizationSection';
+import FeaturesSection from '../components/sections/FeaturesSection';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -40,8 +44,12 @@ export default function Home(): ReactNode {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        {/* <HomepageFeatures /> */}
+				<FeaturesSection />
+				<DecentralizationSection />
+				<SoundMoneySection />
 				<ValueChainSection />
+				<EcosystemSection />
       </main>
     </Layout>
   );

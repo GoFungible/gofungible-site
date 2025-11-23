@@ -83,21 +83,27 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'stackSidebar',
           position: 'left',
-          label: 'Stack',
+          label: 'Maturity Stack',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'valueSidebar',
           position: 'left',
-          label: 'Value',
+          label: 'Captured Value',
         },
-        {
+				{
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'valueChainSidebar',
           position: 'left',
           label: 'Value Chain',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'ecosystemSidebar',
+          position: 'left',
+          label: 'Ecosystem',
         },
 				{to: '/blog', label: 'Blog', position: 'right'},
         {
@@ -107,51 +113,98 @@ const config: Config = {
         },
       ],
     },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    },
+		footer: {
+			style: 'dark',
+			links: [{
+				title: 'Maturity Stack',
+						items: [{
+							label: 'Abstraction Layer',
+							href: '/docs/principles/intro',
+						},{
+							label: 'Interoperability',
+							href: '/docs/tokenization/intro',
+						}, {
+							label: 'Compose',
+							href: '/docs/funding/intro',
+						}, {
+							label: 'Baseline',
+							href: '/docs/negotiation/intro',
+						},
+					],
+				}, {
+					title: 'Captured Value',
+						items: [{
+							label: 'Memecoins',
+							href: '/docs/principles/intro',
+						},{
+							label: 'Reputokens',
+							href: '/docs/tokenization/intro',
+						}, {
+							label: 'Utility Tokens',
+							href: '/docs/funding/intro',
+						}, {
+							label: 'Security Tokens',
+							href: '/docs/negotiation/intro',
+						}, {
+							label: 'Stablecoins',
+							href: '/docs/negotiation/intro',
+						}, {
+							label: 'Crommodity',
+							href: '/docs/negotiation/intro',
+						},
+					],
+				}, {
+					title: 'Value Chain',
+						items: [{
+							label: 'Principles',
+							href: '/docs/principles/intro',
+						},{
+							label: 'Tokenization',
+							href: '/docs/tokenization/intro',
+						}, {
+							label: 'Project Funding',
+							href: '/docs/funding/intro',
+						}, {
+							label: 'Token Negotiation',
+							href: '/docs/negotiation/intro',
+						}, {
+							label: 'Token Operations',
+							href: '/docs/distribution/intro',
+						}, {
+							label: 'DeFi Services',
+							href: '/docs/defi/intro',
+						}, {
+							label: 'Crowdsolving',
+							href: '/docs/crowdsolving/intro',
+						}
+					],
+				}, {
+					title: 'Ecosystems',
+					items: [{
+							label: 'Liquidity Provision',
+							href: '/docs/defi/liquidity',
+						}, {
+							label: 'Launchap',
+							href: '/docs/defi/launchpad',
+						}, {
+							label: 'Transfers',
+							href: '/docs/defi/transfers',
+						}, {
+							label: 'Payments',
+							href: '/docs/defi/payments',
+						}, {
+							label: 'Cards',
+							href: '/docs/defi/cards',
+						}, {
+							label: 'Lending',
+							href: '/docs/defi/lending',
+
+						}
+					],
+				}, 
+			],
+			copyright: `Copyright © ${new Date().getFullYear()} Catallactic, Inc.`,
+		},
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
