@@ -27,21 +27,21 @@ const sidebars: SidebarsConfig = {
       value: '<div class="border border-1 m-3" />',
     }, {
 			type: 'doc',
-			id: 'stack/abstractionLayer', // document ID
-			label: 'Abstraction Layer', // sidebar label
-		}, {
-			type: 'doc',
-			id: 'stack/interop', // document ID
-			label: 'Interop Layer', // sidebar label
+			id: 'stack/baseline', // document ID
+			label: 'Baseline', // sidebar label
 		}, {
 			type: 'doc',
 			id: 'stack/compose', // document ID
 			label: 'Compose Layer', // sidebar label
 		}, {
 			type: 'doc',
-			id: 'stack/baseline', // document ID
-			label: 'Baseline', // sidebar label
-		},
+			id: 'stack/interop', // document ID
+			label: 'Interop Layer', // sidebar label
+		}, {
+			type: 'doc',
+			id: 'stack/abstractionLayer', // document ID
+			label: 'Abstraction Layer', // sidebar label
+		}, 
   ],
   valueSidebar: [
 		{
