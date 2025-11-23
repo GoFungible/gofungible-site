@@ -75,7 +75,7 @@ export default function ValueChainSection(): JSX.Element {
 							<h4 className={styles.clippedelement}>Crowdsolving</h4>
 							<div className="card-body d-flex flex-column">
 								<p className="pt-3">Apply the framework to other commodities to enable citizens funding and solving their own problems.</p>
-								<a className='btn btn-lg mt-auto' href='docs/crowdsolving/intro' role='button'>Learn More</a>
+								<a className='btn btn-lg mt-auto' href='docs/valueChain/crowdsolving/intro' role='button'>Learn More</a>
 							</div>
 						</div>
 					</div>

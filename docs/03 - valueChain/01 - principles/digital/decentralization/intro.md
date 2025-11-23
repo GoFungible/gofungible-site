@@ -178,7 +178,3 @@ https://docs.arbitrum.foundation/state-of-progressive-decentralization
 		</tr>
 	</tbody>
 </table>
-
-import DocCardList from '@theme/DocCardList';
-
-<DocCardList />
