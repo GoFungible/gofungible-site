@@ -14,6 +14,7 @@ import EcosystemSection from '../components/sections/EcosystemSection';
 import SoundMoneySection from '../components/sections/SoundMoneySection';
 import DecentralizationSection from '../components/sections/DecentralizationSection';
 import FeaturesSection from '../components/sections/FeaturesSection';
+import WhySection from '../components/sections/WhySection';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -45,6 +46,7 @@ export default function Home(): ReactNode {
       <HomepageHeader />
       <main>
         {/* <HomepageFeatures /> */}
+				<WhySection />
 				<FeaturesSection />
 				<DecentralizationSection />
 				<SoundMoneySection />
