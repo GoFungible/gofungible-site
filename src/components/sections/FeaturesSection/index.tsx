@@ -9,7 +9,7 @@ export default function FeaturesSection(): JSX.Element {
 
 				<div className="text-center pb-1 mb-4">
 					<div className="h1 fw-bold color-theme-reverse2">Quality Fungible Tokens</div>
-					<p className="h3 color-theme-reverse1 mt-5 lh-base">Quantity Theory of Money has monopolized the minds of economists for centuries, but QTM is not of application in competing currencies. We aim to create a Quality Money Framework adapted to Web3. </p>
+					<p className="h3 color-theme-reverse1 mt-5 lh-base">We define aim to create a Quality Abstraction Layer and define a Maturity Model for Fungible Tokens. </p>
 				</div>
 
 				<div className="row margin-bottom--lg feature_eSJM">

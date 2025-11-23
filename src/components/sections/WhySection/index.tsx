@@ -52,7 +52,7 @@ export default function WhySection(): JSX.Element {
 										<hr/>
 										<p className="font-italic text-muted mb-2">Because all flavours of Fungible Tokens share 99% of implementation.</p>
 										<p className="font-italic text-muted mb-2">There is not point in reinventing the wheel for each single project when we can enojoy ready-to-go tokens offering all the quality features and waiting for your customization.</p>
-										<p className="font-italic text-muted mb-2">Reporting Standard aims to standardize Fungible Tokens End-To-End process from inception to Go-To-Market so you can issue your tokens in no time, woth no money and with proven quality respecting the foundational principles of blockchain.</p>
+										<p className="font-italic text-muted mb-2">Reporting Standard aims to standardize Fungible Tokens End-To-End process from inception to Go-To-Market so you can issue your tokens in no time, with no money and with proven quality respecting the foundational principles of blockchain.</p>
 										<p className="font-italic text-muted mb-2">Reporting Standard aims protect retail investors, holders and users as a required stakeholders in the blockchain industry.</p>
 									</div>
 
@@ -63,7 +63,7 @@ export default function WhySection(): JSX.Element {
 										<p className="font-italic text-muted mb-2">* Fungible Standard defines a QoS Maturity Model for Fungible Tokens</p>
 										<p className="font-italic text-muted mb-2">* Fungible Standard defines a cover all flavours of Fungible Tokens </p>
 										<p className="font-italic text-muted mb-2">* Fungible Standard defines a the e2e lifecycle of issuance and management of a Fungible Token</p>
-										<p className="font-italic text-muted mb-2">* Fungible Standard oversees the exitsing ecosystems applying to Fungible Tokens</p>
+										<p className="font-italic text-muted mb-2">* Fungible Standard provides interface to the existing ecosystems applying to Fungible Tokens</p>
 									</div>
 
 									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab2" role="tabpanel" aria-labelledby="v-pills-home-tab">
