@@ -52,8 +52,8 @@ export default function WhySection(): JSX.Element {
 										<hr/>
 										<p className="font-italic text-muted mb-2">Because all flavours of Fungible Tokens share 99% of implementation.</p>
 										<p className="font-italic text-muted mb-2">There is not point in reinventing the wheel for each single project when we can enojoy ready-to-go tokens offering all the quality features and waiting for your customization.</p>
-										<p className="font-italic text-muted mb-2">Reporting Standard aims to standardize Fungible Tokens End-To-End process from inception to Go-To-Market so you can issue your tokens in no time, with no money and with proven quality respecting the foundational principles of blockchain.</p>
-										<p className="font-italic text-muted mb-2">Reporting Standard aims protect retail investors, holders and users as a required stakeholders in the blockchain industry.</p>
+										<p className="font-italic text-muted mb-2">Fungible Standard aims to standardize Fungible Tokens End-To-End process from inception to Go-To-Market so you can issue your tokens in no time, with no money and with proven quality respecting the foundational principles of blockchain.</p>
+										<p className="font-italic text-muted mb-2">Fungible Standard aims protect retail investors, holders and users as a required stakeholders in the blockchain industry.</p>
 									</div>
 
 									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab1" role="tabpanel" aria-labelledby="v-pills-home-tab">
