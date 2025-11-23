@@ -32,7 +32,7 @@ export default function WhySection(): JSX.Element {
 							<div className="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
 								<a className="pp nav-link mb-3 p-3 shadow active" id="v-whytab0" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true" onClick={() => setShownTab(0)}>
-									<span className="font-weight-bold text-uppercase">Why Reporting Standard</span>
+									<span className="font-weight-bold text-uppercase">Why Fungible Standard?</span>
 								</a>
 								<a className="pp nav-link mb-3 p-3 shadow" id="v-whytab1" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true" onClick={() => setShownTab(1)}>
 									<span className="font-weight-bold text-uppercase">What is the scope?</span>
@@ -48,7 +48,7 @@ export default function WhySection(): JSX.Element {
                 <div className="tab-content" id="v-pills-tabContent">
 
 									<div className="tab-pane fade shadow rounded bg-white p-5 show active" id="whytab0" role="tabpanel" aria-labelledby="v-pills-home-tab">
-										<h4 className="font-italic mb-4">Why Reporting Standard?</h4>
+										<h4 className="font-italic mb-4">Why Fungible Standard?</h4>
 										<hr/>
 										<p className="font-italic text-muted mb-2">Because all flavours of Fungible Tokens share 99% of implementation.</p>
 										<p className="font-italic text-muted mb-2">There is not point in reinventing the wheel for each single project when we can enojoy ready-to-go tokens offering all the quality features and waiting for your customization.</p>
