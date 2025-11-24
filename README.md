@@ -1,2 +1,2 @@
-# gofungible-site
-Site for GoFungible Framework
+# Fungible Standard
+Site for Fungible Standard

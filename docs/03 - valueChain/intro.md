@@ -17,7 +17,7 @@ During the last 15 years, a plethora of cryptocurrency proposals have reached th
 This section aims to describe the status quo. We keep track on how the market evolves and what are the new proposals. In order to do that, we analise the cryptocurrency value chain from the initial design and tokenization to later provision of services to the community. 
 
 <div style={{textAlign: 'center'}}>
-	<img src="/gofungible-site/img/token_value_chain2.svg" width="80%"></img>
+	<img src="/img/token_value_chain2.svg" width="80%"></img>
 </div>
 
 We do not assume that you master crypto, but instead we provide you are vision of crypto which aims to follow the lessons learnt during centuries of economic history.

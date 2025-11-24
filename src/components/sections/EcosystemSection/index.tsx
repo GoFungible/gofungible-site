@@ -27,7 +27,7 @@ export default function EcosystemSection(): JSX.Element {
 
 					<div className="col col--4">
 						<div className="text--center">
-						<img className="featureSvg__8YW" alt="ETL Simplified" src="/gofungible-site/img/parking.png" height={120}/>
+						<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/parking.png" height={120}/>
 						</div>
 						<div className="text--center padding-horiz--md">
 							<h3>Wallets</h3>
@@ -38,7 +38,7 @@ export default function EcosystemSection(): JSX.Element {
 
 					<div className="col col--4">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="/gofungible-site/img/barter.png" height={120}/>
+							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/barter.png" height={120}/>
 						</div>
 						<div className="text--center padding-horiz--md">
 							<h3>Exchanges</h3>

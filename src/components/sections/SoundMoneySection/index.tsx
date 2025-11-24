@@ -15,7 +15,7 @@ export default function SoundMoneySection(): JSX.Element {
 
 					<div className="col col--6 my-auto d-flex">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="/gofungible-site/img/tokenization_maturity_model_seal_table.svg" />
+							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/tokenization_maturity_model_seal_table.svg" />
 						</div>
 					</div>
 
