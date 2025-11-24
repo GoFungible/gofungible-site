@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://gofungible.github.io',
+  url: 'https://www.fungible.design/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -71,11 +71,16 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+		metadata: [
+			{name: 'keywords', content: 'memecoin, reputoken, utility token, security token, fungible, standard'},
+		],
     colorMode: {
       respectPrefersColorScheme: true,
     },
-    navbar: {
+
+		navbar: {
       title: 'Fungible Standard',
+      hideOnScroll: true,
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -206,7 +211,7 @@ const config: Config = {
 			copyright: `Copyright © ${new Date().getFullYear()} Fungible Standard, Inc.`,
 		},
     prism: {
-      theme: prismThemes.github,
+      theme: prismThemes.ultramin,
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
