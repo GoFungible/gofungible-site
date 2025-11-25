@@ -2,8 +2,8 @@
 import { JSX } from 'react';
 
 import styles from './styles.module.css';
-import EnhancedCardsRow from '../../basic/cardrow/CardsRow';
-import { BaseCardProps } from '../../basic/card/Card';
+import CardsRow from '../../basic/cardrow/CardsRow';
+import { BaseCardProps } from '../../basic/cardrow/Card';
 
 // Example with typed cards array
 const featureCards: BaseCardProps[] = [
@@ -36,7 +36,7 @@ export default function EnhancedCardRowSection(): JSX.Element {
 		<section className={styles.services}>
       <div className="container">
 
-				<EnhancedCardsRow
+				<CardsRow
 					title="Our Amazing Features"
 					description="Discover what makes our product stand out from the crowd"
 					columns={3}

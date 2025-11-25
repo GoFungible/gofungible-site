@@ -1,6 +1,6 @@
 // src/components/EnhancedCardsRow.tsx
 import React from 'react';
-import EnhancedCard, { BaseCardProps } from '../card/Card';
+import EnhancedCard, { BaseCardProps } from './Card';
 import './CardsRow.css';
 
 export interface CardsRowProps {

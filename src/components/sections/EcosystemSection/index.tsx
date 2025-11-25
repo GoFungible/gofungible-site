@@ -2,8 +2,8 @@
 import { JSX } from 'react';
 
 import styles from './styles.module.css';
-import EnhancedCardsRow from '../../basic/cardrow/CardsRow';
-import { BaseCardProps } from '../../basic/card/Card';
+import CardsRow from '../../basic/cardrow/CardsRow';
+import { BaseCardProps } from '../../basic/cardrow/Card';
 
 // Example with typed cards array
 const featureCards: BaseCardProps[] = [
@@ -42,7 +42,7 @@ export default function EcosystemSectionSection(): JSX.Element {
 		<section className={styles.services}>
       <div className="container">
 
-				<EnhancedCardsRow
+				<CardsRow
 					title="Ecosystem"
 					description="Defining the criteria and selecting the pieces that comply with the value capture principles will provide better adoption in an already saturated ecosystem."
 					columns={3}
