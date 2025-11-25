@@ -62,13 +62,12 @@ export default function Home(): ReactNode {
 				<DecentralizationSection />
 				<SoundMoneySection />
 				<ValueChainSection />
-				<CardRowSection6 />
+				<LandingCardRowSection />
 				<EcosystemSection />
 				<SpliRightRowSection  />
 				<SplitLeftSectionSection />
 				<SplitRightEnhancedSectionSection />
 				<SplitLeftEnhancedSectionSection />
-				<LandingCardRowSection />
       </main>
     </Layout>
   );
