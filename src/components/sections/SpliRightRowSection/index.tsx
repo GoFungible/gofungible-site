@@ -9,31 +9,27 @@ export default function SplitSectionSection(): JSX.Element {
 		<section className={styles.services}>
       <div className="container">
 
-			<SplitSection
-  image={{
-    src: '/img/another-feature.png',
-    alt: 'Another great feature',
-    width: 550,
-    height: 400
-  }}
-  content={{
-    title: 'Another Awesome Feature',
-    titleLevel: 2,
-    text: (
-      <div>
-        <p>This feature includes:</p>
-        <ul>
-          <li>Benefit one with detailed explanation</li>
-          <li>Benefit two with more details</li>
-          <li>Benefit three that makes this special</li>
-        </ul>
-        <p>And here's some concluding text about why this matters.</p>
-      </div>
-    )
-  }}
-  reverse={true}
-  spacing="large"
-/>
+				<SplitSection
+					image={{
+						src: '/img/decentralization.webp',
+						alt: 'Another great feature',
+						width: 550,
+						height: 400
+					}}
+					content={{
+						title: 'Out of the Box Decentralization',
+						titleLevel: 2,
+						text: (
+							<div>
+								<p>We think that decentralization in the currency and ecosystem, should be, ideally, provided from launch.</p>
+								<p>We also think that decentralization patterns can be standard across the industry, instead of company specific. However, we do not have yet the dimensions for this multifaceted task and this is core mission for this community.</p>
+								<p>Catallactic aims to identify the requirements for full decentralization and integrate them, out of the box, into the Catallactic Framework.</p>
+							</div>
+						)
+					}}
+					reverse={true}
+					spacing="large"
+				/>
 
 			</div>
 		</section>

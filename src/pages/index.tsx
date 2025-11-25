@@ -9,16 +9,14 @@ import Heading from '@theme/Heading';
 //import 'bootstrap/dist/css/bootstrap.css';
 
 import styles from './index.module.css';
-import ValueChainSection from '../components/sections/ValueChainSection';
-import SoundMoneySection from '../components/sections/SoundMoneySection';
-import DecentralizationSection from '../components/sections/DecentralizationSection';
-import WhySection from '../components/sections/WhySection';
 import WhyTabFolderSection from '../components/sections/WhyTabFolderSection';
+import FeaturesSection from '../components/sections/FeaturesSection';
+import SoundMoneySection from '../components/sections/SoundMoneySection';
 import SpliRightRowSection from '../components/sections/SpliRightRowSection';
 import SplitLeftSectionSection from '../components/sections/SpliLefttRowSection';
+import ValueChainSection from '../components/sections/ValueChainSection';
 import LandingCardRowSection from '../components/sections/LandingCardRowSection';
 import EcosystemSection from '../components/sections/EcosystemSection';
-import FeaturesSection from '../components/sections/FeaturesSection';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -54,7 +52,6 @@ export default function Home(): ReactNode {
 				<br/>
 				<WhyTabFolderSection />
 				<FeaturesSection />
-				<DecentralizationSection />
 				<SpliRightRowSection  />
 				<SoundMoneySection />
 				<SplitLeftSectionSection />

@@ -36,7 +36,7 @@ const featureCards: BaseCardProps[] = [
   },
 ];
 
-export default function EcosystemSectionSection(): JSX.Element {
+export default function EcosystemSection(): JSX.Element {
   return (
     
 		<section className={styles.services}>
