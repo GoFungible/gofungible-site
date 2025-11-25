@@ -10,85 +10,56 @@ export default function Why2TabFolderSection(): JSX.Element {
 		<section className={styles.services}>
       <div className="container">
 
-<TabFolder
-  tabs={[
-    {
-      id: 'overview',
-      label: 'Overview',
-      content: (
-        <div>
-          <h3>Product Overview</h3>
-          <p>This is a comprehensive overview of our amazing product.</p>
-          <ul>
-            <li>Feature one</li>
-            <li>Feature two</li>
-            <li>Feature three</li>
-          </ul>
-        </div>
-      )
-    },
-    {
-      id: 'specifications',
-      label: 'Specifications',
-      content: (
-        <div>
-          <h3>Technical Specifications</h3>
-          <table>
-            <tr>
-              <td>Weight</td>
-              <td>1.2 kg</td>
-            </tr>
-            <tr>
-              <td>Dimensions</td>
-              <td>30 x 20 x 10 cm</td>
-            </tr>
-            <tr>
-              <td>Material</td>
-              <td>Aluminum alloy</td>
-            </tr>
-          </table>
-        </div>
-      )
-    },
-    {
-      id: 'pricing',
-      label: 'Pricing',
-      content: (
-        <div>
-          <h3>Pricing Plans</h3>
-          <div style={{display: 'flex', gap: '1rem'}}>
-            <div style={{border: '1px solid #ddd', padding: '1rem', borderRadius: '8px'}}>
-              <h4>Basic</h4>
-              <p>$9/month</p>
-            </div>
-            <div style={{border: '1px solid #ddd', padding: '1rem', borderRadius: '8px'}}>
-              <h4>Pro</h4>
-              <p>$29/month</p>
-            </div>
-          </div>
-        </div>
-      )
-    },
-    {
-      id: 'support',
-      label: 'Support',
-      content: (
-        <div>
-          <h3>Customer Support</h3>
-          <p>We offer 24/7 customer support through various channels:</p>
-          <ul>
-            <li>Email: support@example.com</li>
-            <li>Phone: 1-800-123-4567</li>
-            <li>Live Chat: Available on our website</li>
-          </ul>
-        </div>
-      )
-    }
-  ]}
-  variant="bordered"
-/>
+				<div className={`cards-row__header cards-row__header--center`}>
+					<h2 className="cards-row__title">Building Representative Money</h2>
+					<p className="cards-row__description">An Open Source Framework to build <b>Quality Fungible Tokens</b></p>
+				</div>
 
-</div>
+				<TabFolder
+					tabs={[
+						{
+							id: 'why',
+							label: 'Why Fungible Standard?',
+							content: (
+								<div>
+									<h3>Why Fungible Standard?</h3>
+									<p>Because all flavours of Fungible Tokens share 99% of implementation.</p>
+									<p>There is not point in reinventing the wheel for each single project when we can enojoy ready-to-go tokens offering all the quality features and waiting for your customization.</p>
+									<p>Fungible Standard aims to standardize Fungible Tokens End-To-End process from inception to Go-To-Market so you can issue your tokens in no time, with no money and with proven quality respecting the foundational principles of blockchain.</p>
+									<p>Fungible Standard aims protect retail investors, holders and users as a required stakeholders in the blockchain industry.</p>
+								</div>
+							)
+						},
+						{
+							id: 'scope',
+							label: 'What is the scope?',
+							content: (
+								<div>
+									<h3>What is the scope?</h3>
+									<p>Fungible Standards aims to uncover the topics related to Fungible Tokens in the following dimensions:</p>
+									<p>* Fungible Standard defines a QoS Maturity Model for Fungible Tokens.</p>
+									<p>* Fungible Standard defines a cover all flavours of Fungible Tokens.</p>
+									<p>* Fungible Standard defines a the e2e lifecycle of issuance and management of a Fungible Token.</p>
+									<p>* Fungible Standard provides interface to the existing ecosystems applying to Fungible Tokens.</p>
+								</div>
+							)
+						},
+						{
+							id: 'ready',
+							label: 'Ready To Go',
+							content: (
+								<div>
+									<h3>Ready To Go</h3>
+									<p>Fungible Standard Tokens are ready to be configured with your preferred features and go to the market.</p>
+									<p>You wont have to bother about the headaches of building, testing, auditing your tokens and your investors will enjoy the benefit of proven good practices.</p>
+								</div>
+							)
+						}
+					]}
+					variant="bordered"
+				/>
+
+			</div>
 		</section>
 
   );

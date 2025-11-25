@@ -50,7 +50,8 @@ export default function Home(): ReactNode {
       <HomepageHeader />
       <main>
         {/* <HomepageFeatures /> */}
-				<WhySection />
+				<br/>
+				<br/>
 				<WhyTabFolderSection />
 				<FeaturesSection />
 				<DecentralizationSection />
