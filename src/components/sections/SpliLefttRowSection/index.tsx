@@ -3,15 +3,20 @@ import SplitSection from "../../basic/splitrow/SplitSection";
 
 import styles from './styles.module.css';
 
-export default function SplitLeftSectionSection(): JSX.Element {
+export default function SplitLeftSection(): JSX.Element {
   return (
     
 		<section className={styles.services}>
       <div className="container">
 
+				<div className={`cards-row__header cards-row__header--center`}>
+					<h2 className="cards-row__title">Flavours of Captured Value</h2>
+					<p className="cards-row__description">Fungible Standard defines delivers out of the box fungible tokens ready to capture different flavours of value.</p>
+				</div>
+
 				<SplitSection
 					image={{
-						src: '/img/feature-image.jpg',
+						src: '/img/tokenization_maturity_model_seal_table.svg',
 						alt: 'Our amazing feature in action',
 						width: 600,
 						height: 400
@@ -19,7 +24,14 @@ export default function SplitLeftSectionSection(): JSX.Element {
 					content={{
 						title: 'Powerful Feature Name',
 						titleLevel: 2,
-						text: 'This is a comprehensive description of our amazing feature. It explains how it works, why it matters, and what benefits users can expect. You can include multiple paragraphs and even markdown formatting.'
+						text: (
+							<div>
+								<p>Existing tokenization patterns hold specialized features and are suitable for different applications.</p>
+								<p>By different reasons, all the existing tokens, fall short in delivering the funtions of a Medium of Exchange and this is preventing mainstream adoption and real world use cases.</p>
+								<p>CryptoCommodity combines the features of existing tokens aiming to become the first (crypto)currency representing Sound Money ever. The specifications have been written decades or centuries ago and we are in the time to apply this knowledge.</p>
+								<p>Join us on the mission to design how the Digital Sound Money should look like.</p>
+							</div>
+						)
 					}}
 				/>
 

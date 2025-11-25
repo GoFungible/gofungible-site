@@ -11,9 +11,8 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import WhyTabFolderSection from '../components/sections/WhyTabFolderSection';
 import FeaturesSection from '../components/sections/FeaturesSection';
-import SoundMoneySection from '../components/sections/SoundMoneySection';
 import SpliRightRowSection from '../components/sections/SpliRightRowSection';
-import SplitLeftSectionSection from '../components/sections/SpliLefttRowSection';
+import SplitLeftSection from '../components/sections/SpliLefttRowSection';
 import ValueChainSection from '../components/sections/ValueChainSection';
 import LandingCardRowSection from '../components/sections/LandingCardRowSection';
 import EcosystemSection from '../components/sections/EcosystemSection';
@@ -53,8 +52,9 @@ export default function Home(): ReactNode {
 				<WhyTabFolderSection />
 				<FeaturesSection />
 				<SpliRightRowSection  />
-				<SoundMoneySection />
-				<SplitLeftSectionSection />
+				<br/>
+				<br/>
+				<SplitLeftSection />
 				<ValueChainSection />
 				<LandingCardRowSection />
 				<EcosystemSection />
