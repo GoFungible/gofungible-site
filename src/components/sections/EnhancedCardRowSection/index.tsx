@@ -1,12 +1,12 @@
 // In your .mdx file
-import type { CardProps } from '@site/src/components/basic/card/Card';
 import { JSX } from 'react';
 
 import styles from './styles.module.css';
-import EnhancedCardsRow from '../../basic/cardrow/EnhancedCardsRow';
+import EnhancedCardsRow from '../../basic/cardrow/CardsRow';
+import { BaseCardProps } from '../../basic/card/Card';
 
 // Example with typed cards array
-const featureCards: CardProps[] = [
+const featureCards: BaseCardProps[] = [
   {
     title: "Easy to Use",
     description: "Get started in minutes with our intuitive interface and comprehensive documentation.",
@@ -15,7 +15,7 @@ const featureCards: CardProps[] = [
     variant: "primary"
   },
   {
-    title: "Highly Customizable",
+    title: "Highly Costomizable",
     description: "Tailor the platform to your specific needs with extensive customization options.",
     href: "/",
     buttonText: "Customize",

@@ -1,25 +1,29 @@
-// src/components/CardsRow.tsx
+// src/components/EnhancedCardsRow.tsx
 import React from 'react';
-import Card, { CardProps } from '../card/Card';
+import EnhancedCard, { BaseCardProps } from '../card/Card';
 import './CardsRow.css';
 
 export interface CardsRowProps {
-  cards: CardProps[];
+  cards: BaseCardProps[];
   columns?: 2 | 3 | 4;
   title?: string;
   description?: string;
+  className?: string;
+  align?: 'left' | 'center' | 'right';
 }
 
-const CardsRow: React.FC<CardsRowProps> = ({ 
+const EnhancedCardsRow: React.FC<CardsRowProps> = ({ 
   cards, 
   columns = 3,
   title,
-  description 
+  description,
+  className = '',
+  align = 'center',
 }) => {
   return (
-    <section className="cards-row">
+    <section className={`cards-row ${className}`}>
       {(title || description) && (
-        <div className="cards-row__header">
+        <div className={`cards-row__header cards-row__header--${align}`}>
           {title && <h2 className="cards-row__title">{title}</h2>}
           {description && <p className="cards-row__description">{description}</p>}
         </div>
@@ -27,14 +31,18 @@ const CardsRow: React.FC<CardsRowProps> = ({
       
       <div className={`cards-row__grid cards-row__grid--${columns}`}>
         {cards.map((card, index) => (
-          <Card
+          <EnhancedCard
             key={index}
             title={card.title}
+            titleLocation={card.titleLocation}
             description={card.description}
             href={card.href}
+            image={card.image}
+						imageHeight={card.imageHeight}
             icon={card.icon}
             buttonText={card.buttonText}
             variant={card.variant}
+            onClick={card.onClick}
           />
         ))}
       </div>
@@ -42,4 +50,4 @@ const CardsRow: React.FC<CardsRowProps> = ({
   );
 };
 
-export default CardsRow;
+export default EnhancedCardsRow;

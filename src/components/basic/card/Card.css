@@ -32,7 +32,12 @@
 }
 
 .card__icon {
-  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.card__image {
+	margin: auto;
   margin-bottom: 1rem;
   color: var(--ifm-color-primary);
 }
@@ -52,7 +57,7 @@
 
 .card__button {
   align-self: flex-start;
-  margin-top: auto;
+	margin: auto;
   display: inline-block;
   padding: 0.5rem 1rem;
   background: var(--ifm-color-primary);

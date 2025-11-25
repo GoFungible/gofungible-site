@@ -1,12 +1,12 @@
 // In your .mdx file
-import CardsRow from '@site/src/components/basic/cardrow/CardsRow';
-import type { CardProps } from '@site/src/components/basic/card/Card';
 import { JSX } from 'react';
 
 import styles from './styles.module.css';
+import EnhancedCardsRow from '../../basic/cardrow/CardsRow';
+import { BaseCardProps } from '../../basic/card/Card';
 
 // Example with typed cards array
-const featureCards: CardProps[] = [
+const featureCards: BaseCardProps[] = [
   {
     title: "Easy to Use",
     description: "Get started in minutes with our intuitive interface and comprehensive documentation.",
@@ -57,7 +57,7 @@ export default function CardRowSection6(): JSX.Element {
 		<section className={styles.services}>
       <div className="container">
 
-				<CardsRow
+				<EnhancedCardsRow
 					title="Our Amazing Features"
 					description="Discover what makes our product stand out from the crowd"
 					columns={2}
