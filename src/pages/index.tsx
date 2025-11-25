@@ -13,14 +13,9 @@ import ValueChainSection from '../components/sections/ValueChainSection';
 import SoundMoneySection from '../components/sections/SoundMoneySection';
 import DecentralizationSection from '../components/sections/DecentralizationSection';
 import WhySection from '../components/sections/WhySection';
-import FAQTabFolderSection from '../components/sections/FAQTabFolderSection';
 import WhyTabFolderSection from '../components/sections/WhyTabFolderSection';
-import EnhancedCardRowSection from '../components/sections/EnhancedCardRowSection';
 import SpliRightRowSection from '../components/sections/SpliRightRowSection';
 import SplitLeftSectionSection from '../components/sections/SpliLefttRowSection';
-import SplitRightEnhancedSectionSection from '../components/sections/SpliRightRowEnhancedSection';
-import SplitLeftEnhancedSectionSection from '../components/sections/SpliLefttRowEnhancedSection';
-import CardRowSection6 from '../components/sections/CardRowSection6';
 import LandingCardRowSection from '../components/sections/LandingCardRowSection';
 import EcosystemSection from '../components/sections/EcosystemSection';
 import FeaturesSection from '../components/sections/FeaturesSection';
@@ -56,18 +51,15 @@ export default function Home(): ReactNode {
       <main>
         {/* <HomepageFeatures /> */}
 				<WhySection />
-				<FAQTabFolderSection />
 				<WhyTabFolderSection />
 				<FeaturesSection />
 				<DecentralizationSection />
+				<SpliRightRowSection  />
 				<SoundMoneySection />
+				<SplitLeftSectionSection />
 				<ValueChainSection />
 				<LandingCardRowSection />
 				<EcosystemSection />
-				<SpliRightRowSection  />
-				<SplitLeftSectionSection />
-				<SplitRightEnhancedSectionSection />
-				<SplitLeftEnhancedSectionSection />
       </main>
     </Layout>
   );
