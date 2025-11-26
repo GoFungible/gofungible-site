@@ -13,9 +13,8 @@ import WhyTabFolderSection from '../components/sections/WhyTabFolderSection';
 import FeaturesSection from '../components/sections/FeaturesSection';
 import SpliRightRowSection from '../components/sections/SpliRightRowSection';
 import SplitLeftSection from '../components/sections/SpliLefttRowSection';
-import ValueChainSection from '../components/sections/ValueChainSection';
-import LandingCardRowSection from '../components/sections/LandingCardRowSection';
 import EcosystemSection from '../components/sections/EcosystemSection';
+import ValueChainSection from '../components/sections/ValueChainSection';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -55,8 +54,9 @@ export default function Home(): ReactNode {
 				<br/>
 				<br/>
 				<SplitLeftSection />
+				<br/>
+				<br/>
 				<ValueChainSection />
-				<LandingCardRowSection />
 				<EcosystemSection />
       </main>
     </Layout>

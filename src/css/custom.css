@@ -35,7 +35,9 @@
   --ifm-container-width-xl: 80%;
 }
 
-
+section {
+  margin: var(--ifm-spacing-vertical) var(--ifm-spacing-horizontal);
+}
 
 
 .nav-link {

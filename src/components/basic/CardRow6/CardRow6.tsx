@@ -1,18 +1,19 @@
 import React from 'react';
 import styles from './CardRow6..module.css';
 
-export interface CardItem {
-  icon: string;
-  title: string;
-  description: string;
-  href?: string;
-}
-
 export interface LandingCardRowProps {
   cards: CardItem[];
   title?: string;
   subtitle?: string;
   className?: string;
+}
+
+export interface CardItem {
+  icon: string;
+  image?: string;
+  title: string;
+  description: string;
+  href?: string;
 }
 
 const LandingCardRow: React.FC<LandingCardRowProps> = ({
