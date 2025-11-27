@@ -54,7 +54,7 @@ const HomepageHeader: React.FC<HomepageHeaderProps> = () => {
                 'button button--secondary button--lg',
                 styles.ctaButton
               )}
-              to="/docs/getting-started"
+              to="/docs/intro"
             >
               🚀 Get Started
             </Link>
