@@ -10,6 +10,7 @@ import EcosystemSection from '../components/sections/EcosystemSection';
 import ValueChainSection from '../components/sections/ValueChainSection';
 import EpicFailSection from '../components/sections/EpicFailSection';
 import BackgroundImageHeader from '../components/headers/BackgroundImageHeader';
+import LayersSection from '../components/sections/LayeredSection/LayersSection';
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
@@ -31,14 +32,15 @@ export default function Home(): ReactNode {
 				<br/>
 				<EpicFailSection />
 				<br/>
+        <LayersSection />
 				<br/>
-				<WhyTabFolderSection />
+				<SplitLeftSection />
+				<br/>
 				<FeaturesSection />
 				<br/>
 				<SpliRightRowSection  />
 				<br/>
 				<br/>
-				<SplitLeftSection />
 				<br/>
 				<br/>
 				<ValueChainSection />
