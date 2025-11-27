@@ -1,41 +1,16 @@
 import type {ReactNode} from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/sections/HomepageFeatures';
-import Heading from '@theme/Heading';
 
-//import 'bootstrap/dist/css/bootstrap.css';
-
-import styles from './index.module.css';
 import WhyTabFolderSection from '../components/sections/WhyTabFolderSection';
 import FeaturesSection from '../components/sections/FeaturesSection';
 import SpliRightRowSection from '../components/sections/SpliRightRowSection';
 import SplitLeftSection from '../components/sections/SpliLefttRowSection';
 import EcosystemSection from '../components/sections/EcosystemSection';
 import ValueChainSection from '../components/sections/ValueChainSection';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+import HomepageHeader from '../components/headers/HomepageHeader/HomepageHeader';
+import DefaultHeader from '../components/headers/DefaultHeader/DefaultHeader';
+import MediumHeader from '../components/headers/MediumHeader/MediumHeader';
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
@@ -43,9 +18,10 @@ export default function Home(): ReactNode {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        {/* <HomepageFeatures /> */}
+
+			<HomepageHeader />
+      
+			<main>
 				<br/>
 				<br/>
 				<WhyTabFolderSection />
@@ -59,6 +35,7 @@ export default function Home(): ReactNode {
 				<ValueChainSection />
 				<EcosystemSection />
       </main>
+
     </Layout>
   );
 }
