@@ -8,9 +8,8 @@ import SpliRightRowSection from '../components/sections/SpliRightRowSection';
 import SplitLeftSection from '../components/sections/SpliLefttRowSection';
 import EcosystemSection from '../components/sections/EcosystemSection';
 import ValueChainSection from '../components/sections/ValueChainSection';
-import HomepageHeader from '../components/headers/HomepageHeader/HomepageHeader';
-import DefaultHeader from '../components/headers/DefaultHeader/DefaultHeader';
 import MediumHeader from '../components/headers/MediumHeader/MediumHeader';
+import EpicFailSection from '../components/sections/EpicFailSection';
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
@@ -19,13 +18,17 @@ export default function Home(): ReactNode {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
 
-			<HomepageHeader />
+			<MediumHeader />
       
 			<main>
 				<br/>
 				<br/>
+				<EpicFailSection />
+				<br/>
+				<br/>
 				<WhyTabFolderSection />
 				<FeaturesSection />
+				<br/>
 				<SpliRightRowSection  />
 				<br/>
 				<br/>
@@ -33,7 +36,9 @@ export default function Home(): ReactNode {
 				<br/>
 				<br/>
 				<ValueChainSection />
+				<br/>
 				<EcosystemSection />
+				<br/>
       </main>
 
     </Layout>

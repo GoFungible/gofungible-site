@@ -11,7 +11,7 @@ export default function Why2TabFolderSection(): JSX.Element {
       <div className="container">
 
 				<div className={`cards-row__header cards-row__header--center`}>
-					<h2 className="cards-row__title">Building Representative Money</h2>
+					<h2 className="cards-row__title">Building Quality Fungible Tokens</h2>
 					<p className="cards-row__description">An Open Source Framework to build <b>Quality Fungible Tokens</b></p>
 				</div>
 

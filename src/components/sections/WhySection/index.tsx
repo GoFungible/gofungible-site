@@ -23,7 +23,7 @@ export default function WhySection(): JSX.Element {
       <div className="container">
 
 				<div className="text-center pb-1 mb-4">
-				{<div className="h1 fw-bold color-theme-reverse2">Building Fungible Tokens</div>}
+				{<div className="h1 fw-bold color-theme-reverse2">Building Quality Fungible Tokens</div>}
 					<p className="h3 color-theme-reverse1 mt-5 lh-base">An Open Source Framework to build <b>Quality Fungible Tokens</b>.</p>
 				</div>
 
