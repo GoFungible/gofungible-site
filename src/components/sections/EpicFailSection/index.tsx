@@ -11,7 +11,7 @@ export default function EpicFailSection(): JSX.Element {
 
 				<div className={`cards-row__header cards-row__header--center`}>
 					<h2 className="cards-row__title">Epic Fail Crypto</h2>
-					<p className="cards-row__description">Fungible Standard defines delivers out of the box fungible tokens ready to capture different flavours of value.</p>
+					<p className="cards-row__description">After 15 years in crypto, we cannot hide that the initial <b>To The Moon</b> 🚀 expectations have been broken and that nothing of the promised was delivered.</p>
 				</div>
 
 				<SplitSection
@@ -22,14 +22,23 @@ export default function EpicFailSection(): JSX.Element {
 						height: 400
 					}}
 					content={{
-						title: 'Powerful Feature Name',
+						title: 'So, what happened?',
 						titleLevel: 2,
 						text: (
 							<div>
-								<p>Existing tokenization patterns hold specialized features and are suitable for different applications.</p>
+								<p>At the detail level we can argue a plethora of mistakes:.</p>
+								<p> * Unsustainable Business Models</p>
+								<p> * Unsustainable Tokenomics</p>
+								<p> * Smart Contract Vulnerabilities.</p>
+								<p> * Separation from Foundational Principles.</p>
+								<p> * Poor Governance Models</p>
+								<p> * Bad faith of issuers</p>
+								<hr/>
+								<p>If we zoom out we can observe a common wrong expectations.caused by:</p>
 								<p> * Misallocation of Capital</p>
 								<p> * Unsuitable Resources.</p>
-								<p> * Wrong expectations unmatched with technological evolution.</p>
+								<hr/>
+								<p>And, overall, a wrong understanding of technological process, which does not work in that way.</p>
 							</div>
 						)
 					}}
