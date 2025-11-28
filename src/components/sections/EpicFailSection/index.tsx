@@ -38,7 +38,7 @@ export default function EpicFailSection(): JSX.Element {
 								<p> * Misallocation of Capital</p>
 								<p> * Unsuitable Resources.</p>
 								<hr/>
-								<p>And, overall, a wrong understanding of technological process, which does not work in that way.</p>
+								<p>And, overall, a wrong understanding of technological process, <b><u>which does not work in that way</u></b>.</p>
 							</div>
 						)
 					}}
