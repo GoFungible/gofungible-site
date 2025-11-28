@@ -8,8 +8,8 @@ export default function ValueChainSection(): JSX.Element {
       <div className="container">
 
 				<div className={`cards-row__header cards-row__header--center`}>
-					<h2 className="cards-row__title">Value Chain Coverage</h2>
-					<p className="cards-row__description">GoFungible aims to cover the full lifecycle of fungible tokens to benefit stakeholders</p>
+					<h2 className="cards-row__title">Layer 2: Standardization Layer</h2>
+					<p className="cards-row__description">Once Ecosystems where in place, the industry evolved to create a value chain. GoFungible aims to cover the full lifecycle of fungible tokens to benefit stakeholders. We are here currently.</p>
 				</div>
 
 				<div className="row margin-bottom--lg feature_eSJM">

@@ -43,7 +43,7 @@ export default function EcosystemSection(): JSX.Element {
       <div className="container">
 
 				<CardsRow
-					title="Ecosystem"
+					title="Layer 1: Ecosystems"
 					description="Defining the criteria and selecting the pieces that comply with the value capture principles will provide better adoption in an already saturated ecosystem."
 					columns={3}
 					cards={featureCards}

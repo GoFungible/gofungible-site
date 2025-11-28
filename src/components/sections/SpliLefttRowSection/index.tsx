@@ -10,8 +10,8 @@ export default function SplitLeftSection(): JSX.Element {
       <div className="container">
 
 				<div className={`cards-row__header cards-row__header--center`}>
-					<h2 className="cards-row__title">Flavours of Captured Value</h2>
-					<p className="cards-row__description">Fungible Standard defines delivers out of the box fungible tokens ready to capture different flavours of value.</p>
+					<h2 className="cards-row__title">Layer 6: Specialization Layer</h2>
+					<p className="cards-row__description">Once we have all Components in place we can focus on Specialization on the different flavours of Captured Value. Fungible Standard defines delivers out of the box fungible tokens ready to capture different flavours of value.</p>
 				</div>
 
 				<SplitSection

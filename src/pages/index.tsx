@@ -22,7 +22,7 @@ export default function Home(): ReactNode {
 			<BackgroundImageHeader
         backgroundImage="https://t3.ftcdn.net/jpg/12/00/36/52/360_F_1200365289_EjvAS2WLx26KOlqOCx71zdEUvjhNEncM.jpg"
         title="Fungible Standard"
-        subtitle="Simplicity is the ultimate sofistication"
+        subtitle="Simplicity is the ultimate sophistication"
         textSide="left"
         overlayOpacity={0.4}
       />
@@ -33,19 +33,19 @@ export default function Home(): ReactNode {
 				<EpicFailSection />
 				<br/>
         <LayersSection />
+				<EcosystemSection />
 				<br/>
-				<SplitLeftSection />
+				<ValueChainSection />
 				<br/>
 				<FeaturesSection />
 				<br/>
 				<SpliRightRowSection  />
 				<br/>
 				<br/>
+				<SplitLeftSection />
 				<br/>
 				<br/>
-				<ValueChainSection />
 				<br/>
-				<EcosystemSection />
 				<br/>
       </main>
 

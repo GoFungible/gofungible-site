@@ -15,7 +15,7 @@ interface LayersSectionProps {
 }
 
 const LayersSection: React.FC<LayersSectionProps> = ({
-  title = "Maturity Model",
+  title = "Fungible Standard Maturity Model",
   subtitle = "A comprehensive overview of our layered architecture",
   layers = defaultLayers
 }) => {
@@ -87,32 +87,38 @@ const LayersSection: React.FC<LayersSectionProps> = ({
 // Default layers data
 const defaultLayers: Layer[] = [
   {
-    id: 1,
+    id: 6,
     title: "Specialization Layer",
     description: "The user interface layer responsible for displaying information to users and capturing user interactions. This includes web components, mobile app interfaces, and desktop applications built with modern frameworks like React, Vue, or Angular.",
     icon: "🎨"
   },
   {
-    id: 2,
+    id: 5,
     title: "Abstraction Layer",
     description: "Contains the business logic and application services. This layer processes user requests, implements business rules, coordinates data flow, and serves as the bridge between the presentation and data layers.",
     icon: "⚙️"
   },
   {
-    id: 3,
+    id: 4,
     title: "Interop Layer",
     description: "The core of the application where domain logic and business rules are implemented. This layer ensures data integrity, enforces business policies, and contains the essential business functionality.",
     icon: "🧠"
   },
   {
-    id: 4,
+    id: 3,
     title: "Compose Layer",
     description: "Responsible for communication with data sources including databases, external APIs, and file systems. This layer abstracts data access details and provides a clean API for the business logic layer.",
     icon: "💾"
   },
   {
-    id: 5,
-    title: "Baseline Layer",
+    id: 2,
+    title: "Standardization Layer",
+    description: "Provides technical capabilities that support higher layers, including security, logging, caching, and external service integrations. This layer handles cross-cutting concerns and infrastructure services.",
+    icon: "🏗️"
+  },
+  {
+    id: 1,
+    title: "Ecosystems Layer",
     description: "Provides technical capabilities that support higher layers, including security, logging, caching, and external service integrations. This layer handles cross-cutting concerns and infrastructure services.",
     icon: "🏗️"
   }
