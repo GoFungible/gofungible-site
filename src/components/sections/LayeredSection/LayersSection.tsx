@@ -12,14 +12,16 @@ interface LayersSectionProps {
   title?: string;
   subtitle?: string;
   layers?: Layer[];
+	selected?: number;
 }
 
 const LayersSection: React.FC<LayersSectionProps> = ({
   title = "Fungible Standard Maturity Model",
   subtitle = "A comprehensive overview of our layered architecture",
-  layers = defaultLayers
+  layers = defaultLayers,
+	selected = 2
 }) => {
-  const [selectedLayer, setSelectedLayer] = React.useState<number>(1);
+  const [selectedLayer, setSelectedLayer] = React.useState<number>(selected);
 
   const handleLayerClick = (layerId: number) => {
     setSelectedLayer(layerId);
@@ -94,7 +96,7 @@ const defaultLayers: Layer[] = [
   },
   {
     id: 5,
-    title: "Abstraction Layer",
+    title: "Principles Layer",
     description: "Contains the business logic and application services. This layer processes user requests, implements business rules, coordinates data flow, and serves as the bridge between the presentation and data layers.",
     icon: "⚙️"
   },

@@ -43,8 +43,8 @@ export default function FeaturesSection(): JSX.Element {
       <div className="container">
 
 				<CardsRow
-					title="Layer 5: Abstraction Layer"
-					description="Abstraction Layer focuses on the foundation principles of blockchain to build Quality Fungible Tokens. We define aim to create a Quality Abstraction Layer and define a Maturity Model for Fungible Tokens."
+					title="Layer 5: Principles Layer"
+					description="An Abstraction Layer, which delivers the foundational principles of blockchain out of the box, to build Quality Fungible Tokens."
 					columns={3}
 					cards={featureCards}
 				/>
