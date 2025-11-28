@@ -16,7 +16,7 @@ export default function EpicFailSection(): JSX.Element {
 
 				<SplitSection
 					image={{
-						src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGKwH7tZTDd-IgbSPdRXWslEPnacjUcQTbuQ&s',
+						src: 'https://media.istockphoto.com/id/1302209293/vector/businessman-with-plan-and-rocket-crashed-business-failure-the-rocket-fall-down.jpg?s=612x612&w=0&k=20&c=WaZyrl63QjhjnTim6PE3_Hhj4IPxYvYEprGjjp5GUDQ=',
 						alt: 'Our amazing feature in action',
 						width: 600,
 						height: 400
