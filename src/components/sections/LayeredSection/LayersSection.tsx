@@ -31,12 +31,14 @@ const LayersSection: React.FC<LayersSectionProps> = ({
 
   return (
     <section className={styles.section}>
+
       <div className={styles.header}>
         <h2 className={styles.title}>{title}</h2>
         {subtitle && <p className={styles.subtitle}>{subtitle}</p>}
       </div>
       
       <div className={styles.container}>
+				
         {/* Layers Visualization Side */}
         <div className={styles.layersSide}>
           <div className={styles.layersContainer}>
@@ -81,7 +83,9 @@ const LayersSection: React.FC<LayersSectionProps> = ({
             </div>
           </div>
         </div>
+
       </div>
+
     </section>
   );
 };

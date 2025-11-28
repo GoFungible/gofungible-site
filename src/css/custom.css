@@ -4,61 +4,12 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
-/* :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}*/
+ /* Infima variables, compleet list: */
+ /* https://gist.github.com/abhigyantrips/b828ca46b2460c6699c73e0162f6be80 */
+ @import url('./colors/default.css');
+ @import url('./layouts/defaults.css');
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-/*[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-} */
-
-:root {
-  --ifm-color-primary: #4248d6;
-  --ifm-color-primary-dark: #2d33cf;
-  --ifm-color-primary-darker: #2a31c4;
-  --ifm-color-primary-darkest: #2328a1;
-  --ifm-color-primary-light: #595edb;
-  --ifm-color-primary-lighter: #6569dd;
-  --ifm-color-primary-lightest: #878be5;
-  /* --ifm-footer-background-color: #21af90; */
-}
-[data-theme='dark'] {
-  --ifm-color-primary: #8a8fe6;
-  --ifm-color-primary-dark: #6c72e0;
-  --ifm-color-primary-darker: #5d63dc;
-  --ifm-color-primary-darkest: #2f38d3;
-  --ifm-color-primary-light: #a8acec;
-  --ifm-color-primary-lighter: #b7bbf0;
-  --ifm-color-primary-lightest: #e5e6f9;
-}
-
-:root {
-  --doc-sidebar-width: 300px;
-  --ifm-container-width: 80%;
-  --ifm-container-width-xl: 80%;
-}
-
-section {
-  margin: var(--ifm-spacing-vertical) var(--ifm-spacing-horizontal);
-}
-
+ /* Custom Variables */
 
 .nav-link {
 	color: #212529 !important;
