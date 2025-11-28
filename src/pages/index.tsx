@@ -35,8 +35,6 @@ export default function Home(): ReactNode {
         <LayersSection />
 				<EcosystemSection />
 				<br/>
-				<ValueChainSection />
-				<br/>
 				<FeaturesSection />
 				<br/>
 				<SpliRightRowSection  />
@@ -45,8 +43,7 @@ export default function Home(): ReactNode {
 				<SplitLeftSection />
 				<br/>
 				<br/>
-				<br/>
-				<br/>
+				<ValueChainSection />
       </main>
 
     </Layout>

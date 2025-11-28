@@ -18,6 +18,12 @@ interface LayersSectionProps {
 // Default layers data
 const defaultLayers: Layer[] = [
   {
+    id: 7,
+    title: "Application Layer",
+    description: "The user interface layer responsible for displaying information to users and capturing user interactions. This includes web components, mobile app interfaces, and desktop applications built with modern frameworks like React, Vue, or Angular.",
+    icon: "🎨"
+  },
+  {
     id: 6,
     title: "Specialization Layer",
     description: "The user interface layer responsible for displaying information to users and capturing user interactions. This includes web components, mobile app interfaces, and desktop applications built with modern frameworks like React, Vue, or Angular.",
