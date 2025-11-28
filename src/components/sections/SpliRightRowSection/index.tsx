@@ -13,8 +13,8 @@ export default function SplitSectionSection(): JSX.Element {
 					image={{
 						src: '/img/decentralization.webp',
 						alt: 'Another great feature',
-						width: 550,
-						height: 400
+						width: 800,
+						height: 600
 					}}
 					content={{
 						title: 'Out of the Box Decentralization',

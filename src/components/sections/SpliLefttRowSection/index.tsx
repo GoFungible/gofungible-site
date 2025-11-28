@@ -18,8 +18,8 @@ export default function SplitLeftSection(): JSX.Element {
 					image={{
 						src: '/img/tokenization_maturity_model_seal_table.svg',
 						alt: 'Our amazing feature in action',
-						width: 600,
-						height: 400
+						width: 800,
+						height: 600
 					}}
 					content={{
 						title: 'Powerful Feature Name',
