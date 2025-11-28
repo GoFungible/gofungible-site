@@ -57,7 +57,7 @@ const defaultLayers: Layer[] = [
 
 const LayersSection: React.FC<LayersSectionProps> = ({
   title = "Fungible Standard Maturity Model",
-  subtitle = "A comprehensive overview of our layered architecture",
+  subtitle = "Instead, technology evolves in an iterative layered model. Every layer, specializes in solving an specific problem, is standardized, hiding the complexity of lower layers and provides services and good practices to upper layers. As a result, a Maturity Model is produced. Fungible Standard understands this process and proposes a Maturity Model for Fungible Tokens.",
   layers = defaultLayers,
 	selected = 2
 }) => {
