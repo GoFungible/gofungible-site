@@ -48,8 +48,8 @@ export default function StandardizationSection(): JSX.Element {
 
 				<SplitSection.Item>
 					<div className={styles.textContent}>
-						<h1>Additional Features</h1>
-						<p>Following the ERC-20 Standard, a number of complementary standards specialized in specific features, as:</p>
+						<h1>Complementary Standards</h1>
+						<p>Following the ERC-20 Standard, a number of complementary standards specialized in specific technical features, as:</p>
 						
 						<ul className={styles.featureList}>
 							<li className={styles.featureItem}>
@@ -80,6 +80,12 @@ export default function StandardizationSection(): JSX.Element {
 								<FaAddressBook className={styles.featureIcon} />
 								<span className={styles.featureText}>
 									<strong> Permit Features:</strong> as Permit
+								</span>
+							</li>
+							<li className={styles.featureItem}>
+								<FaAddressBook className={styles.featureIcon} />
+								<span className={styles.featureText}>
+									<strong> Upgradeability:</strong> as Diamond Standard
 								</span>
 							</li>
 						</ul>
