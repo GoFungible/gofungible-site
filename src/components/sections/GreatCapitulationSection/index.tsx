@@ -3,7 +3,7 @@ import SplitSection from "../../basic/splitrow/SplitSection";
 
 import styles from './styles.module.css';
 
-export default function SplitSectionSection(): JSX.Element {
+export default function GreatCapitulationSection(): JSX.Element {
   return (
     
 		<section className={styles.services}>
@@ -11,13 +11,13 @@ export default function SplitSectionSection(): JSX.Element {
 
 				<SplitSection
 					image={{
-						src: '/img/decentralization.webp',
+						src: 'https://media.istockphoto.com/id/1965542694/es/vector/slippery-road-icon.jpg?s=612x612&w=0&k=20&c=Q_CA7RPUtcBHxhGhI0FkpphSMwJzOBMRlQKJk2SoFyo=',
 						alt: 'Another great feature',
-						width: 800,
-						height: 600
+						width: 600,
+						height: 400
 					}}
 					content={{
-						title: 'Out of the Box Decentralization',
+						title: 'The Great Capitulation',
 						titleLevel: 2,
 						text: (
 							<div>

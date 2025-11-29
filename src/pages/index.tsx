@@ -10,6 +10,7 @@ import EpicFailSection from '../components/sections/EpicFailSection';
 import BackgroundImageHeader from '../components/headers/BackgroundImageHeader';
 import LayersSection from '../components/sections/LayeredSection/LayersSection';
 import StandardizationSection from '../components/sections/StandardizationSection';
+import GreatCapitulationSection from '../components/sections/GreatCapitulationSection';
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
@@ -35,6 +36,8 @@ export default function Home(): ReactNode {
 				<EcosystemSection />
 				<br/>
 				<StandardizationSection />
+				<br/>
+				<GreatCapitulationSection />
 				<br/>
 				<FeaturesSection />
 				<br/>
