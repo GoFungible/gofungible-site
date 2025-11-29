@@ -185,6 +185,16 @@
   line-height: 1.5;
 }
 
+/* Responsive design */
+@media (max-width: 768px) {
+	.pre {
+		white-space: pre-wrap;   /* Wrap long lines */
+		word-wrap: break-word;   /* Break long words */
+		overflow-x: auto;        /* Scroll if needed */
+		max-width: 100%;
+	}
+}
+
 .code {
   font-family: 'Fira Code', 'Monaco', 'Consolas', 'Ubuntu Mono', monospace;
 }

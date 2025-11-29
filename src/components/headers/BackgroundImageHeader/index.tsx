@@ -47,7 +47,6 @@ const BackgroundImageHeader: React.FC<HeroHeaderProps> = ({
     maxWidth: '600px',
     margin: textSide === 'left' ? '0 0 0 10%' : '0 10% 0 auto',
     textAlign: textSide === 'left' ? 'left' : 'right',
-    padding: '2rem',
   };
 
   const titleStyle: CSSProperties = {
