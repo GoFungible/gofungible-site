@@ -2,15 +2,15 @@ import type {ReactNode} from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
-import WhyTabFolderSection from '../components/sections/WhyTabFolderSection';
 import FeaturesSection from '../components/sections/FeaturesSection';
 import SpliRightRowSection from '../components/sections/SpliRightRowSection';
-import SplitLeftSection from '../components/sections/SpliLefttRowSection';
+import SpecializationSection from '../components/sections/SpecializationSection';
 import EcosystemSection from '../components/sections/EcosystemSection';
 import ValueChainSection from '../components/sections/ValueChainSection';
 import EpicFailSection from '../components/sections/EpicFailSection';
 import BackgroundImageHeader from '../components/headers/BackgroundImageHeader';
 import LayersSection from '../components/sections/LayeredSection/LayersSection';
+import { StandardizationSection } from '../components/sections/StandardizationSection';
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
@@ -35,12 +35,14 @@ export default function Home(): ReactNode {
         <LayersSection />
 				<EcosystemSection />
 				<br/>
+				<StandardizationSection/ >
+				<br/>
 				<FeaturesSection />
 				<br/>
 				<SpliRightRowSection  />
 				<br/>
 				<br/>
-				<SplitLeftSection />
+				<SpecializationSection />
 				<br/>
 				<br/>
 				<ValueChainSection />

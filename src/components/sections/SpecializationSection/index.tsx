@@ -3,7 +3,7 @@ import SplitSection from "../../basic/splitrow/SplitSection";
 
 import styles from './styles.module.css';
 
-export default function SplitLeftSection(): JSX.Element {
+export default function SpecializationSection(): JSX.Element {
   return (
     
 		<section className={styles.services}>
