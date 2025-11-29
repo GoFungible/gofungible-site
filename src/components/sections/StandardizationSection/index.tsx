@@ -11,7 +11,7 @@ export default function StandardizationSection(): JSX.Element {
 
 		<GenericSection
 			title="Layer 2: Standardization Layer"
-			subtitle="Defining the criteria and selecting the pieces that comply with the value capture principles will provide better adoption in an already saturated ecosystem."
+			subtitle="In order to allow Fungible Tokens communicate with disparated system, it was soon required to define a common interface. This caused the advent of ERC-20 interface in 2015, adopted by Ethereum in 2017."
 			variant="secondary"
 			padding="medium"
 			headerSpacing="large"
@@ -48,29 +48,38 @@ export default function StandardizationSection(): JSX.Element {
 
 				<SplitSection.Item>
 					<div className={styles.textContent}>
-						<h1>ERC-20 Standard</h1>
-						<p>
-							Create beautiful, type-safe documentation sites with our powerful 
-							React components and TypeScript support. Fast, modern, and developer-friendly.
-						</p>
+						<h1>Additional Features</h1>
+						<p>Following the ERC-20 Standard, a number of complementary standards specialized in specific features, as:</p>
 						
 						<ul className={styles.featureList}>
 							<li className={styles.featureItem}>
 								<FaCheck className={styles.featureIcon} />
 								<span className={styles.featureText}>
-									<strong>Type-Safe:</strong> Full TypeScript support with excellent autocomplete
+									<strong> Lifecycle Management:</strong> as Pause, 
 								</span>
 							</li>
 							<li className={styles.featureItem}>
 								<FaBolt className={styles.featureIcon} />
 								<span className={styles.featureText}>
-									<strong>Fast & Lightweight:</strong> Optimized performance with minimal bundle size
+									<strong> Supply Management:</strong> as Mint, Burn, 
 								</span>
 							</li>
 							<li className={styles.featureItem}>
 								<FaAddressBook className={styles.featureIcon} />
 								<span className={styles.featureText}>
-									<strong>Reliable:</strong> Built with best practices and comprehensive testing
+									<strong> Transfer Automation:</strong> as Transfer and Call
+								</span>
+							</li>
+							<li className={styles.featureItem}>
+								<FaAddressBook className={styles.featureIcon} />
+								<span className={styles.featureText}>
+									<strong> Security:</strong> as Owner transfer, Owner Renounce, 
+								</span>
+							</li>
+							<li className={styles.featureItem}>
+								<FaAddressBook className={styles.featureIcon} />
+								<span className={styles.featureText}>
+									<strong> Permit Features:</strong> as Permit
 								</span>
 							</li>
 						</ul>
