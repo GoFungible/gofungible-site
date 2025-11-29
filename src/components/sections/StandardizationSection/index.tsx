@@ -10,7 +10,7 @@ export default function StandardizationSection(): JSX.Element {
   return (
 
 		<GenericSection
-			title="Layer 2: Standardization Layer"
+			title="Layer 2: Standardization Layer (2015-2025)"
 			subtitle="In order to allow Fungible Tokens communicate with disparated system, it was soon required to define a common interface. This caused the advent of ERC-20 interface in 2015, adopted by Ethereum in 2017."
 			variant="secondary"
 			padding="medium"
