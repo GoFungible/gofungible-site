@@ -61,8 +61,9 @@ const GenericSection: React.FC<GenericSectionProps> = ({
     >
       {/* Header Wrapper for centering */}
       <div className={clsx(styles.headerWrapper, headerWrapperClassName)}>
+
         <header 
-          className={clsx(
+					className={clsx(
             styles.header,
             styles[`header-align-${headerAlignment}`],
             styles[`header-spacing-${headerSpacing}`],
@@ -72,8 +73,8 @@ const GenericSection: React.FC<GenericSectionProps> = ({
         >
 
 					<div className={styles.heroHeader}>
-			      <h1>{title}</h1>
-  			    <p>{subtitle}</p>
+			      <h1 className={styles.title}>{title}</h1>
+  			    <p className={styles.subtitle}>{subtitle}</p>
     			</div>
 
         </header>
