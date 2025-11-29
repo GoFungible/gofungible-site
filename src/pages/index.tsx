@@ -3,7 +3,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
 import FeaturesSection from '../components/sections/FeaturesSection';
-import SpliRightRowSection from '../components/sections/SpliRightRowSection';
 import SpecializationSection from '../components/sections/SpecializationSection';
 import EcosystemSection from '../components/sections/EcosystemSection';
 import ValueChainSection from '../components/sections/ValueChainSection';
@@ -38,9 +37,6 @@ export default function Home(): ReactNode {
 				<StandardizationSection />
 				<br/>
 				<FeaturesSection />
-				<br/>
-				<SpliRightRowSection  />
-				<br/>
 				<br/>
 				<SpecializationSection />
 				<br/>
