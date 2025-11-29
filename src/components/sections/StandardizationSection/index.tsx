@@ -1,16 +1,16 @@
 import React from 'react';
 import { FaCheck, FaRocket, FaAddressBook, FaBolt } from 'react-icons/fa';
-import CommonSection from '../CommonSecton';
 
 import styles from './styles.module.css';
 import CodeShowcase from '../../basic/CodeShowcase';
+import SplitSection from '../../basic/SplitSection';
 
 const StandardizationSection = () => {
   return (
 
-    <CommonSection gap="large" align="center">
+    <SplitSection gap="large" align="center">
 
-      <CommonSection.Item>
+      <SplitSection.Item>
         <div className={styles.codeContainer}>
           <CodeShowcase
             title="BeautifulButton.tsx"
@@ -65,9 +65,9 @@ export default BeautifulButton;`
             expandable={true}
           />
         </div>
-      </CommonSection.Item>
+      </SplitSection.Item>
 
-      <CommonSection.Item>
+      <SplitSection.Item>
         <div className={styles.textContent}>
           <div className={styles.badge}>🚀 New & Improved</div>
           <h1>Build Amazing Documentation with TypeScript</h1>
@@ -122,9 +122,9 @@ export default BeautifulButton;`
             </div>
           </div>
         </div>
-      </CommonSection.Item>
+      </SplitSection.Item>
 
-    </CommonSection>
+    </SplitSection>
   );
 };
 

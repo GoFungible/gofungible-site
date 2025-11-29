@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
-export interface CommonSectionProps {
+export interface SplitSectionProps {
   children: React.ReactNode;
   reverse?: boolean;
   className?: string;
@@ -10,13 +10,13 @@ export interface CommonSectionProps {
   align?: 'top' | 'center' | 'bottom';
 }
 
-export interface CommonSectionItemProps {
+export interface SplitSectionItemProps {
   children: React.ReactNode;
   className?: string;
 }
 
-const CommonSection: React.FC<CommonSectionProps> & {
-  Item: React.FC<CommonSectionItemProps>;
+const SplitSection: React.FC<SplitSectionProps> & {
+  Item: React.FC<SplitSectionItemProps>;
 } = ({ 
   children, 
   reverse = false, 
@@ -37,7 +37,7 @@ const CommonSection: React.FC<CommonSectionProps> & {
   );
 };
 
-const CommonSectionItem: React.FC<CommonSectionItemProps> = ({ 
+const SplitSectionItem: React.FC<SplitSectionItemProps> = ({ 
   children, 
   className 
 }) => {
@@ -48,6 +48,6 @@ const CommonSectionItem: React.FC<CommonSectionItemProps> = ({
   );
 };
 
-CommonSection.Item = CommonSectionItem;
+SplitSection.Item = SplitSectionItem;
 
-export default CommonSection;
+export default SplitSection;
