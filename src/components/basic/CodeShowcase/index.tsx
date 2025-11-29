@@ -61,8 +61,8 @@ const CodeShowcase: React.FC<CodeShowcaseProps> = ({
 
 	const theme: PrismTheme = {
 		plain: {
-			color: "#CDCFD2",
-			backgroundColor: "#1D2229",
+			color: "#ebedf0",
+			backgroundColor: "#00FF00",
 		},
 		styles: [
 			{

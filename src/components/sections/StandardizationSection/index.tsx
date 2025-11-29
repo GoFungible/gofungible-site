@@ -24,7 +24,7 @@ export default function StandardizationSection(): JSX.Element {
 					<div className={styles.codeContainer}>
 						<CodeShowcase
 							title="IERC-20.sol"
-							language="tsx"
+							language="sol"
 							description="Interface for ERC-20 Fungible Tokens"
 
 							code={
@@ -40,7 +40,7 @@ export default function StandardizationSection(): JSX.Element {
 }`
 							}
 							
-							height="400px"
+							height="300px"
 							expandable={true}
 						/>
 					</div>
