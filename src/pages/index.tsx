@@ -12,6 +12,7 @@ import LayersSection from '../components/sections/LayeredSection/LayersSection';
 import StandardizationSection from '../components/sections/StandardizationSection';
 import IdentittyCrisisSection from '../components/sections/IdentittyCrisisSection';
 import ImmutabilitySection from '../components/sections/ImmutabilitySection';
+import InteropSection from '../components/sections/InteropLayer';
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
@@ -39,6 +40,7 @@ export default function Home(): ReactNode {
 				<StandardizationSection />
 				<IdentittyCrisisSection />
 				<ImmutabilitySection />
+				<InteropSection />
 				<br/>
 				<FeaturesSection />
 				<br/>
