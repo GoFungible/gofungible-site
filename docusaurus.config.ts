@@ -92,7 +92,37 @@ const config: Config = {
           position: 'left',
           label: 'Maturity Stack',
         },
+/*        {
+          type: 'docSidebar',
+          sidebarId: 'ecosystemSidebar',
+          position: 'left',
+          label: 'Ecosystems',
+        },
         {
+          type: 'docSidebar',
+          sidebarId: 'ecosystemSidebar',
+          position: 'left',
+          label: 'Standardization',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'ecosystemSidebar',
+          position: 'left',
+          label: 'Immutability',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'ecosystemSidebar',
+          position: 'left',
+          label: 'Interoperability',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'ecosystemSidebar',
+          position: 'left',
+          label: 'Principles',
+        },
+				{
           type: 'docSidebar',
           sidebarId: 'valueSidebar',
           position: 'left',
@@ -104,12 +134,7 @@ const config: Config = {
           position: 'left',
           label: 'Value Chain',
         },
-        {
-          type: 'docSidebar',
-          sidebarId: 'ecosystemSidebar',
-          position: 'left',
-          label: 'Ecosystem',
-        },
+*/
 				{to: '/blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/facebook/docusaurus',
