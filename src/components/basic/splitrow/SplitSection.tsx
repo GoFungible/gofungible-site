@@ -42,6 +42,7 @@ const SplitSection: React.FC<SplitSectionProps> = ({
       ${className}
     `}>
       <div className="split-section__container">
+
         {/* Image Column */}
         <div className="split-section__image">
           <img
@@ -66,6 +67,7 @@ const SplitSection: React.FC<SplitSectionProps> = ({
             )}
           </div>
         </div>
+
       </div>
     </section>
   );
