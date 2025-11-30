@@ -4,7 +4,7 @@ import SplitSection from "../../basic/splitrow/SplitSection";
 import styles from './styles.module.css';
 import GenericSection from "../GenericSection";
 
-export default function GreatCapitulationSection(): JSX.Element {
+export default function IdentittyCrisisSection(): JSX.Element {
   return (
     
 			<GenericSection
