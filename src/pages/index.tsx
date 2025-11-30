@@ -11,6 +11,7 @@ import BackgroundImageHeader from '../components/headers/BackgroundImageHeader';
 import LayersSection from '../components/sections/LayeredSection/LayersSection';
 import StandardizationSection from '../components/sections/StandardizationSection';
 import IdentittyCrisisSection from '../components/sections/IdentittyCrisisSection';
+import ImmutabilitySection from '../components/sections/ImmutabilitySection';
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
@@ -37,6 +38,7 @@ export default function Home(): ReactNode {
 				<br/>
 				<StandardizationSection />
 				<IdentittyCrisisSection />
+				<ImmutabilitySection />
 				<br/>
 				<FeaturesSection />
 				<br/>
