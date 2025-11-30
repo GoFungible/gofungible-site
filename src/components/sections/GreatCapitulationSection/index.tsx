@@ -8,7 +8,7 @@ export default function GreatCapitulationSection(): JSX.Element {
   return (
     
 			<GenericSection
-				title="The Great Capitulation (2025+)"
+				title="The Identity Crisis (2025+)"
 				subtitle="In his 16th aniversary, blockchain industry looks immersed on his own adolescence crisis. It gets proposals from all directions and is confused about what it wants to become."
 				variant="light"
 				padding="large"
@@ -24,7 +24,7 @@ export default function GreatCapitulationSection(): JSX.Element {
 						height: 400
 					}}
 					content={{
-						title: 'Identity Crisis',
+						title: 'The Great Capitulation',
 						titleLevel: 2,
 						text: (
 							<div>
@@ -35,7 +35,6 @@ export default function GreatCapitulationSection(): JSX.Element {
 					reverse={true}
 					spacing="large"
 				/>
-
 
 			</GenericSection>
 
