@@ -137,7 +137,7 @@ const config: Config = {
 */
 				{to: '/blog', label: 'Blog', position: 'right'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/GoFungible',
           label: 'GitHub',
           position: 'right',
         },
@@ -233,7 +233,7 @@ const config: Config = {
 					],
 				}, 
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} Fungible Standard, Inc.`,
+			copyright: `Copyright © ${new Date().getFullYear()} Fungible Standards, Ltd.`,
 		},
     prism: {
       theme: prismThemes.ultramin,
