@@ -82,8 +82,8 @@ const config: Config = {
       title: 'Fungible Standard',
       hideOnScroll: true,
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Fungible Standard',
+        src: 'img/logo32x32.png',
       },
       items: [
         {
