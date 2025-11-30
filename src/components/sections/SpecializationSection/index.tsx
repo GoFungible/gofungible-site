@@ -2,17 +2,19 @@ import { JSX } from "react";
 import SplitSection from "../../basic/splitrow/SplitSection";
 
 import styles from './styles.module.css';
+import GenericSection from "../GenericSection";
 
 export default function SpecializationSection(): JSX.Element {
   return (
     
-		<section className={styles.services}>
-      <div className="container">
-
-				<div className={`cards-row__header cards-row__header--center`}>
-					<h2 className="cards-row__title">Layer 6: Specialization Layer</h2>
-					<p className="cards-row__description">Once we have all Components in place we can focus on Specialization on the different flavours of Captured Value. Fungible Standard defines delivers out of the box fungible tokens ready to capture different flavours of value.</p>
-				</div>
+		<GenericSection
+			title="Layer 6: Specialization Layer"
+			subtitle="Once we have all Components in place we can focus on Specialization on the different flavours of Captured Value. Fungible Standard defines delivers out of the box fungible tokens ready to capture different flavours of value."
+			variant="secondary"
+			padding="large"
+			headerSpacing="large"
+			headerClassName={styles.heroHeaderContent}
+		>
 
 				<SplitSection
 					image={{
@@ -35,8 +37,6 @@ export default function SpecializationSection(): JSX.Element {
 					}}
 				/>
 
-			</div>
-		</section>
-
+		</GenericSection>
   );
 }

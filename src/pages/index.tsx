@@ -45,8 +45,6 @@ export default function Home(): ReactNode {
 				<FeaturesSection />
 				<br/>
 				<SpecializationSection />
-				<br/>
-				<br/>
 				<ValueChainSection />
       </main>
 
