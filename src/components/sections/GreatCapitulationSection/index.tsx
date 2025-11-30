@@ -11,7 +11,7 @@ export default function GreatCapitulationSection(): JSX.Element {
 
 				<SplitSection
 					image={{
-						src: 'https://media.istockphoto.com/id/1965542694/es/vector/slippery-road-icon.jpg?s=612x612&w=0&k=20&c=Q_CA7RPUtcBHxhGhI0FkpphSMwJzOBMRlQKJk2SoFyo=',
+						src: 'https://media.istockphoto.com/id/476958697/es/vector/lobo-de-historieta-sheeps-ropa.jpg?s=612x612&w=0&k=20&c=G4fPi4uBIalpom5lxD7V8o0xa4FpVBxxhEb1HRfdhhk=',
 						alt: 'Another great feature',
 						width: 600,
 						height: 400
