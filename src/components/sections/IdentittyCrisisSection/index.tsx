@@ -38,13 +38,13 @@ export default function IdentittyCrisisSection(): JSX.Element {
 
 			<SplitSection
 				image={{
-					src: 'https://media.istockphoto.com/id/476958697/es/vector/lobo-de-historieta-sheeps-ropa.jpg?s=612x612&w=0&k=20&c=G4fPi4uBIalpom5lxD7V8o0xa4FpVBxxhEb1HRfdhhk=',
+					src: 'https://www.strandbaptist.org.za/uploads/4/2/1/5/4215011/download_2_orig.jpg',
 					alt: 'Another great feature',
 					width: 600,
 					height: 400
 				}}
 				content={{
-					title: 'Getting back on track',
+					title: 'References to Get Back on Track',
 					titleLevel: 2,
 					text: (
 						<div>
