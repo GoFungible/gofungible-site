@@ -24,7 +24,7 @@ export default function GreatCapitulationSection(): JSX.Element {
 						height: 400
 					}}
 					content={{
-						title: 'The Great Capitulation (2025+)',
+						title: 'Identity Crisis',
 						titleLevel: 2,
 						text: (
 							<div>
