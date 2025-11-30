@@ -36,7 +36,6 @@ export default function Home(): ReactNode {
 				<EcosystemSection />
 				<br/>
 				<StandardizationSection />
-				<br/>
 				<GreatCapitulationSection />
 				<br/>
 				<FeaturesSection />
