@@ -4,6 +4,7 @@ import { JSX } from 'react';
 import styles from './styles.module.css';
 import CardsRow from '../../basic/cardrow/CardsRow';
 import { BaseCardProps } from '../../basic/cardrow/Card';
+import GenericSection from '../../basic/GenericSection';
 
 // Example with typed cards array
 const featureCards: BaseCardProps[] = [
@@ -39,18 +40,21 @@ const featureCards: BaseCardProps[] = [
 export default function EcosystemSection(): JSX.Element {
   return (
     
-		<section className={styles.services}>
-      <div className="container">
+		<GenericSection
+			title="Layer 1: Ecosystems Layer (2009-2015)"
+			subtitle="Defining the criteria and selecting the pieces that comply with the value capture principles will provide better adoption in an already saturated ecosystem."
+			variant="default"
+			padding="large"
+			headerSpacing="large"
+			headerClassName={styles.heroHeaderContent}
+		>
 
-				<CardsRow
-					title="Layer 1: Ecosystems Layer (2009-2015)"
-					description="Defining the criteria and selecting the pieces that comply with the value capture principles will provide better adoption in an already saturated ecosystem."
-					columns={3}
-					cards={featureCards}
-				/>
+			<CardsRow
+				columns={3}
+				cards={featureCards}
+			/>
 
-			</div>
-		</section>
+		</GenericSection>
 
   );
 }

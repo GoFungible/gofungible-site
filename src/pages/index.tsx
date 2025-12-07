@@ -30,13 +30,10 @@ export default function Home(): ReactNode {
       />
 
 			<main>
-				<br/>
-				<br/>
 				<EpicFailSection />
 				<br/>
         <LayersSection />
 				<EcosystemSection />
-				<br/>
 				<StandardizationSection />
 				<IdentittyCrisisSection />
 				<PrinciplesSection />
