@@ -13,7 +13,7 @@ const mandatoryPrnciples: BaseCardProps[] = [
 		image: "https://cdn-icons-png.flaticon.com/512/2092/2092663.png",
 		imageHeight: "120px",
     title: "1. Capture Value Faithfully",
-    description: "Whether captured value is purely speculative, reputational, utility, a price or intrinsinc (Layer 6), the value must be captured into the token in an efficient way. The tokens price, at any moment, must reflect the market valuation of the captured value.",
+    description: "Tokens are not ponzi schemas. Whether captured value is speculative, reputational, utility, a price or intrinsinc (Layer 6), the value must be captured into the token in an efficient way. The tokens price, at any moment, must reflect the market valuation of the captured value.",
     buttonText: "More",
     href: "/",
   },
@@ -78,17 +78,17 @@ export default function PrinciplesSection(): JSX.Element {
 			headerClassName={styles.heroHeaderContent}
 		>
 
-				<CardsRow
-					description='3 principles are mandatory'
-					columns={3}
-					cards={mandatoryPrnciples}
-				/>
+			<CardsRow
+				description='3 principles are mandatory'
+				columns={3}
+				cards={mandatoryPrnciples}
+			/>
 
-				<CardsRow
-					description='3 principles are optional and determined by the Token Issuer'
-					columns={3}
-					cards={optionalPrnciples}
-				/>
+			<CardsRow
+				description='3 principles are optional and determined by the Token Issuer'
+				columns={3}
+				cards={optionalPrnciples}
+			/>
 
 		</GenericSection>
 
