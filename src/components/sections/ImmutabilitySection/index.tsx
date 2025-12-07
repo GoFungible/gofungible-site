@@ -9,7 +9,7 @@ export default function ImmutabilitySection(): JSX.Element {
     
 			<GenericSection
 				title="Layer 4: Immutability Layer"
-				subtitle="Give me a lever long enough and a fulcrum on which to place it, and I shall move the world. Archimedes."
+				subtitle="Once principles have been defined, we have a guideline to choose the right set of features to be included in the token's contract. As with any contract, these principles must be set in stone."
 				variant="secondary"
 				padding="large"
 				headerSpacing="large"
@@ -28,7 +28,7 @@ export default function ImmutabilitySection(): JSX.Element {
 					titleLevel: 2,
 					text: (
 						<div>
-							<p>With several hundreds of blockchain <a href="https://chainlist.org/">networks</a>, more than 1700 <a href="https://blockspot.io/exchange/">exchanges</a>, 200 <a href="https://blockspot.io/wallet/">wallets</a> and more thn 1300 <a href="https://eips.ethereum.org/all">ERC standards</a> and the lack of role models and references the industry looks lost into the confusion which is the perfect climate for dishonest behaviour.</p>
+							<p>Compose, based on ERC-2535 offers a foundation to create contract by composing existing pieces already existing on chain..</p>
 						</div>
 					)
 				}}

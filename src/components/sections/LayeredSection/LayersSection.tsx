@@ -31,23 +31,23 @@ const defaultLayers: Layer[] = [
   },
   {
     id: 5,
-    title: "Principles Layer",
-    description: "Contains the business logic and application services. This layer processes user requests, implements business rules, coordinates data flow, and serves as the bridge between the presentation and data layers.",
-    //icon: "⚙️"
-  },
-  {
-    id: 4,
     title: "Interop Layer",
     description: "The core of the application where domain logic and business rules are implemented. This layer ensures data integrity, enforces business policies, and contains the essential business functionality.",
     //icon: "🧠"
   },
   {
-    id: 3,
+    id: 4,
     title: "Compose Layer",
     description: "Responsible for communication with data sources including databases, external APIs, and file systems. This layer abstracts data access details and provides a clean API for the business logic layer.",
     //icon: "💾"
   },
   {
+    id: 3,
+    title: "Principles Layer",
+    description: "Contains the business logic and application services. This layer processes user requests, implements business rules, coordinates data flow, and serves as the bridge between the presentation and data layers.",
+    //icon: "⚙️"
+  },
+	{
     id: 2,
     title: "Standardization Layer",
     description: "Provides technical capabilities that support higher layers, including security, logging, caching, and external service integrations. This layer handles cross-cutting concerns and infrastructure services.",
@@ -65,7 +65,7 @@ const LayersSection: React.FC<LayersSectionProps> = ({
   title = "Fungible Standard Maturity Model",
   subtitle = "Instead, technology evolves in an iterative layered model. Every layer, specializes in solving an specific problem, is standardized, hiding the complexity of lower layers and provides services and good practices to upper layers. As a result, a Maturity Model is produced. Fungible Standard understands this process and proposes a Maturity Model for Fungible Tokens.",
   layers = defaultLayers,
-	selected = 2
+	selected = 3
 }) => {
   const [selectedLayer, setSelectedLayer] = React.useState<number>(selected);
 
