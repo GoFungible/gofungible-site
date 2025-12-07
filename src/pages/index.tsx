@@ -2,17 +2,17 @@ import type {ReactNode} from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
-import FeaturesSection from '../components/sections/FeaturesSection';
-import SpecializationSection from '../components/sections/SpecializationSection';
 import EcosystemSection from '../components/sections/EcosystemSection';
-import ValueChainSection from '../components/sections/ValueChainSection';
 import EpicFailSection from '../components/sections/EpicFailSection';
 import BackgroundImageHeader from '../components/headers/BackgroundImageHeader';
 import LayersSection from '../components/sections/LayeredSection/LayersSection';
 import StandardizationSection from '../components/sections/StandardizationSection';
 import IdentittyCrisisSection from '../components/sections/IdentittyCrisisSection';
+import PrinciplesSection from '../components/sections/PrinciplesSection';
 import ImmutabilitySection from '../components/sections/ImmutabilitySection';
 import InteropSection from '../components/sections/InteropLayer';
+import SpecializationSection from '../components/sections/SpecializationSection';
+import ValueChainSection from '../components/sections/ValueChainSection';
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
@@ -39,11 +39,9 @@ export default function Home(): ReactNode {
 				<br/>
 				<StandardizationSection />
 				<IdentittyCrisisSection />
+				<PrinciplesSection />
 				<ImmutabilitySection />
 				<InteropSection />
-				<br/>
-				<FeaturesSection />
-				<br/>
 				<SpecializationSection />
 				<ValueChainSection />
       </main>

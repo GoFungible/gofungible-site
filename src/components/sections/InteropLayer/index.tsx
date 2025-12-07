@@ -8,9 +8,9 @@ export default function InteropSection(): JSX.Element {
   return (
     
 			<GenericSection
-				title="Layer 4: Interoperability Layer"
+				title="Layer 5: Interoperability Layer"
 				subtitle="Give me a lever long enough and a fulcrum on which to place it, and I shall move the world. Archimedes."
-				variant="secondary"
+				variant="default"
 				padding="large"
 				headerSpacing="large"
 				headerClassName={styles.heroHeaderContent}

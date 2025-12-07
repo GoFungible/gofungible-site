@@ -48,7 +48,7 @@ export default function IdentittyCrisisSection(): JSX.Element {
 					titleLevel: 2,
 					text: (
 						<div>
-							<p>With several hundreds of blockchain <a href="https://chainlist.org/">networks</a>, more than 1700 <a href="https://blockspot.io/exchange/">exchanges</a>, 200 <a href="https://blockspot.io/wallet/">wallets</a> and more thn 1300 <a href="https://eips.ethereum.org/all">ERC standards</a> and the lack of role models and references the industry looks lost into the confusion which is the perfect climate for dishonest behaviour.</p>
+							<p>As Asimov's Laws on Robotics, or Archimedes' Law of the Lever, no system can growth without a clear principles.</p>
 						</div>
 					)
 				}}

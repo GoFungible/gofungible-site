@@ -8,9 +8,9 @@ export default function ImmutabilitySection(): JSX.Element {
   return (
     
 			<GenericSection
-				title="Layer 3: Immutability Layer"
+				title="Layer 4: Immutability Layer"
 				subtitle="Give me a lever long enough and a fulcrum on which to place it, and I shall move the world. Archimedes."
-				variant="default"
+				variant="secondary"
 				padding="large"
 				headerSpacing="large"
 				headerClassName={styles.heroHeaderContent}
