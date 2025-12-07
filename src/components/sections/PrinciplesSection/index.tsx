@@ -35,6 +35,15 @@ const mandatoryPrnciples: BaseCardProps[] = [
     buttonText: "More",
     href: "/",
   },
+  {
+    variant: "primary",
+		image: "https://cdn-icons-png.flaticon.com/512/1317/1317755.png",
+		imageHeight: "120px",
+    title: "4. Transparency",
+    description: "Investor and users need fluid and trustfull information about the currency they are using. We must include configurable reports with enabled interoperability formats between servers.",
+    buttonText: "More",
+    href: "/",
+  },
 ];
 const optionalPrnciples: BaseCardProps[] = [
   {
@@ -42,16 +51,7 @@ const optionalPrnciples: BaseCardProps[] = [
 		image: "https://cdn-icons-png.flaticon.com/512/2092/2092663.png",
 		imageHeight: "120px",
     title: "Privacy",
-    description: "The benefits of Inmutabibility and Interop Layer will enable delivering decentralization out of the box so project can be decentralizaed from inception.",
-    buttonText: "More",
-    href: "/",
-  },
-  {
-    variant: "primary",
-		image: "https://cdn-icons-png.flaticon.com/512/1317/1317755.png",
-		imageHeight: "120px",
-    title: "Transparency",
-    description: "Investor and users need fluid and trustfull information about the currency they are using. We must include configurable reports with enabled interoperability formats between servers.",
+    description: "The level of privacy is determined by the underlying networks where the token is deployed. This is a configuration issue for the Token Issuer. Privacy on token holders must not be in jeopardy with Transparency on token operations",
     buttonText: "More",
     href: "/",
   },
@@ -60,7 +60,7 @@ const optionalPrnciples: BaseCardProps[] = [
 		image: "https://cdn-icons-png.flaticon.com/512/8226/8226075.png",
 		imageHeight: "120px",
     title: "Compliance",
-    description: "With juristictions increasingly stressing legilation around cryptocurrencies, any crypto must allow optional and configurable compliance mechanisms without reinvnting the wheel.",
+    description: "Different juristictions apply different levels of compliance. the token issuer must have the tools, out of the box, to decide what level of compliance is suitable for his token.",
     buttonText: "More",
     href: "/",
   },
@@ -79,13 +79,13 @@ export default function PrinciplesSection(): JSX.Element {
 		>
 
 			<CardsRow
-				description='... 3 principles are mandatory...'
+				description='... 4 principles are mandatory...'
 				columns={3}
 				cards={mandatoryPrnciples}
 			/>
 
 			<CardsRow
-				description='... 3 principles are determined by the Token Issuer...'
+				description='... 2 principles are determined by the Token Issuer...'
 				columns={3}
 				cards={optionalPrnciples}
 			/>
