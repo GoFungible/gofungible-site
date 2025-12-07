@@ -13,7 +13,7 @@ const mandatoryPrnciples: BaseCardProps[] = [
 		image: "https://cdn-icons-png.flaticon.com/512/2092/2092663.png",
 		imageHeight: "120px",
     title: "1. Capture Value Faithfully",
-    description: "Tokens are not ponzi schemas. Whether captured value is speculative, reputational, utility, a price or intrinsinc (Layer 6), the value must be captured into the token in an efficient way. The tokens price, at any moment, must reflect the market valuation of the captured value.",
+    description: "Tokens are not ponzi schemas. Whether captured value is speculative, reputational, utility, a price or intrinsinc (Layer 6), value must be captured into the token in an faithfull way. At any moment, token's price, must reflect market valuation of captured value.",
     buttonText: "More",
     href: "/",
   },
@@ -22,7 +22,7 @@ const mandatoryPrnciples: BaseCardProps[] = [
 		image: "https://cdn-icons-png.flaticon.com/512/1317/1317755.png",
 		imageHeight: "120px",
     title: "2. Protect Holders Value Integrity",
-    description: "Token operations cannot compromise holders piece of captured value neither by manipulation of the issuer (Value Integrity) nor by intereference of external agents (Security). The Platform must minimise the risk of Value disruption.",
+    description: "Token operations cannot compromise holders piece of captured value neither by manipulation of the issuer (Value Integrity) nor by interference of external agents (Token Security). The Platform must minimise the risk of Value disruption.",
     buttonText: "More",
     href: "/",
   },
@@ -79,13 +79,13 @@ export default function PrinciplesSection(): JSX.Element {
 		>
 
 			<CardsRow
-				description='3 principles are mandatory'
+				description='... 3 principles are mandatory...'
 				columns={3}
 				cards={mandatoryPrnciples}
 			/>
 
 			<CardsRow
-				description='3 principles are optional and determined by the Token Issuer'
+				description='... 3 principles are determined by the Token Issuer...'
 				columns={3}
 				cards={optionalPrnciples}
 			/>
