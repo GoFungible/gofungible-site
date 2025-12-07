@@ -44,11 +44,11 @@ export default function IdentittyCrisisSection(): JSX.Element {
 					height: 400
 				}}
 				content={{
-					title: 'References to Get Back on Track',
+					title: 'Principles to Get Back on Track',
 					titleLevel: 2,
 					text: (
 						<div>
-							<p>As Asimov's Laws on Robotics, or Archimedes' Law of the Lever, no system can growth without a clear principles.</p>
+							<p>As Asimov's Laws on Robotics, or Archimedes' Law of the Lever, no system can growth without a clear references as lingua franca for communication between agents and stakeholders.</p>
 						</div>
 					)
 				}}

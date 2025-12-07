@@ -18,7 +18,7 @@ export default function ImmutabilitySection(): JSX.Element {
 
 			<SplitSection
 				image={{
-					src: 'https://www.strandbaptist.org.za/uploads/4/2/1/5/4215011/download_2_orig.jpg',
+					src: 'https://thumbs.dreamstime.com/b/ancient-greek-text-inscriptions-stone-wall-background-letters-carved-248084136.jpg',
 					alt: 'Another great feature',
 					width: 600,
 					height: 400
