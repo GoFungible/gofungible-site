@@ -31,13 +31,13 @@ const defaultLayers: Layer[] = [
   },
   {
     id: 5,
-    title: "Interop Layer",
+    title: "Interoperability Layer",
     description: "The core of the application where domain logic and business rules are implemented. This layer ensures data integrity, enforces business policies, and contains the essential business functionality.",
     //icon: "🧠"
   },
   {
     id: 4,
-    title: "Compose Layer",
+    title: "Immutability Layer",
     description: "Responsible for communication with data sources including databases, external APIs, and file systems. This layer abstracts data access details and provides a clean API for the business logic layer.",
     //icon: "💾"
   },
