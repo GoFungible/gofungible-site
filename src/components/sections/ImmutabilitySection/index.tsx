@@ -71,8 +71,8 @@ export default function ImmutabilitySection(): JSX.Element {
 					text: (
 						<div>
 							<p>Contracts are created to be enforced. Both parties benefit for clear principles writen on stone. <a href="https://eips.ethereum.org/EIPS/eip-2535" target="_blank">ERC-2535</a> provides the technical infrastructure to have Master Agreements on chain in a immutable manner. These Master Agreements are replicated along all tht nodes of the blockchain. they provide a foundation to have composable contract features.</p>
-							<p>Compose, an Open Source project, built-on top of ERC-2535, brings the creation of immutable contacts by composition of Master Agreements features.</p>
-							<p>Both working together provide a technical foundation to enforce the principles described in Layer 3.</p>
+							<p><a href="https://compose.diamonds/" target="_blank">Compose</a>, built-on top of <a href="https://eips.ethereum.org/EIPS/eip-2535" target="_blank">ERC-2535</a>, brings the creation of immutable contacts by composition of Master Agreements features.</p>
+							<p>Both working together provide a technical foundation to enforce, out of the box, the design principles described in Layer 3 .</p>
 						</div>
 					)
 				}}
