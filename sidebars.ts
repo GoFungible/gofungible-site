@@ -31,8 +31,8 @@ const sidebars: SidebarsConfig = {
 			label: 'Baseline', // sidebar label
 		}, {
 			type: 'doc',
-			id: 'stack/compose', // document ID
-			label: 'Compose Layer', // sidebar label
+			id: 'stack/immutability', // document ID
+			label: 'Immutability Layer', // sidebar label
 		}, {
 			type: 'doc',
 			id: 'stack/interop', // document ID

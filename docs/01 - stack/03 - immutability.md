@@ -2,5 +2,5 @@
 sidebar_position: 1
 ---
 
-# Compose
+# Layer 4. Immutability Layer
 ---
