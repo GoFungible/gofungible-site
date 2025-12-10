@@ -19,29 +19,86 @@ const sidebars: SidebarsConfig = {
   // But you can create a sidebar manually
   stackSidebar: [
 		{
-			type: 'doc',
-			id: 'stack/intro', // document ID
-			label: 'Getting started', // sidebar label
+			type: 'category',
+			label: 'Layer 1. Ecosystem',
+			link: {
+				type: "doc",
+				id: 'stack/ecosystem/intro',
+			},
+			collapsible: true,
+			items: [
+				'stack/ecosystem/intro',
+			]
 		}, {
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-			type: 'doc',
-			id: 'stack/baseline', // document ID
-			label: 'Baseline', // sidebar label
+			type: 'category',
+			label: 'Layer 2. Standardization',
+			link: {
+				type: "doc",
+				id: 'stack/standardization/intro',
+			},
+			collapsible: true,
+			items: [
+				'stack/standardization/intro',
+			]
 		}, {
-			type: 'doc',
-			id: 'stack/immutability', // document ID
-			label: 'Immutability Layer', // sidebar label
+			type: 'category',
+			label: 'Layer 3. Principles',
+			link: {
+				type: "doc",
+				id: 'stack/principles/intro',
+			},
+			collapsible: true,
+			items: [
+				'stack/principles/intro',
+			]
 		}, {
-			type: 'doc',
-			id: 'stack/interop', // document ID
-			label: 'Interop Layer', // sidebar label
+			type: 'category',
+			label: 'Layer 4. Immutability',
+			link: {
+				type: "doc",
+				id: 'stack/immutability/intro',
+			},
+			collapsible: true,
+			items: [
+				'stack/immutability/supply',
+				'stack/immutability/transfer',
+				'stack/immutability/permit',
+				'stack/immutability/security',
+			]
 		}, {
-			type: 'doc',
-			id: 'stack/abstractionLayer', // document ID
-			label: 'Abstraction Layer', // sidebar label
-		}, 
+			type: 'category',
+			label: 'Layer 5. Interoperability',
+			link: {
+				type: "doc",
+				id: 'stack/interop/intro',
+			},
+			collapsible: true,
+			items: [
+				'stack/interop/intro',
+			]
+		}, {
+			type: 'category',
+			label: 'Layer 6. Speciialization',
+			link: {
+				type: "doc",
+				id: 'stack/specialization/intro',
+			},
+			collapsible: true,
+			items: [
+				'stack/specialization/intro',
+			]
+		}, {
+			type: 'category',
+			label: 'Layer 7. Application',
+			link: {
+				type: "doc",
+				id: 'stack/application/intro',
+			},
+			collapsible: true,
+			items: [
+				'stack/application/intro',
+			]
+		},   
   ],
   valueSidebar: [
 		{
