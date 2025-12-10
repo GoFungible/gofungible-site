@@ -9,7 +9,7 @@ export default function InteropSection(): JSX.Element {
     
 			<GenericSection
 				title="Layer 5: Interoperability Layer"
-				subtitle="Give me a lever long enough and a fulcrum on which to place it, and I shall move the world. Archimedes."
+				subtitle="Blockchains were not designed to communicate which each other causing a liquidity fragmentation problem and therefore destroying usability."
 				variant="default"
 				padding="large"
 				headerSpacing="large"
@@ -29,6 +29,7 @@ export default function InteropSection(): JSX.Element {
 					text: (
 						<div>
 							<p>With several hundreds of blockchain <a href="https://chainlist.org/">networks</a>, more than 1700 <a href="https://blockspot.io/exchange/">exchanges</a>, 200 <a href="https://blockspot.io/wallet/">wallets</a> and more thn 1300 <a href="https://eips.ethereum.org/all">ERC standards</a> and the lack of role models and references the industry looks lost into the confusion which is the perfect climate for dishonest behaviour.</p>
+							<p>Check <a href="https://chainlist.org/">Fungible Interoperability</a>.</p>
 						</div>
 					)
 				}}
