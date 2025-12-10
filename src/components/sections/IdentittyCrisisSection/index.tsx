@@ -44,7 +44,7 @@ export default function IdentittyCrisisSection(): JSX.Element {
 					height: 400
 				}}
 				content={{
-					title: 'Principles to Get Back on Track',
+					title: 'Principles to the Rescue',
 					titleLevel: 2,
 					text: (
 						<div>
