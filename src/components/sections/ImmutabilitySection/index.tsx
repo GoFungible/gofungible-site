@@ -74,7 +74,7 @@ export default function ImmutabilitySection(): JSX.Element {
 							<p>Contracts are created to be enforced. Both parties benefit from clear principles written in stone. Diamond Standard <a href="https://eips.ethereum.org/EIPS/eip-2535" target="_blank">(ERC-2535)</a> provides the technical infrastructure to have Master Agreements on chain in a immutable manner. These Master Agreements are replicated along all tht nodes of the blockchain providing a foundation to have composable contract features.</p>
 							<p><a href="https://compose.diamonds/" target="_blank">Compose Library</a>, built-on top of <a href="https://eips.ethereum.org/EIPS/eip-2535" target="_blank">Diamond Standard</a>, brings the assembly of immutable contacts by composition of Master Agreements features.</p>
 							<p>Both working together provide a technical foundation to enforce, out of the box, the design principles described in Layer 3.</p>
-							<p>Fungible Standard relies in immutable technologies to guarantee the contracts agreed and the compliance with the compromised principles.</p>
+							<p>Fungible Standard relies on immutable technologies to guarantee the agreed contracts in compliance with the compromised principles.</p>
 						</div>
 					)
 				}}
