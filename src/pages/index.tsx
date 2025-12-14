@@ -23,16 +23,27 @@ export default function Home(): ReactNode {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
 
-			<BackgroundImageHeader
-        backgroundImage="https://t3.ftcdn.net/jpg/12/00/36/52/360_F_1200365289_EjvAS2WLx26KOlqOCx71zdEUvjhNEncM.jpg"
-        title="Fungible Standard"
-        subtitle="Simplicity is the ultimate sophistication"
-        textSide="left"
-        overlayOpacity={0.4}
-      />
-
-
-
+			<DocHeader
+				title="Fungible Standard"
+				subtitle="An Open Source Framework to build reusable onchain decentralized immutable interoperable tokens that can be trusted by millions. "
+				description="Simplicity is the ultimate sophistication"
+				primaryCta={{
+					text: "Learn More",
+					href: "/docs/stack/immutability/immutability"
+				}}
+				secondaryCta={{
+					text: "Github",
+					href: "https://github.com/GoFungible"
+				}}
+				//imageSrc="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"  // Side image
+				//imageAlt="Side content"
+				backgroundImageSrc="https://t3.ftcdn.net/jpg/12/00/36/52/360_F_1200365289_EjvAS2WLx26KOlqOCx71zdEUvjhNEncM.jpg"  // Background image
+				backgroundImageOpacity={0.7}  // Controls background image visibility
+				layout="left"
+				background="transparent"  // Use transparent since we have background image
+				showBackgroundOverlay={true}
+				padding='large'
+			/>
 
 			<main>
 				<EpicFailSection />

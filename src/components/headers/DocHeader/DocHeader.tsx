@@ -22,9 +22,9 @@ export interface DocHeaderProps {
     icon?: string;
   };
   /** Image source URL */
-  imageSrc: string;
+  imageSrc?: string;
   /** Image alt text */
-  imageAlt: string;
+  imageAlt?: string;
   /** Position of content relative to image */
   layout: 'left' | 'right';
   /** Background styling */
@@ -37,6 +37,13 @@ export interface DocHeaderProps {
   padding?: 'none' | 'small' | 'medium' | 'large';
   /** Whether to show a decorative overlay on image */
   showImageOverlay?: boolean;
+
+  /** Background image URL (optional) */
+  backgroundImageSrc?: string;
+  /** Background image opacity */
+  backgroundImageOpacity?: number;
+  /** Whether to show background overlay over image */
+  showBackgroundOverlay?: boolean;
 }
 
 const DocHeader: React.FC<DocHeaderProps> = ({
@@ -53,6 +60,9 @@ const DocHeader: React.FC<DocHeaderProps> = ({
   textColor = '#ffffff',
   padding = 'medium',
   showImageOverlay = true,
+	backgroundImageSrc,
+  backgroundImageOpacity = 0.3,
+  showBackgroundOverlay = true,
 }) => {
   // Determine background class
   const getBackgroundClass = () => {
@@ -90,12 +100,7 @@ const DocHeader: React.FC<DocHeaderProps> = ({
             {primaryCta && (
               <a 
                 href={primaryCta.href}
-                className="doc-header-cta doc-header-cta-primary"
-                style={{ 
-                  backgroundColor: '#25c2a0',
-                  color: '#ffffff'
-                }}
-              >
+                className="doc-header-cta doc-header-cta-primary">
                 {primaryCta.icon && (
                   <span className="doc-header-cta-icon">{primaryCta.icon}</span>
                 )}
@@ -105,12 +110,7 @@ const DocHeader: React.FC<DocHeaderProps> = ({
             {secondaryCta && (
               <a 
                 href={secondaryCta.href}
-                className="doc-header-cta doc-header-cta-secondary"
-                style={{ 
-                  borderColor: textColor,
-                  color: textColor
-                }}
-              >
+                className="doc-header-cta doc-header-cta-secondary">
                 {secondaryCta.icon && (
                   <span className="doc-header-cta-icon">{secondaryCta.icon}</span>
                 )}
@@ -136,26 +136,46 @@ const DocHeader: React.FC<DocHeaderProps> = ({
     </div>
   );
 
-  return (
-    <header 
-      className={`doc-header ${getBackgroundClass()} ${getPaddingClass()} ${layout === 'right' ? 'doc-header-reverse' : ''}`}
-      style={background === 'solid' ? { backgroundColor, color: textColor } : { color: textColor }}
-    >
-      <div className="doc-header-container container">
-        {layout === 'left' ? (
-          <>
-            <ContentSide />
-            <ImageSide />
-          </>
-        ) : (
-          <>
-            <ImageSide />
-            <ContentSide />
-          </>
-        )}
-      </div>
-    </header>
-  );
+	return (
+		<header 
+			className={`doc-header ${getBackgroundClass()} ${getPaddingClass()} ${layout === 'right' ? 'doc-header-reverse' : ''} ${backgroundImageSrc ? 'doc-header-bg-image' : ''}`}
+			style={{
+				...(background === 'solid' ? { backgroundColor, color: textColor } : { color: textColor }),
+				...(backgroundImageSrc ? { 
+					backgroundImage: `url(${backgroundImageSrc})`,
+				} : {})
+			}}
+		>
+			{backgroundImageSrc && showBackgroundOverlay && (
+				<div 
+					className="doc-header-bg-overlay"
+					style={{
+						position: 'absolute',
+						top: 0,
+						left: 0,
+						right: 0,
+						bottom: 0,
+						backgroundColor: `rgba(43, 49, 55, ${1 - backgroundImageOpacity})`,
+						zIndex: 2
+					}}
+				/>
+			)}
+			
+			<div className="doc-header-container container">
+				{layout === 'left' ? (
+					<>
+						<ContentSide />
+						<ImageSide />
+					</>
+				) : (
+					<>
+						<ImageSide />
+						<ContentSide />
+					</>
+				)}
+			</div>
+		</header>
+	);
 };
 
 export default DocHeader;
