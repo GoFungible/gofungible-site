@@ -61,6 +61,7 @@ const sidebars: SidebarsConfig = {
 			collapsible: true,
 			items: [
 				'stack/immutability/immutability',
+				'stack/immutability/fungibleimmutability',
 				'stack/immutability/supply',
 				'stack/immutability/transfer',
 				'stack/immutability/permit',
