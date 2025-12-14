@@ -11,10 +11,10 @@ sidebar_position: 1
 ## II. Protect Holders Value
 
 
-## III. Provide Friedly Access to Value
+## III. Inform Token Holders
 
 
-## IV. Inform Token Holders
+## IV. Friedly Access to Value
 
 
 ## V. Privacy
