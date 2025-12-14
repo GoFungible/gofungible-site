@@ -55,6 +55,34 @@
   margin-bottom: 0;
 }
 
+.split-section__link {
+	align-self: flex-start;
+	margin: auto;
+	margin-top: 30px;
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	background: var(--ifm-color-primary);
+	color: white;
+	border-radius: 4px;
+	font-size: 0.875rem;
+	font-weight: 500;
+	-webkit-text-decoration: none;
+	text-decoration: none;
+}
+
+.split-section__button {
+	align-self: flex-start;
+	margin: auto;
+	display: inline-block;
+	background: var(--ifm-color-primary);
+	color: white;
+	border-radius: 4px;
+	font-size: 0.875rem;
+	font-weight: 500;
+	-webkit-text-decoration: none;
+	text-decoration: none;
+}
+
 /* Reverse layout */
 .split-section--reverse .split-section__container {
   direction: rtl;
@@ -104,6 +132,10 @@
   .split-section__title {
     font-size: 1.75rem;
   }
+
+	.split-section__button {
+    
+  }
   
   .split-section--reverse .split-section__container {
     direction: ltr;
@@ -117,6 +149,10 @@
   
   .split-section__text {
     font-size: 1rem;
+  }
+
+	.split-section__button {
+    
   }
   
   .split-section--spacing-medium .split-section__container {

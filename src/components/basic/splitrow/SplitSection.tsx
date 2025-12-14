@@ -1,6 +1,7 @@
 // src/components/splitSection/SplitSection.tsx
 import React from 'react';
 import './SplitSection.css';
+import Link from '@docusaurus/Link';
 
 export interface SplitSectionProps {
   image: {
@@ -19,6 +20,9 @@ export interface SplitSectionProps {
   verticalAlign?: 'top' | 'center' | 'bottom';
   spacing?: 'none' | 'small' | 'medium' | 'large';
   className?: string;
+  buttonLabel?: string,
+	href?: string,
+  onClick?: () => void;
   imageFirst?: boolean;
 }
 
@@ -29,6 +33,9 @@ const SplitSection: React.FC<SplitSectionProps> = ({
   verticalAlign = 'center',
   spacing = 'medium',
   className = '',
+	buttonLabel,
+	href,
+	onClick,
   imageFirst = false
 }) => {
   const TitleTag = `h${content.titleLevel || 2}` as keyof React.JSX.IntrinsicElements;
@@ -66,6 +73,22 @@ const SplitSection: React.FC<SplitSectionProps> = ({
               content.text
             )}
           </div>
+
+					{ href && buttonLabel ?
+      			<Link to={href} className="split-section__link">
+          		<div className="split-section__button">
+								{buttonLabel}
+							</div>
+						</Link>
+					: ''}
+
+					{ onClick && buttonLabel ?
+      			<Link to={href} className="split-section__link">
+          		<button className="split-section__button" onClick={onClick} type="button">
+			        	{buttonLabel}
+      				</button>
+						</Link>
+					: ''}
         </div>
 
       </div>
