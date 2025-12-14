@@ -25,7 +25,7 @@ export default function Home(): ReactNode {
 
 			<DocHeader
 				title="Fungible Standard"
-				subtitle="An Open Source Framework to build reusable onchain decentralized immutable interoperable tokens that can be trusted by millions. "
+				subtitle="An Open Source Framework to build reusable onchain decentralized immutable interoperable Fungible Tokens that can be trusted by millions. "
 				description="Simplicity is the ultimate sophistication"
 				primaryCta={{
 					text: "Learn More",
