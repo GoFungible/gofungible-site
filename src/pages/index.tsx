@@ -13,9 +13,11 @@ import ImmutabilitySection from '../components/sections/ImmutabilitySection';
 import InteropSection from '../components/sections/InteropLayer';
 import SpecializationSection from '../components/sections/SpecializationSection';
 import ValueChainSection from '../components/sections/ValueChainSection';
+import DocHeader from '../components/headers/DocHeader/DocHeader';
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
+
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
@@ -28,6 +30,9 @@ export default function Home(): ReactNode {
         textSide="left"
         overlayOpacity={0.4}
       />
+
+
+
 
 			<main>
 				<EpicFailSection />
