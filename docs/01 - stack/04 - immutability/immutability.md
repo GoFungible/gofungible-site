@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Achieving Immutability
+# Composable Immutability
 ---
 
 ## Intro
