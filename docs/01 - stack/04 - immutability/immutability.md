@@ -60,6 +60,10 @@ Compose provides implementation of a set of features.
 
 ## Compose On-chain
 
+Taking advantage of Smart Contract immutability feature, Compose provides the Facets already deployed onchain. 
+
+This enables any tokenization tool to create a Diamond contract by aggregating onchain Facets already deployed, tested and validated by another contracts.
+
 ## Beyond Compose
 
 As a library, Compose, provides a mechiams for composing technical capabilities.
@@ -70,4 +74,4 @@ Whereas immutability of the facets is guaranteed by the blockchain, further requ
 
 * We must guarantee immutability of the Diamond to prevent changes on the features included in the Diamond.
 
-* We must guarantee that facets comply with Fungible Standard principles.
+* We must guarantee that Features provided by the Facets comply with Fungible Standard principles.
