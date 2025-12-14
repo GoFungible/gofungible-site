@@ -52,7 +52,7 @@ export default function ImmutabilitySection(): JSX.Element {
     
 			<GenericSection
 				title="Layer 4: Immutability Layer"
-				subtitle="Principles are nothing if they are not set in stone. Immutability Layer provides a persistent mechanism to host the Token Features that can be assembled in Fungible Token's Contract."
+				subtitle="Principles are nothing if they are not etched in stone. Immutability Layer provides a permanent mechanism to host the Token Features that can be assembled in Fungible Token's Contract."
 				variant="secondary"
 				padding="large"
 				headerSpacing="large"
