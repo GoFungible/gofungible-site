@@ -9,7 +9,7 @@ export default function InteropSection(): JSX.Element {
     
 			<GenericSection
 				title="Layer 5: Interoperability Layer"
-				subtitle="Blockchains were not designed to communicate which each other causing a liquidity fragmentation problem and therefore destroying usability."
+				subtitle="Immutable principles are nothing if they are not accessible. But blockchains were not designed to communicate which each other causing a liquidity fragmentation problem and therefore destroying usability.  Something must be done."
 				variant="default"
 				padding="large"
 				headerSpacing="large"
