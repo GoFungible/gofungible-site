@@ -68,7 +68,6 @@ export default function EpicFailSection(): JSX.Element {
 			headerClassName={styles.heroHeaderContent}
 		>
 
-			{/* Example 4: Two columns with mixed text sizes */}
 			<SplitChecklistSection
 				title="So, what happened?"
 				subtitle="At the detail level we can argue a plethora of mistakes:"

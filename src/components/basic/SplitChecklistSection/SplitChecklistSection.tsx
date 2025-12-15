@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import * as Checkbox from '@radix-ui/react-checkbox';
-import { FiCheck } from 'react-icons/fi';
 import {
   FaStar,
   FaAward,
