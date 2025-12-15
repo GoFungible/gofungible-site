@@ -3,8 +3,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
 import EcosystemSection from '../components/sections/EcosystemSection';
-import EpicFailSection from '../components/sections/EpicFailSection';
-import BackgroundImageHeader from '../components/headers/BackgroundImageHeader';
 import LayersSection from '../components/sections/LayeredSection/LayersSection';
 import StandardizationSection from '../components/sections/StandardizationSection';
 import IdentittyCrisisSection from '../components/sections/IdentittyCrisisSection';
@@ -14,9 +12,12 @@ import InteropSection from '../components/sections/InteropLayer';
 import SpecializationSection from '../components/sections/SpecializationSection';
 import ValueChainSection from '../components/sections/ValueChainSection';
 import DocHeader from '../components/headers/DocHeader/DocHeader';
+import EpicFailSection from '../components/sections/EpicFailSections';
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
+
+
 
   return (
     <Layout
@@ -47,7 +48,6 @@ export default function Home(): ReactNode {
 
 			<main>
 				<EpicFailSection />
-				<br/>
         <LayersSection />
 				<EcosystemSection />
 				<StandardizationSection />
