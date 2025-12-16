@@ -5,7 +5,6 @@ import Layout from '@theme/Layout';
 import EcosystemSection from '../components/sections/EcosystemSection';
 import LayersSection from '../components/sections/LayeredSection/LayersSection';
 import StandardizationSection from '../components/sections/StandardizationSection';
-import IdentittyCrisisSection from '../components/sections/IdentittyCrisisSection';
 import PrinciplesSection from '../components/sections/PrinciplesSection';
 import ImmutabilitySection from '../components/sections/ImmutabilitySection';
 import InteropSection from '../components/sections/InteropLayer';
@@ -13,6 +12,7 @@ import SpecializationSection from '../components/sections/SpecializationSection'
 import ValueChainSection from '../components/sections/ValueChainSection';
 import DocHeader from '../components/headers/DocHeader/DocHeader';
 import EpicFailSection from '../components/sections/EpicFailSections';
+import CentralizedFungiblesSection from '../components/sections/CentralizedFungiblesSection';
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
@@ -51,7 +51,7 @@ export default function Home(): ReactNode {
         <LayersSection />
 				<EcosystemSection />
 				<StandardizationSection />
-				<IdentittyCrisisSection />
+				<CentralizedFungiblesSection />
 				<PrinciplesSection />
 				<ImmutabilitySection />
 				<InteropSection />

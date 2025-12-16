@@ -10,7 +10,7 @@ export default function SpecializationSection(): JSX.Element {
 		<GenericSection
 			title="Layer 6: Specialization Layer"
 			subtitle="Once we have all Components in place we can focus on Specialization on the different flavours of Captured Value. Fungible Standard defines delivers out of the box fungible tokens ready to capture different flavours of value."
-			variant="secondary"
+			variant="default"
 			padding="large"
 			headerSpacing="large"
 			headerClassName={styles.heroHeaderContent}

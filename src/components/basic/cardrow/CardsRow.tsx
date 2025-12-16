@@ -5,7 +5,7 @@ import './CardsRow.css';
 
 export interface CardsRowProps {
   cards: BaseCardProps[];
-  columns?: 2 | 3 | 4;
+  columns?: 2 | 3 | 4 | 5 | 6 | 7;
   title?: string;
   description?: string;
   className?: string;

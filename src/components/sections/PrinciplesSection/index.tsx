@@ -12,6 +12,7 @@ import { MdOutlineMobileFriendly } from "react-icons/md";
 import { TbReportAnalytics } from "react-icons/tb";
 import { BsIncognito } from "react-icons/bs";
 import { GrCompliance } from "react-icons/gr";
+import SplitSection from '../../basic/splitrow/SplitSection';
 
 // Example with typed cards array
 const mandatoryPrnciples: BaseCardProps[] = [
@@ -73,11 +74,31 @@ export default function PrinciplesSection(): JSX.Element {
 		<GenericSection
 			title="Layer 3: Principles Layer"
 			subtitle="The Principles for Quality Fungible Tokens make up an Abstraction Layer, guaranteeing that tokens deliver the Foundational Principles of Blockchain. Further on, these principles will spawn a checklist of requirements."
-			variant="default"
+			variant="secondary"
 			padding="large"
 			headerSpacing="large"
 			headerClassName={styles.heroHeaderContent}
 		>
+
+			<SplitSection
+				image={{
+					src: 'https://www.strandbaptist.org.za/uploads/4/2/1/5/4215011/download_2_orig.jpg',
+					alt: 'Another great feature',
+					width: 600,
+					height: 400
+				}}
+				content={{
+					title: 'Principles to the Rescue',
+					titleLevel: 2,
+					text: (
+						<div>
+							<p>As Asimov's Laws on Robotics, or Archimedes' Law of the Lever, no system can growth without a clear references as lingua franca for communication between agents and stakeholders.</p>
+						</div>
+					)
+				}}
+				reverse={false}
+				spacing="large"
+			/>
 
 			<CardsRow
 				description='... 4 principles are mandatory...'

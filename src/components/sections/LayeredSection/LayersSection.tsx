@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './LayersSection.module.css';
+import GenericSection from '../../basic/GenericSection';
 
 interface Layer {
   id: number;
@@ -76,12 +77,15 @@ const LayersSection: React.FC<LayersSectionProps> = ({
   const currentLayer = layers.find(layer => layer.id === selectedLayer) || layers[0];
 
   return (
-    <section className={styles.section}>
-
-      <div className={styles.header}>
-        <h2 className={styles.title}>{title}</h2>
-        {subtitle && <p className={styles.subtitle}>{subtitle}</p>}
-      </div>
+		
+		<GenericSection
+			title="Fungible Standard Maturity Model"
+			subtitle="Instead, technology evolves in an iterative layered model. Every layer, specializes in solving an specific problem, is standardized, hiding the complexity of lower layers and provides services and good practices to upper layers. As a result, a Maturity Model is produced. Fungible Standard understands this process and proposes a Maturity Model for Fungible Tokens."
+			variant="secondary"
+			padding="large"
+			headerSpacing="large"
+			headerClassName={styles.heroHeaderContent}
+		>
       
       <div className={styles.container}>
 				
@@ -132,7 +136,7 @@ const LayersSection: React.FC<LayersSectionProps> = ({
 
       </div>
 
-    </section>
+    </GenericSection>
   );
 };
 
