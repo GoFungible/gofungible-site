@@ -12,43 +12,43 @@ const featureCards: BaseCardProps[] = [
   {
     title: "Memecoin",
     description: "Get started in minutes with our intuitive interface and comprehensive documentation.",
-    href: "/",
+    href: "/docs/stack/specialization/memecoin",
 		icon: ""
   },
   {
     title: "Fidelization",
     description: "Get started in minutes with our intuitive interface and comprehensive documentation.",
-    href: "/",
+    href: "/docs/stack/specialization/fidelization",
 		icon: ""
   },
   {
     title: "RepuToken",
     description: "Get started in minutes with our intuitive interface and comprehensive documentation.",
-    href: "/",
+    href: "/docs/stack/specialization/reputoken",
 		icon: ""
   },
   {
     title: "Utility Tokens",
     description: "Get started in minutes with our intuitive interface and comprehensive documentation.",
-    href: "/",
+    href: "/docs/stack/specialization/utility",
 		icon: ""
   },
   {
     title: "Security Token",
     description: "Get started in minutes with our intuitive interface and comprehensive documentation.",
-    href: "/",
+    href: "/docs/stack/specialization/security",
 		icon: ""
   },
   {
     title: "Stablecoin",
     description: "Get started in minutes with our intuitive interface and comprehensive documentation.",
-    href: "/",
+    href: "/docs/stack/specialization/stablecoin",
 		icon: ""
   },
 	{
     title: "Crommodty",
     description: "Get started in minutes with our intuitive interface and comprehensive documentation.",
-    href: "/",
+    href: "/docs/stack/specialization/crommodity",
 		icon: ""
   },
 ];

@@ -80,14 +80,20 @@ const sidebars: SidebarsConfig = {
 			]
 		}, {
 			type: 'category',
-			label: 'Layer 6. Speciialization',
+			label: 'Layer 6. Specialization',
 			link: {
 				type: "doc",
 				id: 'stack/specialization/intro',
 			},
 			collapsible: true,
 			items: [
-				'stack/specialization/intro',
+				'stack/specialization/memecoin',
+				'stack/specialization/fidelization',
+				'stack/specialization/reputoken',
+				'stack/specialization/utility',
+				'stack/specialization/security',
+				'stack/specialization/stablecoin',
+				'stack/specialization/crommodity',
 			]
 		}, {
 			type: 'category',
