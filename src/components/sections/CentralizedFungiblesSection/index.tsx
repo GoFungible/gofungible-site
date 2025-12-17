@@ -83,7 +83,8 @@ export default function CentralizedFungiblesSection(): JSX.Element {
 					text: (
 						<div>
 							<p>In his 16th aniversary, blockchain industry looks immersed on his own adolescence crisis. It gets proposals from all directions and is confused about what it wants to become.</p>
-							<p>With several hundreds of blockchain networks, more than 1700 exchanges, 200 wallets and more thn 1300 ERC standards and the lack of role models and references the industry looks lost into the confusion which is the perfect climate for dishonest behaviour..</p>
+							<p>With several hundreds of blockchain networks, more than 1700 exchanges, 200 wallets and more thn 1300 ERC standards and the lack of role models and references the industry looks lost into the confusion which is the perfect climate for dishonest behaviour.</p>
+							<p>Industry speaks about decentralizations and its own technological idioms and users are messed up with technological concepts instead of perceived value. Scammers and fake issuers take advantage of the uncertainties. Distrust spreads on the users community.</p>
 						</div>
 					)
 				}}
