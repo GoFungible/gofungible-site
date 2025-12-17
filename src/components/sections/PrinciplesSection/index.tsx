@@ -73,7 +73,7 @@ export default function PrinciplesSection(): JSX.Element {
     
 		<GenericSection
 			title="Layer 3: Principles Layer"
-			subtitle="The Principles for Quality Fungible Tokens make up an Abstraction Layer, guaranteeing that tokens deliver the Foundational Principles of Blockchain. Further on, these principles will spawn a checklist of requirements."
+			subtitle="Decentralization is a technical concept which users are not interested in. Instead, users want clear contracts and compromises delivered. Is time to turn the arguments around to users point of view."
 			variant="secondary"
 			padding="large"
 			headerSpacing="large"
@@ -93,6 +93,7 @@ export default function PrinciplesSection(): JSX.Element {
 					text: (
 						<div>
 							<p>As Asimov's Laws on Robotics, or Archimedes' Law of the Lever, no system can growth without a clear references as lingua franca for communication between agents and stakeholders.</p>
+							<p>The Principles for Quality Fungible Tokens make up an Abstraction Layer, guaranteeing that tokens deliver the Foundational Principles of Blockchain. Further on, these principles will spawn a checklist of requirements.</p>
 						</div>
 					)
 				}}
