@@ -11,43 +11,43 @@ import SplitSection from '../../basic/splitrow/SplitSection';
 const featureCards: BaseCardProps[] = [
   {
     title: "Memecoin",
-    description: "Get started in minutes with our intuitive interface and comprehensive documentation.",
+    description: "Representing a character or an idea, motivation or proposal. Backed by especulative value. Can be decentralized.",
     href: "/docs/stack/specialization/memecoin",
 		icon: ""
   },
   {
     title: "Fidelization",
-    description: "Get started in minutes with our intuitive interface and comprehensive documentation.",
+    description: "Distributed by the issuer to grant customers consideration. Backed by especulative value. Can be decentralized.",
     href: "/docs/stack/specialization/fidelization",
 		icon: ""
   },
   {
     title: "RepuToken",
-    description: "Get started in minutes with our intuitive interface and comprehensive documentation.",
+    description: "Representing the reputation of the issuer, a person, company or institution. Backed by especulative value. Can be decentralized.",
     href: "/docs/stack/specialization/reputoken",
 		icon: ""
   },
   {
     title: "Utility Tokens",
-    description: "Get started in minutes with our intuitive interface and comprehensive documentation.",
+    description: "Typically fueling an ecosystem capturing the value of a key utility. Can be decentralized.",
     href: "/docs/stack/specialization/utility",
 		icon: ""
   },
   {
     title: "Security Token",
-    description: "Get started in minutes with our intuitive interface and comprehensive documentation.",
+    description: "Pegged to the price of some kind of security, either manually or by oracles. Produces a yield to the holder. Can NOT be decentralized.",
     href: "/docs/stack/specialization/security",
 		icon: ""
   },
   {
     title: "Stablecoin",
-    description: "Get started in minutes with our intuitive interface and comprehensive documentation.",
+    description: "Pegged to the price of some financial asset, as currency, commodity, cryptocurrency or algorithm. Can NOT be decentralized.",
     href: "/docs/stack/specialization/stablecoin",
 		icon: ""
   },
 	{
     title: "Crommodity",
-    description: "Get started in minutes with our intuitive interface and comprehensive documentation.",
+    description: "Works as medium of exchange on its own market by capturing the price of the asset. Must be decentralized. Unfeasible in Layer 2.",
     href: "/docs/stack/specialization/crommodity",
 		icon: ""
   },
