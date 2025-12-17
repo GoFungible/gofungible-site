@@ -73,7 +73,7 @@ export default function PrinciplesSection(): JSX.Element {
     
 		<GenericSection
 			title="Layer 3: Principles Layer"
-			subtitle="Decentralization is a technical concept which users are not interested in. Instead, users want clear contracts and compromises delivered. Is time to turn the arguments around to users point of view."
+			subtitle="Instead of tecnical concepts, users want clear contracts, outcomes and compromises delivered. Is time to turn the arguments around to users point of view."
 			variant="secondary"
 			padding="large"
 			headerSpacing="large"
