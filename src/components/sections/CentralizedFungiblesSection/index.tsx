@@ -10,15 +10,15 @@ import SplitSection from '../../basic/splitrow/SplitSection';
 // Example with typed cards array
 const featureCards: BaseCardProps[] = [
   {
-    title: "Memecoin",
-    description: "Representing a character or an idea, motivation or proposal. Backed by especulative value. Can be decentralized.",
-    href: "/docs/stack/specialization/memecoin",
-		icon: ""
-  },
-  {
     title: "Fidelization",
     description: "Distributed by the issuer to grant customers consideration. Backed by especulative value. Can be decentralized.",
     href: "/docs/stack/specialization/fidelization",
+		icon: ""
+  },
+	{
+    title: "Memecoin",
+    description: "Representing a character or an idea, motivation or proposal. Backed by especulative value. Can be decentralized.",
+    href: "/docs/stack/specialization/memecoin",
 		icon: ""
   },
   {
@@ -28,7 +28,7 @@ const featureCards: BaseCardProps[] = [
 		icon: ""
   },
   {
-    title: "Utility Tokens",
+    title: "Utility Token",
     description: "Typically fueling an ecosystem capturing the value of a key utility. Can be decentralized.",
     href: "/docs/stack/specialization/utility",
 		icon: ""
