@@ -4,9 +4,50 @@ import GenericSection from "../../basic/GenericSection";
 import styles from './index.module.css';
 import SplitSection from "../../basic/SplitSection";
 import CodeShowcase from "../../basic/CodeShowcase";
-import { FaAddressBook, FaBolt, FaCheck, FaRocket } from "react-icons/fa";
+import { FaAddressBook, FaBolt, FaCheck, FaHandshake, FaRocket } from "react-icons/fa";
+import CardsRow from '../../basic/cardrow/CardsRow';
+import { MdOutlineSecurity } from "react-icons/md";
+import { FaMoneyBillTransfer } from "react-icons/fa6";
+import { HiMiniPrinter } from "react-icons/hi2";
+import { BaseCardProps } from "../../basic/cardrow/Card";
 
 export default function StandardizationSection(): JSX.Element {
+
+	const fungibleFeatures: BaseCardProps[] = [
+		{
+			variant: "primary",
+			icon: <HiMiniPrinter size={120} />,
+			title: "Supply Features",
+			description: "Ability to create or remove supply.",
+			buttonText: "More",
+			href: "/docs/stack/immutability/supply",
+		},
+		{
+			variant: "primary",
+			icon: <FaMoneyBillTransfer size={120} />,
+			title: "Transfer Features",
+			description: "Operations triggered on token transfers.",
+			buttonText: "More",
+			href: "/docs/stack/immutability/transfer",
+		},
+		{
+			variant: "primary",
+			icon: <FaHandshake size={120} />,
+			title: "Permit Features",
+			description: "Allowance provided to third parties",
+			buttonText: "More",
+			href: "/docs/stack/immutability/permit",
+		},
+		{
+			variant: "primary",
+			icon: <MdOutlineSecurity size={120} />,
+			title: "Security Features",
+			description: "Such as token ownership.",
+			buttonText: "More",
+			href: "/docs/stack/immutability/security",
+		},
+	]
+
   return (
 
 		<GenericSection
@@ -94,6 +135,13 @@ export default function StandardizationSection(): JSX.Element {
 				</SplitSection.Item>
 
 			</SplitSection>
+
+
+			<CardsRow
+				description='Below are the categories of complementary ERC-20 Standards'
+				columns={3}
+				cards={fungibleFeatures}
+			/>
 
 		</GenericSection>
 

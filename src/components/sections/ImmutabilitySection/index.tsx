@@ -84,11 +84,14 @@ export default function ImmutabilitySection(): JSX.Element {
 				spacing="large"
 			/>
 
+
+{/*
 			<CardsRow
 				description='Below are the categories of ERC-20 Immutable Features composable as Master Agreements:'
 				columns={3}
 				cards={fungibleFeatures}
 			/>
+*/}
 
 			</GenericSection>
 
