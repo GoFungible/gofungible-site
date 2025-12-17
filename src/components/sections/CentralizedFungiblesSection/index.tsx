@@ -46,7 +46,7 @@ const featureCards: BaseCardProps[] = [
 		icon: ""
   },
 	{
-    title: "Crommodty",
+    title: "Crommodity",
     description: "Get started in minutes with our intuitive interface and comprehensive documentation.",
     href: "/docs/stack/specialization/crommodity",
 		icon: ""
@@ -58,7 +58,7 @@ export default function CentralizedFungiblesSection(): JSX.Element {
     
 		<GenericSection
 			title="Centralized Fungibles (2025+)"
-			subtitle="Principles are nothing if they are not etched in stone. Immutability Layer provides a permanent mechanism to host the Token Features that can be assembled in Fungible Token's Contract."
+			subtitle="At current state of arts, a few fungible types have been identified and implemented. However, despite mainstream expectations and marketing slogans, decentralization remains a challenge."
 			variant="default"
 			padding="large"
 			headerSpacing="large"
