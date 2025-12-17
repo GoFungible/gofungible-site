@@ -38,7 +38,10 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
-				'stack/standardization/intro',
+				'stack/standardization/supply',
+				'stack/standardization/transfer',
+				'stack/standardization/permit',
+				'stack/standardization/security',
 			]
 		}, {
 			type: 'category',
@@ -62,10 +65,6 @@ const sidebars: SidebarsConfig = {
 			items: [
 				'stack/immutability/immutability',
 				'stack/immutability/fungibleimmutability',
-				'stack/immutability/supply',
-				'stack/immutability/transfer',
-				'stack/immutability/permit',
-				'stack/immutability/security',
 			]
 		}, {
 			type: 'category',
