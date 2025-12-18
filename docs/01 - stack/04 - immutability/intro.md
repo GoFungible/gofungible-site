@@ -6,6 +6,24 @@ sidebar_position: 1
 ---
 
 
+## Proxy
+
+### ERC-2535
+
+### ERC-1967
+
+### ERC-1822
+
+### ERC-1538
+
+### ERC-1504
+
+### ERC-1167
+
+### ERC-897
+
+
+
 
 ## Versioning
 
@@ -14,6 +32,12 @@ sidebar_position: 1
 ### ERC-7760
 
 ### ERC-6864
+
+### ERC-4931
+
+### ERC-3561
+
+### ERC-3448
 
 
 

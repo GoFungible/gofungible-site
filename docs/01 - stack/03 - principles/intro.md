@@ -19,6 +19,11 @@ sidebar_position: 1
 
 ### ERC-5646
 
+### EIP-2566
+
+### ERC-2477
+
+
 ## IV. Friedly Access to Value
 
 
@@ -28,6 +33,10 @@ sidebar_position: 1
 
 ### ERC-7722
 
+
+
 ## VI. Compliance
 
+### ERC-2980
 
+### ERC-884

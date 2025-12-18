@@ -43,6 +43,11 @@ sidebar_position: 1
 
 ### ERC-5313
 
+### ERC-5187
+
+### ERC-2767
+
+
 
 ## Recovery
 
@@ -53,3 +58,7 @@ sidebar_position: 1
 ### ERC-7093
 
 ### ERC-5883
+
+### ERC-1080
+
+### EIP-867

@@ -20,3 +20,7 @@ sidebar_position: 1
 ## ERC-5453
 
 ## ERC-5216
+
+## ERC-6366
+
+## ERC-2612
