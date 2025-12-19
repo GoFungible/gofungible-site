@@ -91,3 +91,4 @@ sidebar_position: 1
 
 ### ERC-7406
 
+### ERC-7812

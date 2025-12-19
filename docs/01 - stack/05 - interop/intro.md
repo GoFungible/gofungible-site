@@ -15,6 +15,21 @@ sidebar_position: 1
 
 ### ERC-2193
 
+### ERC-7930
+
+
+
+
+
+
+## State
+
+### ERC-6358
+
+### ERC-2157
+
+### ERC-5559
+
 
 
 
@@ -23,13 +38,11 @@ sidebar_position: 1
 
 ## Invocations
 
-### ERC-5219
-
 ### ERC-6944
 
-### ERC-5559
-
 ### EIP-2696
+
+### EIP-2700
 
 
 
@@ -43,8 +56,6 @@ sidebar_position: 1
 
 ### ERC-7888
 
-### ERC-7930
-
 ### ERC-7884
 
 ### ERC-7746
@@ -57,12 +68,13 @@ sidebar_position: 1
 
 ### ERC-7615
 
+### ERC-5219
+
+
 
 
 
 ## Verification
-
-### ERC-7812
 
 ### ERC-1271
 
@@ -78,19 +90,6 @@ sidebar_position: 1
 
 
 
-
-## State
-
-### ERC-6358
-
-### EIP-2700
-
-### ERC-2157
-
-
-
-
-
 ## Messaging
 
 ### ERC-7786
@@ -98,6 +97,8 @@ sidebar_position: 1
 ### ERC-7627
 
 ### ERC-6170
+
+
 
 
 
@@ -114,6 +115,8 @@ sidebar_position: 1
 ### ERC-7802
 
 ### ERC-7518
+
+
 
 
 
