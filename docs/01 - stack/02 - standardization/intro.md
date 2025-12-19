@@ -5,66 +5,89 @@ sidebar_position: 1
 # Standardization Layer
 ---
 
-## ERC-7681
+## ERC-20 Extensions
 
-## ERC-1155
+### ERC-7632
 
-## ERC-7631
+### ERC-7589
 
-## ERC-7621
+### ERC-223
 
-## ERC-7632
+### ERC-7417
 
-## ERC-7603
+### ERC-7729
 
-## ERC-7589
+### ERC-7196
 
-## ERC-7484
+### ERC-6808
 
-## ERC-223
+### ERC-5744
 
-## ERC-7417
+### ERC-5727
 
-## ERC-7406
+### ERC-3386
 
-## ERC-7291
+### ERC-3525
 
-## ERC-7729
+### ERC-1633
 
-## ERC-7196
 
-## ERC-6960
 
-## ERC-6909
 
-## ERC-6808
 
-## ERC-5773
 
-## ERC-5744
 
-## ERC-5727
+## Dual Tokens
 
-## ERC-5507
+### ERC-7681
 
-## ERC-5516
+### ERC-7631
 
-## ERC-5528
+### ERC-6960
 
-## ERC-5095
+### ERC-6909
 
-## ERC-3386
 
-## ERC-3525
 
-## ERC-2470
 
-## ERC-1633
 
-## ERC-1203
 
-## ERC-1178
 
-## ERC-1081
 
-## ERC-777
+
+## MultiAssets
+
+### ERC-1155
+
+### ERC-7621
+
+### ERC-7603
+
+### ERC-5773
+
+### ERC-5516
+
+### ERC-1203
+
+### ERC-1178
+
+
+
+
+
+
+## Factory
+
+### ERC-2470
+
+
+
+
+
+
+## Registry
+
+### ERC-7484
+
+### ERC-7406
+

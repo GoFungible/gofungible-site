@@ -20,3 +20,5 @@ sidebar_position: 1
 ## ERC-2018
 
 ## ERC-1450
+
+## ERC-2266

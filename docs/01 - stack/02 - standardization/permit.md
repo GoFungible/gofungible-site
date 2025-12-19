@@ -23,4 +23,4 @@ sidebar_position: 1
 
 ## ERC-6366
 
-## ERC-2612
+## ERC-7597

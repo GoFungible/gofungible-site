@@ -39,8 +39,8 @@ const sidebars: SidebarsConfig = {
 			collapsible: true,
 			items: [
 				'stack/standardization/supply',
-				'stack/standardization/transfer',
 				'stack/standardization/permit',
+				'stack/standardization/transfer',
 				'stack/standardization/security',
 			]
 		}, {

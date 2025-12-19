@@ -5,7 +5,7 @@ sidebar_position: 1
 # Supply Features
 ---
 
-### ERC-8056
+
 
 ## Mint
 
@@ -17,14 +17,13 @@ sidebar_position: 1
 
 ### ERC-7425
 
-## ERC-5615
+### ERC-5615
 
-## ERC-5679
+### ERC-5679
 
-## ERC-3135
+### ERC-918
 
-## ERC-918
-
+### ERC-6604
 
 
 ## Burn

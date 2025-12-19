@@ -23,6 +23,8 @@ sidebar_position: 1
 
 ### ERC-2477
 
+### ERC-8056
+
 
 ## IV. Friedly Access to Value
 
