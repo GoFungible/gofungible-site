@@ -1,36 +1,51 @@
----
-sidebar_position: 1
----
+import JSONTable from '@site/src/components/ui/JSONTable';
+import erc from "/static/data/erc.json"
 
 # Supply Features
 ---
 
 
 
-## Mint
+## Supply Mint related ERCs
 
-### ERC-7837
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'standardization.supply.mint') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>
 
-### ERC-7770
 
-### ERC-7538
+## Supply Burn related ERCs
 
-### ERC-7425
-
-### ERC-5615
-
-### ERC-5679
-
-### ERC-918
-
-### ERC-6604
-
-
-## Burn
-
-### ERC-621
-
-### ERC-7818
-
-### EIP-7503
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'standardization.supply.burn') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>
 

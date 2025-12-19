@@ -1,0 +1,221 @@
+[	
+
+	{ "erc": "ERC-7632", "keywords": "standardization.erc20", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7589", "keywords": "standardization.erc20", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-223",  "keywords": "standardization.erc20", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7417", "keywords": "standardization.erc20", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7729", "keywords": "standardization.erc20", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7196", "keywords": "standardization.erc20", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-6808", "keywords": "standardization.erc20", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-5744", "keywords": "standardization.erc20", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-5727", "keywords": "standardization.erc20", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-3386", "keywords": "standardization.erc20", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-3525", "keywords": "standardization.erc20", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1633", "keywords": "standardization.erc20", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-7681", "keywords": "standardization.dual", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7631", "keywords": "standardization.dual", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-6960", "keywords": "standardization.dual", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-6909", "keywords": "standardization.dual", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-1155", "keywords": "standardization.multiassets", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7621", "keywords": "standardization.multiassets", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7603", "keywords": "standardization.multiassets", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-5773", "keywords": "standardization.multiassets", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-5516", "keywords": "standardization.multiassets", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1203", "keywords": "standardization.multiassets", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1178", "keywords": "standardization.multiassets", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-2470", "keywords": "standardization.factory", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-7484", "keywords": "standardization.registry", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7406", "keywords": "standardization.registry", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7812", "keywords": "standardization.registry", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "EIP-7837", "keywords": "standardization.supply.mint", "title": "Diffusive Tokens", "desc": "A fungible token that mints new tokens on transfer, charges a per-token native fee, and enforces a capped supply.", "url": "https://eips.ethereum.org/EIPS/eip-7837" },
+	{ "erc": "EIP-7770", "keywords": "standardization.supply.mint", "title": "Fractional Reserve Token", "desc": "An interface for tokens that maintain a peg to an underlying token while being only partially redeemable to this token.", "url": "https://eips.ethereum.org/EIPS/eip-7770" },
+	{ "erc": "EIP-7538", "keywords": "standardization.supply.mint", "title": "Multiplicative Tokens", "desc": "Incorporates a multiplier field to ERC-20 and ERC-1155 for fractional token values", "url": "https://eips.ethereum.org/EIPS/eip-7538" },
+	{ "erc": "EIP-7425", "keywords": "standardization.supply.mint", "title": "Tokenized Reserve", "desc": "Transparent reserve fund on-chain with stakeholder participation.", "url": "https://eips.ethereum.org/EIPS/eip-7425" },
+	{ "erc": "EIP-5615", "keywords": "standardization.supply.mint", "title": "Supply Extension", "desc": "A simple mechanism to fetch token supply data from ERC-1155 tokens", "url": "https://eips.ethereum.org/EIPS/eip-5615" },
+	{ "erc": "EIP-5679", "keywords": "standardization.supply.mint", "title": "Token Minting and Burning", "desc": "An extension for minting and burning EIP-20, EIP-721, and EIP-1155 tokens", "url": "https://eips.ethereum.org/EIPS/eip-5679" },
+	{ "erc": "EIP-918",  "keywords": "standardization.supply.mint", "title": "Mineable Token Standard", "desc": "A specification for a standardized Mineable Token that uses a Proof of Work algorithm for distribution.", "url": "https://eips.ethereum.org/EIPS/eip-918" },
+	{ "erc": "EIP-6604", "keywords": "standardization.supply.mint", "title": "Abstract Token", "desc": "move tokens on- and off-chain as desired, enabling zero-cost minting while preserving on-chain composability", "url": "https://eips.ethereum.org/EIPS/eip-6604" },
+
+	{ "erc": "EIP-621",  "keywords": "standardization.supply.burn", "title": "Minting and burning", "desc": "ERC-621 standardizes minting and burning functions for ERC-20 tokens, improving interoperability.", "url": "https://onekey.so/blog/ecosystem/understanding-erc-621-the-standard-for-minting-and-burning-tokens/" },
+	{ "erc": "EIP-7818", "keywords": "standardization.supply.burn", "title": "Expirable ERC-20", "desc": "An ERC-20 extension for creating fungible tokens with expiration, supporting time-limited use cases.", "url": "https://eips.ethereum.org/EIPS/eip-7818" },
+	{ "erc": "EIP-7503", "keywords": "standardization.supply.burn", "title": "Zero-Knowledge Wormholes", "desc": "Enable minting of secretly burnt Ethers as a native privacy solution for Ethereum", "url": "https://eips.ethereum.org/EIPS/eip-7503" },
+
+	{ "erc": "EIP-2612", "keywords": "standardization.permit", "title": "Permit Extension for EIP-20 Signed Approvals", "desc": "EIP-20 approvals via EIP-712 secp256k1 signatures", "url": "https://eips.ethereum.org/EIPS/eip-2612" },
+	{ "erc": "ERC-7674", "keywords": "standardization.permit", "title": "Temporary Approval Extension for ERC-20", "desc": "Ephemeral ERC-20 approvals lasting a single transaction", "url": "https://eips.ethereum.org/EIPS/eip-7674" },
+	{ "erc": "EIP-7604", "keywords": "standardization.permit", "title": "ERC-1155 Permit Approvals", "desc": "Permit approvals for ERC-1155 tokens", "url": "https://eips.ethereum.org/EIPS/eip-7604" },
+	{ "erc": "EIP-7410", "keywords": "standardization.permit", "title": "ERC-20 Update Allowance By Spender", "desc": "Extension to enable revoking and decreasing allowance approval by spender for ERC-20", "url": "https://eips.ethereum.org/EIPS/eip-7410" },
+	{ "erc": "EIP-5827", "keywords": "standardization.permit", "title": "Auto-renewable allowance extension", "desc": "Extension to enable automatic renewals on allowance approvals", "url": "https://eips.ethereum.org/EIPS/eip-5827" },
+	{ "erc": "EIP-5453", "keywords": "standardization.permit", "title": "Endorsement - Permit for Any Functions", "desc": "A general protocol for approving function calls in the same transaction rely on ERC-5750.", "url": "https://eips.ethereum.org/EIPS/eip-5453" },
+	{ "erc": "EIP-5216", "keywords": "standardization.permit", "title": "ERC-1155 Allowance Extension", "desc": "Extension for ERC-1155 secure approvals", "url": "https://eips.ethereum.org/EIPS/eip-5216" },
+	{ "erc": "EIP-6366", "keywords": "standardization.permit", "title": "Permission Token", "desc": "A token that holds the permission of an address in an ecosystem", "url": "https://eips.ethereum.org/EIPS/eip-6366" },
+	{ "erc": "EIP-7597", "keywords": "standardization.permit", "title": "Signature Validation Extension for Permit", "desc": "An ERC to extend ERC-2612 Permit to support ERC-1271-based signature validation.", "url": "https://eips.ethereum.org/EIPS/eip-7597" },
+
+	{ "erc": "ERC-7720", "keywords": "standardization.transfer.lifecycle", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7699", "keywords": "standardization.transfer.lifecycle", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7144", "keywords": "standardization.transfer.lifecycle", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-4546", "keywords": "standardization.transfer.lifecycle", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-3005", "keywords": "standardization.transfer.lifecycle", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-2770", "keywords": "standardization.transfer.lifecycle", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1996", "keywords": "standardization.transfer.lifecycle", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1132", "keywords": "standardization.transfer.lifecycle", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-777",  "keywords": "standardization.transfer.hooks", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1336", "keywords": "standardization.transfer.hooks", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-827",  "keywords": "standardization.transfer.hooks", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7994", "keywords": "standardization.transfer.hooks", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-223",  "keywords": "standardization.transfer.security", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7968", "keywords": "standardization.transfer.security", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-4524", "keywords": "standardization.transfer.security", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-3009", "keywords": "standardization.transfer.security", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7758", "keywords": "standardization.transfer.security", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-2771", "keywords": "standardization.transfer.security", "title": "", "desc": "", "url": "" },
+	{ "erc": "EIP-902",  "keywords": "standardization.ransfer.security", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-173",  "keywords": "standardization.security.ownership", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-4907", "keywords": "standardization.security.ownership", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-8023", "keywords": "standardization.security.ownership", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-6981", "keywords": "standardization.security.ownership", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-4886", "keywords": "standardization.security.ownership", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-5313", "keywords": "standardization.security.ownership", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-5187", "keywords": "standardization.security.ownership", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-2767", "keywords": "standardization.security.ownership", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-7820", "keywords": "standardization.security.access", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-5982", "keywords": "standardization.security.access", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7598", "keywords": "standardization.security.access", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-20R",  "keywords": "standardization.security.recovery", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7684", "keywords": "standardization.security.recovery", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7093", "keywords": "standardization.security.recovery", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-5883", "keywords": "standardization.security.recovery", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1080", "keywords": "standardization.security.recovery", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-867",  "keywords": "standardization.security.recovery", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-7776", "keywords": "principles.inform", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7512", "keywords": "principles.inform", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-5646", "keywords": "principles.inform", "title": "", "desc": "", "url": "" },
+	{ "erc": "EIP-2566", "keywords": "principles.inform", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-2477", "keywords": "principles.inform", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-8056", "keywords": "principles.inform", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-7984", "keywords": "principles.privacy", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7722", "keywords": "principles.privacy", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-2980", "keywords": "principles.compliance", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-884",  "keywords": "principles.compliance", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-2535", "keywords": "immutability.proxy", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1967", "keywords": "immutability.proxy", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1822", "keywords": "immutability.proxy", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1538", "keywords": "immutability.proxy", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1504", "keywords": "immutability.proxy", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1167", "keywords": "immutability.proxy", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-897",  "keywords": "immutability.proxy", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-6357", "keywords": "immutability.proxy", "title": "", "desc": "", "url": "" },
+	
+	{ "erc": "ERC-7936", "keywords": "immutability.versioning", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7760", "keywords": "immutability.versioning", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-6864", "keywords": "immutability.versioning", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-4931", "keywords": "immutability.versioning", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-3561", "keywords": "immutability.versioning", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-3448", "keywords": "immutability.versioning", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "EIP-3220", "keywords": "interoperability.identification", "title": "", "desc": "", "url": "" },
+	{ "erc": "EIP-2228", "keywords": "interoperability.identification", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-2193", "keywords": "interoperability.identification", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7930", "keywords": "interoperability.identification", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-6358", "keywords": "interoperability.state", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-2157", "keywords": "interoperability.state", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-5559", "keywords": "interoperability.state", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-6944", "keywords": "interoperability.invocations", "title": "", "desc": "", "url": "" },
+	{ "erc": "EIP-2696", "keywords": "interoperability.invocations", "title": "", "desc": "", "url": "" },
+	{ "erc": "EIP-2700", "keywords": "interoperability.invocations", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-7888", "keywords": "interoperability.routing", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7884", "keywords": "interoperability.routing", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7746", "keywords": "interoperability.routing", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7700", "keywords": "interoperability.routing", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-6120", "keywords": "interoperability.routing", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-2746", "keywords": "interoperability.routing", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7615", "keywords": "interoperability.routing", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-5219", "keywords": "interoperability.routing", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-1271", "keywords": "interoperability.verification", "title": "", "desc": "", "url": "" },
+	{ "erc": "EIP-6051", "keywords": "interoperability.verification", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-5719", "keywords": "interoperability.verification", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-5437", "keywords": "interoperability.verification", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7965", "keywords": "interoperability.verification", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-7786", "keywords": "interoperability.messaging", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7627", "keywords": "interoperability.messaging", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-6170", "keywords": "interoperability.messaging", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-5164", "keywords": "interoperability.execution", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-7802", "keywords": "interoperability.bridge", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7518", "keywords": "interoperability.bridge", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-7683", "keywords": "interoperability.intends", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7795", "keywords": "interoperability.intends", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-4974", "keywords": "specialization.fidelization", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-1404", "keywords": "specialization.security", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7586", "keywords": "specialization.security", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7092", "keywords": "specialization.security", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-6123", "keywords": "specialization.security", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7390", "keywords": "specialization.security", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-5115", "keywords": "specialization.security", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-2018", "keywords": "specialization.security", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1450", "keywords": "specialization.security", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-2266", "keywords": "specialization.security", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-3643", "keywords": "specialization.stablecoin", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1400", "keywords": "specialization.stablecoin", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7943", "keywords": "specialization.stablecoin", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7856", "keywords": "specialization.stablecoin", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-6787", "keywords": "application.negotiation", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-823",  "keywords": "application.negotiation", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-2876", "keywords": "application.staking", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-900",  "keywords": "application.staking", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-5095", "keywords": "application.staking", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-2917", "keywords": "application.staking", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-3135", "keywords": "application.claims", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1812", "keywords": "application.claims", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "EIP-758",  "keywords": "application.subscription", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-6932", "keywords": "application.subscription", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1337", "keywords": "application.subscription", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-6353", "keywords": "application.payments", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-2135", "keywords": "application.payments", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-2019", "keywords": "application.payments", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-2020", "keywords": "application.payments", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-2021", "keywords": "application.payments", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1620", "keywords": "application.payments", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1363", "keywords": "application.payments", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7291", "keywords": "application.payments", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1081", "keywords": "application.payments", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-1973", "keywords": "application.rewards", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-7254", "keywords": "application.rewards", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-5528", "keywords": "application.refunds", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-5507", "keywords": "application.refunds", "title": "", "desc": "", "url": "" },
+
+	{ "erc": "ERC-7399", "keywords": "application.lending", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-3234", "keywords": "application.lending", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-3156", "keywords": "application.lending", "title": "", "desc": "", "url": "" }
+
+]

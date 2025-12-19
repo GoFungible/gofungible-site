@@ -1,59 +1,86 @@
----
-sidebar_position: 1
----
+import JSONTable from '@site/src/components/ui/JSONTable';
+import erc from "/static/data/erc.json"
 
 # Security Features
 ---
 
 
-## Ownership
-
-### ERC-173
-
-### ERC-4907
-
-### ERC-8023
-
-### ERC-6981
-
-### ERC-4886
-
-### ERC-5313
-
-### ERC-5187
-
-### ERC-2767
 
 
 
 
 
 
-## Access
-
-### ERC-7820
-
-### ERC-5982
-
-### ERC-7598
 
 
 
 
 
+## Security Ownership related ERCs
 
-## Recovery
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'standardization.security.ownership') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>
 
-### ERC-20R
 
-### EIP-7684
 
-### ERC-7093
 
-### ERC-5883
+## Security Access related ERCs
 
-### ERC-1080
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'standardization.security.access') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>
 
-### EIP-867
 
-### ERC-R
+
+
+## Security Recovery related ERCs
+
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'standardization.security.recovery') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>

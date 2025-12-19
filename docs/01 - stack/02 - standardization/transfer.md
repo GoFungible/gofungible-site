@@ -1,58 +1,72 @@
----
-sidebar_position: 1
----
+import JSONTable from '@site/src/components/ui/JSONTable';
+import erc from "/static/data/erc.json"
 
 # Transfer Features
 ---
 
-## Transfer Lifecycle
+## Transfer Lifecycle related ERCs
 
-### ERC-7720
-
-### ERC-7699
-
-### ERC-7144
-
-### ERC-4546
-
-### ERC-3005
-
-### ERC-2770
-
-### ERC-1996
-
-### ERC-1132
-
-
-
-
-## Transfer Hooks
-
-### ERC-777
-
-### ERC-1336
-
-### ERC-827
-
-### ERC-7994
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'standardization.transfer.lifecycle') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>
 
 
+## Transfer Hooks related ERCs
+
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'standardization.transfer.hooks') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>
 
 
 
+## Transfer Security related ERCs
 
-## Transfer Security
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'standardization.transfer.security') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>
 
-### ERC-223
-
-### ERC-7968
-
-### ERC-4524
-
-### ERC-3009
-
-### ERC-7758
-
-### ERC-2771
-
-### ERC-902

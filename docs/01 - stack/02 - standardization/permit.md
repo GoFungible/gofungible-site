@@ -1,26 +1,27 @@
----
-sidebar_position: 1
----
+import JSONTable from '@site/src/components/ui/JSONTable';
+import erc from "/static/data/erc.json"
 
 # Permit Features
 ---
 
+## Permit related ERCs
 
-## EIP-2612
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'standardization.permit') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>
 
-
-## ERC-7674
-
-## ERC-7604
-
-## ERC-7410
-
-## ERC-5827
-
-## ERC-5453
-
-## ERC-5216
-
-## ERC-6366
-
-## ERC-7597

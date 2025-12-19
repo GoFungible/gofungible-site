@@ -1,127 +1,232 @@
----
-sidebar_position: 1
----
+import JSONTable from '@site/src/components/ui/JSONTable';
+import erc from "/static/data/erc.json"
+
 
 # Interoperability Layer
 ---
 
 
 
-## Identification
+## Interoperability Identification related ERCs
+
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'interoperability.identification') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>
+
+
+
+
+## Interoperability State related ERCs
+
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'interoperability.state') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>
+
+
+
+
+
+
+
+
+## Interoperability Invocations related ERCs
+
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'interoperability.invocations') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>
+
+
+
+
+
+## Interoperability Routing related ERCs
+
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'interoperability.routing') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>
+
+
+
+
 
-### EIP-3220
+## Interoperability Verification related ERCs
 
-### EIP-2228
-
-### ERC-2193
-
-### ERC-7930
-
-
-
-
-
-
-## State
-
-### ERC-6358
-
-### ERC-2157
-
-### ERC-5559
-
-
-
-
-
-
-
-## Invocations
-
-### ERC-6944
-
-### EIP-2696
-
-### EIP-2700
-
-
-
-
-
-
-
-
-
-## Routing
-
-### ERC-7888
-
-### ERC-7884
-
-### ERC-7746
-
-### ERC-7700
-
-### ERC-6120
-
-### ERC-2746
-
-### ERC-7615
-
-### ERC-5219
-
-
-
-
-
-## Verification
-
-### ERC-1271
-
-### EIP-6051
-
-### ERC-5719
-
-### ERC-5437
-
-### ERC-7965
-
-
-
-
-
-## Messaging
-
-### ERC-7786
-
-### ERC-7627
-
-### ERC-6170
-
-
-
-
-
-## Execution
-
-### ERC-5164
-
-
-
-
-
-## Bridge
-
-### ERC-7802
-
-### ERC-7518
-
-
-
-
-
-## Intends
-
-### ERC-7683
-
-### ERC-7795
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'interoperability.verification') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>
+
+
+
+
+## Interoperability Messaging related ERCs
+
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'interoperability.messaging') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>
+
+
+
+
+
+## Interoperability Execution related ERCs
+
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'interoperability.execution') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>
+
+
+
+
+
+
+## Interoperability Bridge related ERCs
+
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'interoperability.bridge') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>
+
+
+
+
+
+
+## Interoperability Intends related ERCs
+
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'interoperability.intends') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>

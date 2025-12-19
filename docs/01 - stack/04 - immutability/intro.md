@@ -1,42 +1,53 @@
----
-sidebar_position: 1
----
+import JSONTable from '@site/src/components/ui/JSONTable';
+import erc from "/static/data/erc.json"
+
+
 
 # Immutability Layer
 ---
 
+## Immutability Proxy related ERCs
 
-## Proxy
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'immutability.proxy') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>
 
-### ERC-2535
-
-### ERC-1967
-
-### ERC-1822
-
-### ERC-1538
-
-### ERC-1504
-
-### ERC-1167
-
-### ERC-897
-
-### ERC-6357
 
 
+## Immutability Versioning related ERCsS
+
+<table>
+	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+		<th>ERC</th>
+		<th>Title</th>
+		<th>Description</th>
+	</tr>
+	{erc.map((data, index) => {
+		if (data.keywords == 'immutability.versioning') {
+			return (
+				<tr>
+					<td><a href={data.url} target="_blank">{data.erc}</a></td>
+					<td>{data.title}</td>
+					<td>{data.desc}</td>
+				</tr>
+			)
+		}
+	})}
+</table>
 
 
-## Versioning
-
-### ERC-7936
-
-### ERC-7760
-
-### ERC-6864
-
-### ERC-4931
-
-### ERC-3561
-
-### ERC-3448
