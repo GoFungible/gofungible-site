@@ -75,7 +75,8 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
-				'stack/interop/intro',
+				'stack/interop/communication',
+				'stack/interop/patterns',
 			]
 		}, {
 			type: 'category',
