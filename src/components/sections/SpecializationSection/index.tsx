@@ -1,10 +1,59 @@
 import { JSX } from "react";
-import SplitSection from "../../basic/splitrow/SplitSection";
 
 import styles from './styles.module.css';
 import GenericSection from "../../basic/GenericSection";
+import SplitSection from "../../basic/splitrow/SplitSection";
+import CardsRow from '../../basic/cardrow/CardsRow';
+import { BaseCardProps } from "../../basic/cardrow/Card";
 
 export default function SpecializationSection(): JSX.Element {
+
+	// Example with typed cards array
+	const featureCards: BaseCardProps[] = [
+		{
+			title: "Fidelization",
+			description: "Distributed by the issuer to grant customers consideration. Backed by especulative value. Can be decentralized.",
+			href: "/docs/stack/specialization/fidelization",
+			icon: ""
+		},
+		{
+			title: "Memecoin",
+			description: "Representing a character or an idea, motivation or proposal. Backed by especulative value. Can be decentralized.",
+			href: "/docs/stack/specialization/memecoin",
+			icon: ""
+		},
+		{
+			title: "RepuToken",
+			description: "Representing the reputation of the issuer, a person, company or institution. Backed by especulative value. Can be decentralized.",
+			href: "/docs/stack/specialization/reputoken",
+			icon: ""
+		},
+		{
+			title: "Utility Token",
+			description: "Typically fueling an ecosystem capturing the value of a key utility. Can be decentralized.",
+			href: "/docs/stack/specialization/utility",
+			icon: ""
+		},
+		{
+			title: "Security Token",
+			description: "Pegged to the price of some kind of security, either manually or by oracles. Produces a yield to the holder. Can NOT be decentralized.",
+			href: "/docs/stack/specialization/security",
+			icon: ""
+		},
+		{
+			title: "Stablecoin",
+			description: "Pegged to the price of some financial asset, as currency, commodity, cryptocurrency or algorithm. Can NOT be decentralized.",
+			href: "/docs/stack/specialization/stablecoin",
+			icon: ""
+		},
+		{
+			title: "Crommodity",
+			description: "Works as medium of exchange on its own market by capturing the price of the asset. Must be decentralized. Unfeasible in Layer 2.",
+			href: "/docs/stack/specialization/crommodity",
+			icon: ""
+		},
+	];
+
   return (
     
 		<GenericSection
@@ -35,6 +84,12 @@ export default function SpecializationSection(): JSX.Element {
 							</div>
 						)
 					}}
+				/>
+
+				<CardsRow
+					description='Fungibles that were created centralized in Layer 2 can can have their decentralized counterpart, except Securites and Stablecoins.'
+					columns={7}
+					cards={featureCards}
 				/>
 
 		</GenericSection>
