@@ -87,7 +87,7 @@ export default function SpecializationSection(): JSX.Element {
 				/>
 
 				<CardsRow
-					description='Any fungibles with ability form its own price without external interaction can have a decentralized version. By definition, Securites Tokens and Stablecoins are excluded, as they need information from the external world to get their prices.'
+					description='Any Fungible Token, with ability form its own price without external interaction, can have a decentralized version. By definition, Securites Tokens and Stablecoins are excluded, as they need off-chain prices information to get their own prices.'
 					columns={7}
 					cards={featureCards}
 				/>
