@@ -24,19 +24,19 @@ export default function StandardizationSection(): JSX.Element {
 		},
 		{
 			variant: "primary",
-			icon: <FaMoneyBillTransfer size={120} />,
-			title: "Transfer Features",
-			description: "Operations triggered on token transfers.",
-			buttonText: "More",
-			href: "/docs/stack/standardization/transfer",
-		},
-		{
-			variant: "primary",
 			icon: <FaHandshake size={120} />,
 			title: "Permit Features",
 			description: "Allowance provided to third parties",
 			buttonText: "More",
 			href: "/docs/stack/standardization/permit",
+		},
+		{
+			variant: "primary",
+			icon: <FaMoneyBillTransfer size={120} />,
+			title: "Transfer Features",
+			description: "Operations triggered on token transfers.",
+			buttonText: "More",
+			href: "/docs/stack/standardization/transfer",
 		},
 		{
 			variant: "primary",
@@ -51,7 +51,7 @@ export default function StandardizationSection(): JSX.Element {
   return (
 
 		<GenericSection
-			title="Layer 2: Standardization Layer (2015-2025)"
+			title="Layer 2: Token Standardization Layer (2015-2025)"
 			subtitle="In order to allow Fungible Tokens communicate with disparated system, it was soon required to define a common interface. This caused the advent of ERC-20 interface in 2015, adopted by Ethereum in 2017."
 			variant="secondary"
 			padding="medium"
