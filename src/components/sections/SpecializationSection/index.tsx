@@ -87,7 +87,7 @@ export default function SpecializationSection(): JSX.Element {
 				/>
 
 				<CardsRow
-					description='Fungibles that were created centralized in Layer 2 can can have their decentralized counterpart, except Securites and Stablecoins.'
+					description='Any fungibles with ability form its own price without external interaction can have a decentralized version. By definition, Securites Tokens and Stablecoins are excluded, as they need information from the external world to get their prices.'
 					columns={7}
 					cards={featureCards}
 				/>
