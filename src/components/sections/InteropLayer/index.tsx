@@ -24,7 +24,7 @@ export default function InteropSection(): JSX.Element {
 						height: 400
 					}}
 					content={{
-						title: 'Relayers',
+						title: 'Interchain Communication',
 						titleLevel: 2,
 						text: (
 							<div>
