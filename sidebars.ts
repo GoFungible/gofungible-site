@@ -27,7 +27,8 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
-				'stack/ecosystem/intro',
+				'stack/ecosystem/blockchains',
+				'stack/ecosystem/smartcontracts',
 			]
 		}, {
 			type: 'category',
