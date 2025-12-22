@@ -136,7 +136,18 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
-				'stack/application/intro',
+				{
+					type: 'category',
+					label: 'Negotiation',
+					link: {
+						type: "doc",
+						id: 'stack/application/negotiation/intro',
+					},
+					collapsible: true,
+					items: [
+						'stack/application/negotiation/value',
+					]
+				}, 
 			]
 		},   
   ],
