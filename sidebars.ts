@@ -55,7 +55,7 @@ const sidebars: SidebarsConfig = {
 				}, 
 				{
 					type: 'category',
-					label: 'Core Features',
+					label: 'ERC-20 Core Features',
 					link: {
 						type: "doc",
 						id: 'stack/standardization/features/intro',
@@ -67,6 +67,10 @@ const sidebars: SidebarsConfig = {
 						'stack/standardization/features/transfer',
 						'stack/standardization/features/security',
 					]
+				}, {
+					type: "doc",
+					id: 'stack/standardization/other',
+					label: 'Alternative Token Standards',
 				}, 
 			]
 		}, {
