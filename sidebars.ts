@@ -39,10 +39,35 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
-				'stack/standardization/supply',
-				'stack/standardization/permit',
-				'stack/standardization/transfer',
-				'stack/standardization/security',
+				{
+					type: 'category',
+					label: 'ERC-20 Standard',
+					link: {
+						type: "doc",
+						id: 'stack/standardization/erc20/intro',
+					},
+					collapsible: true,
+					items: [
+						'stack/standardization/erc20/storage',
+						'stack/standardization/erc20/state',
+						'stack/standardization/erc20/ecosystem',
+					]
+				}, 
+				{
+					type: 'category',
+					label: 'Core Features',
+					link: {
+						type: "doc",
+						id: 'stack/standardization/features/intro',
+					},
+					collapsible: true,
+					items: [
+						'stack/standardization/features/supply',
+						'stack/standardization/features/permit',
+						'stack/standardization/features/transfer',
+						'stack/standardization/features/security',
+					]
+				}, 
 			]
 		}, {
 			type: 'category',
