@@ -28,7 +28,19 @@ const sidebars: SidebarsConfig = {
 			collapsible: true,
 			items: [
 				'stack/ecosystem/blockchains',
-				'stack/ecosystem/smartcontracts',
+				{
+					type: 'category',
+					label: 'Smart Contracts',
+					link: {
+						type: "doc",
+						id: 'stack/ecosystem/contracts/intro',
+					},
+					collapsible: true,
+					items: [
+						'stack/ecosystem/contracts/storage',
+						'stack/ecosystem/contracts/state',
+					]
+				}, 
 			]
 		}, {
 			type: 'category',
@@ -48,25 +60,15 @@ const sidebars: SidebarsConfig = {
 					},
 					collapsible: true,
 					items: [
-						'stack/standardization/erc20/storage',
-						'stack/standardization/erc20/state',
-						'stack/standardization/erc20/ecosystem',
+						'stack/standardization/erc20/supply',
+						'stack/standardization/erc20/permit',
+						'stack/standardization/erc20/transfer',
+						'stack/standardization/erc20/security',
 					]
-				}, 
-				{
-					type: 'category',
-					label: 'ERC-20 Core Features',
-					link: {
-						type: "doc",
-						id: 'stack/standardization/features/intro',
-					},
-					collapsible: true,
-					items: [
-						'stack/standardization/features/supply',
-						'stack/standardization/features/permit',
-						'stack/standardization/features/transfer',
-						'stack/standardization/features/security',
-					]
+				}, {
+					type: "doc",
+					id: 'stack/standardization/ecosystem',
+					label: 'ERC-20 Ecosystems',
 				}, {
 					type: "doc",
 					id: 'stack/standardization/other',
