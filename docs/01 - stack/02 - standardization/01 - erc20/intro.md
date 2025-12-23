@@ -121,3 +121,7 @@ The different implementation correspond to the patterns (depending on where they
 	})}
 </table>
 
+<div style={{textAlign: 'center'}}>
+	<img src="/img/drawings/patterns_erc20.svg" width="40%"></img>
+</div>
+<br/>
