@@ -73,7 +73,7 @@ export default function SpecializationSection(): JSX.Element {
 						height: 600
 					}}
 					content={{
-						title: 'Powerful Feature Name',
+						title: 'Blockchain Registry',
 						titleLevel: 2,
 						text: (
 							<div>
