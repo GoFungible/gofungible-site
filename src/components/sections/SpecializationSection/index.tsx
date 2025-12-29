@@ -3,8 +3,8 @@ import { JSX } from "react";
 import styles from './styles.module.css';
 import GenericSection from "../../basic/GenericSection";
 import SplitSection from "../../basic/splitrow/SplitSection";
-import CardsRow from '../../basic/cardrow/CardsRow';
 import { BaseCardProps } from "../../basic/cardrow/Card";
+import EnhancedCardsRow from "../../basic/cardrow/CardsRow";
 
 export default function SpecializationSection(): JSX.Element {
 
@@ -36,13 +36,17 @@ export default function SpecializationSection(): JSX.Element {
 		},
 		{
 			title: "Security Token",
+			titleColor: "gray",
 			description: "Pegged to the price of some kind of security, either manually or by oracles. Produces a yield to the holder. Can NOT be decentralized.",
+			descriptionColor: "gray",
 			href: "/docs/stack/specialization/security",
 			icon: ""
 		},
 		{
 			title: "Stablecoin",
+			titleColor: "gray",
 			description: "Pegged to the price of some financial asset, as currency, commodity, cryptocurrency or algorithm. Can NOT be decentralized.",
+			descriptionColor: "gray",
 			href: "/docs/stack/specialization/stablecoin",
 			icon: ""
 		},
@@ -86,7 +90,7 @@ export default function SpecializationSection(): JSX.Element {
 					}}
 				/>
 
-				<CardsRow
+				<EnhancedCardsRow
 					description='Any Fungible Token, with ability form its own price without external interaction, can have a decentralized version. By definition, Securites Tokens and Stablecoins are excluded, as they need off-chain prices information to get their own prices.'
 					columns={7}
 					cards={featureCards}
