@@ -15,7 +15,7 @@ const featureCards: BaseCardProps[] = [
     title: "DLT Networks",
     description: "With hundreds of DLT networks with different consensus protocols, gas fees or ecosystems is necessary to understand which ones comply with value-based cryptocommodities.",
     buttonText: "More",
-    href: "/",
+    href: "/docs/stack/ecosystem/blockchains",
   },
   {
     variant: "primary",
@@ -24,7 +24,7 @@ const featureCards: BaseCardProps[] = [
     title: "Wallets",
     description: "Despite there are more than 1 hundred of wallets in offer in the crypto market, there is not a simple $20 HW wallet, as a Garage Door Opener, to pay in real markets and this is preventing massification.",
     buttonText: "More",
-    href: "/",
+    href: "/docs/stack/ecosystem/wallets",
   },
   {
     variant: "primary",
@@ -33,7 +33,7 @@ const featureCards: BaseCardProps[] = [
     title: "Exchanges",
     description: "When issuing your value-based cryptocommodities it is necessary to understand what CEX, HEX, DEX, FEX, Liquidity Aggregators comply with the Trading, Operations and Distribution.",
     buttonText: "More",
-    href: "/",
+    href: "/docs/stack/ecosystem/exchanges",
   },
 ];
 
