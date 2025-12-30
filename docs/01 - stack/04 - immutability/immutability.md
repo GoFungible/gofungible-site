@@ -42,7 +42,7 @@ This means that any changes made to the state variables and storage by the calle
 
 However, it is important to note that the code execution and behaviour of the called contract itself remain unchanged. Only the storage and state accessed by the called contract are affected by the context of the calling contract.
 
-## Diamond Standard (ERC-2535)
+## Diamond Standard (<a href="https://eips.ethereum.org/EIPS/eip-2535" target="_blank">ERC-2535</a>)
 
 The Diamond standard is a finalized Ethereum Improvement Proposal (EIP-2535) that aims to make it easier for developers to modularize and upgrade their smart contracts.
 
@@ -50,6 +50,14 @@ A Diamond is a smart contract that uses other smart contracts (aka Facets) to ma
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://compose.diamonds/img/svg/diamond-diagram-light.svg" width="60%"></img>
+</div>
+
+## Diamond Standard Simplified (<a href="https://eips.ethereum.org/EIPS/eip-8109" target="_blank">ERC-8109</a>)
+
+Diamond contracts were originally standardized by ERC-2535. This standard refines that specification by simplifying terminology, reducing the implementation complexity of introspection functions, and standardizing events that are easier for block explorers, indexers, and other tooling to consume.
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://eips.ethereum.org/assets/eip-8109/functionFacetMapping.svg" width="60%"></img>
 </div>
 
 ## Compose
