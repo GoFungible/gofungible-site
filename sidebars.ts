@@ -28,6 +28,8 @@ const sidebars: SidebarsConfig = {
 			collapsible: true,
 			items: [
 				'stack/ecosystem/blockchains',
+				'stack/ecosystem/exchanges',
+				'stack/ecosystem/wallets',
 				{
 					type: 'category',
 					label: 'Smart Contracts',
