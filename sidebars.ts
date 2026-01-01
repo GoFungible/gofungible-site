@@ -62,6 +62,7 @@ const sidebars: SidebarsConfig = {
 					},
 					collapsible: true,
 					items: [
+						'stack/standardization/erc20/state',
 						'stack/standardization/erc20/supply',
 						'stack/standardization/erc20/permit',
 						'stack/standardization/erc20/transfer',
