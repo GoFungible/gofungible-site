@@ -40,7 +40,8 @@ export default function SpecializationSection(): JSX.Element {
 			description: "Pegged to the price of some kind of security, either manually or by oracles. Produces a yield to the holder. Can NOT be decentralized.",
 			descriptionColor: "gray",
 			href: "/docs/stack/specialization/security",
-			icon: ""
+			icon: "",
+			crossed: true
 		},
 		{
 			title: "Stablecoin",
@@ -48,7 +49,8 @@ export default function SpecializationSection(): JSX.Element {
 			description: "Pegged to the price of some financial asset, as currency, commodity, cryptocurrency or algorithm. Can NOT be decentralized.",
 			descriptionColor: "gray",
 			href: "/docs/stack/specialization/stablecoin",
-			icon: ""
+			icon: "",
+			crossed: true
 		},
 		{
 			title: "Crommodity",
