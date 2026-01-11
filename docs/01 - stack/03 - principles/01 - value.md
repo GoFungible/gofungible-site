@@ -8,5 +8,22 @@ The token must capture the value as advertised. This means that the algorithm to
 
 ## Violating Use Cases
 
+import TOCInline from '@theme/TOCInline';
+
+<TOCInline toc={toc} 
+	 minHeadingLevel={3}
+  maxHeadingLevel={3}/>
 
 ## Solutions
+
+### Question 1
+
+Description 1
+
+### Question 2
+
+Description 2
+
+### Question 3
+
+Description 3
