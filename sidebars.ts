@@ -87,7 +87,12 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
-				'stack/principles/intro',
+				'stack/principles/value',
+				'stack/principles/integrity',
+				'stack/principles/disclosure',
+				'stack/principles/friendly',
+				'stack/principles/privacy',
+				'stack/principles/compliance',
 			]
 		}, {
 			type: 'category',
