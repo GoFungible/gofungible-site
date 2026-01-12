@@ -17,14 +17,10 @@ import TOCInline from '@theme/TOCInline';
 
 ## Solutions
 
-### Question 1
+### The issuer can hide the identity of holders under his compliance responsibility
 
 Description 1
 
-### Question 2
+### The issuer can hide the identity of operations as long as token integrity is guaranteed
 
 Description 2
-
-### Question 3
-
-Description 3

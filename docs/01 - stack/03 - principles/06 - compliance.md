@@ -17,14 +17,6 @@ import TOCInline from '@theme/TOCInline';
 
 ## Solutions
 
-### Question 1
+### The issuer can include compliance mechanisms at his reputational risk
 
 Description 1
-
-### Question 2
-
-Description 2
-
-### Question 3
-
-Description 3

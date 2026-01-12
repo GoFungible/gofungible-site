@@ -18,14 +18,10 @@ import TOCInline from '@theme/TOCInline';
 
 ## Solutions
 
-### Question 1
+### The token must follow known standards so it can interact with existing infrastructure
 
 Description 1
 
-### Question 2
+### The token must be multichain so it can easily accesed by holders
 
 Description 2
-
-### Question 3
-
-Description 3

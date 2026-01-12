@@ -17,14 +17,7 @@ import TOCInline from '@theme/TOCInline';
 
 ## Solutions
 
-### Question 1
+### Operations performed by the Token Issuer over the token deployment must be recorded and disclosed
 
 Description 1
 
-### Question 2
-
-Description 2
-
-### Question 3
-
-Description 3
