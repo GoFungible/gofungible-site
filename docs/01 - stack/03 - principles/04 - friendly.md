@@ -8,7 +8,7 @@
 
 The token must be fiendly accessible by all stakeholders.
 
-## Violating Use Cases
+## Non-compliant Use Cases
 
 import TOCInline from '@theme/TOCInline';
 
@@ -18,10 +18,19 @@ import TOCInline from '@theme/TOCInline';
 
 ## Solutions
 
-### The token must follow known standards so it can interact with existing infrastructure
+### IV - I. STANDARDIZED. The token must follow known standards so it can interact with existing infrastructure
 
 Description 1
 
-### The token must be multichain so it can easily accesed by holders
+### IV - II. COMMUNICATION. The token must allow decentralized intertoken communications
+
+### IV - III. NETWORK PRESENCE. The token must be multichain so it can easily accesed by holders
 
 Description 2
+
+### IV - IV. LIQUIDITY FREEDOM. The token must allow  allow issuers moving to the desired network
+
+
+### IV - V. LIQUIDITY FREEDOM. The token must allow  allow holders moving to the desired network
+
+

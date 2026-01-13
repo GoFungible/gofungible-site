@@ -7,7 +7,7 @@
 
 The token can provide privacy to the users, at the will of token issuer, without compromising other principles.
 
-## Violating Use Cases
+## Non-compliant Use Cases
 
 import TOCInline from '@theme/TOCInline';
 
