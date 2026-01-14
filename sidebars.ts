@@ -89,10 +89,8 @@ const sidebars: SidebarsConfig = {
 			items: [
 				'stack/principles/value',
 				'stack/principles/integrity',
-				'stack/principles/disclosure',
 				'stack/principles/friendly',
-				'stack/principles/privacy',
-				'stack/principles/compliance',
+				'stack/principles/disclosure',
 			]
 		}, {
 			type: 'category',

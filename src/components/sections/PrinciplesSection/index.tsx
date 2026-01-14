@@ -34,37 +34,19 @@ const mandatoryPrnciples: BaseCardProps[] = [
   },
   {
     variant: "primary",
-		icon: <TbReportAnalytics size={120} />,
-    title: "3. Inform Token Holders",
-    description: "Token Holders must be Informed beforehand on all operations performed to the token affecting them. Investor and users need fluid and trustfull information. This includes a requirement of Transparency. We also must include configurable reports with enabled interoperability formats between servers.",
-    buttonText: "More",
-    href: "/docs/stack/principles/disclosure",
-  },
-  {
-    variant: "primary",
 		icon: <MdOutlineMobileFriendly size={120} />,
-    title: "4. Friendly Access to Value",
+    title: "3. Friendly Access to Value",
     description: "Token issuer should make value operations and services friendly, which includes multichain availability, chain abstraction, usage of standards",
     buttonText: "More",
     href: "/docs/stack/principles/friendly",
   },
-];
-const optionalPrnciples: BaseCardProps[] = [
-  {
-    variant: "primary",
-		icon: <BsIncognito size={120} />,
-    title: "Privacy",
-    description: "The level of privacy is determined by the underlying networks where the token is deployed. This is a configuration issue for the Token Issuer. Privacy on token holders must not be in jeopardy with Transparency on token operations",
-    buttonText: "More",
-    href: "/docs/stack/principles/privacy",
-  },
 	{
     variant: "primary",
-		icon: <GrCompliance size={120} />,
-    title: "Compliance",
-    description: "Different juristictions apply different levels of compliance. the token issuer must have the tools, out of the box, to decide what level of compliance is suitable for his token.",
+		icon: <TbReportAnalytics size={120} />,
+    title: "4. Operational Transparency",
+    description: "Token Holders must be Informed beforehand on all operations performed to the token affecting them. Investor and users need fluid and trustfull information. This includes a requirement of Transparency. We also must include configurable reports with enabled interoperability formats between servers.",
     buttonText: "More",
-    href: "/docs/stack/principles/compliance",
+    href: "/docs/stack/principles/disclosure",
   },
 ];
 
@@ -105,12 +87,6 @@ export default function PrinciplesSection(): JSX.Element {
 				description='... 2 required principles must guarantee token consistency... 2 required principles guarantee market discipline...'
 				columns={3}
 				cards={mandatoryPrnciples}
-			/>
-
-			<CardsRow
-				description='... and 2 optional principles comply with stakeholders interests.'
-				columns={3}
-				cards={optionalPrnciples}
 			/>
 
 		</GenericSection>

@@ -26,36 +26,7 @@ A Fungible Token is a vehicle to capture and transfer some kind of value. As a c
 **** prevent attacks and vulnerabilities<br/>
 **** protect provder disaster recovery mechanisms<br />
 
-## III. Inform Token Holders
-
-* **MUST allow holders about governance decisions**<br/>
-** **Token Transparency**: Provide to holders all details about the token<br/>
-**** provide consolidated data <br/>
-** **Token Reporting**: Provide to holders all details about the token<br/>
-
-
-<table>
-	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
-		<th>ERC</th>
-		<th>Title</th>
-		<th>Description</th>
-	</tr>
-	{erc.map((data, index) => {
-		if (data.keywords == 'principles.inform') {
-			return (
-				<tr>
-					<td><a href={data.url} target="_blank">{data.erc}</a></td>
-					<td>{data.title}</td>
-					<td>{data.desc}</td>
-				</tr>
-			)
-		}
-	})}
-</table>
-
-
-
-## IV. Friedly Access to Value
+## III. Friedly Access to Value
 
 * **MUST Make value available** (Token Usability)<br/>
 ** **Token Distribution**: Provide the desired network presence to issuer<br/>
@@ -64,55 +35,9 @@ A Fungible Token is a vehicle to capture and transfer some kind of value. As a c
 **** allow holders moving to the desired network<br/>
 **** allow decentralized intertoken communications<br/>
 
-## V. Privacy
+## IV. Inform Token Holders
 
-* **CAN Token Privacy**: Hide token operations to external observers<br/>
-** optionally hide transactions<br/>
-
-
-<table>
-	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
-		<th>ERC</th>
-		<th>Title</th>
-		<th>Description</th>
-	</tr>
-	{erc.map((data, index) => {
-		if (data.keywords == 'principles.privacy') {
-			return (
-				<tr>
-					<td><a href={data.url} target="_blank">{data.erc}</a></td>
-					<td>{data.title}</td>
-					<td>{data.desc}</td>
-				</tr>
-			)
-		}
-	})}
-</table>
-
-
-
-## VI. Compliance
-
-* **CAN Token Compliance**: Comply with regulatory requirements<br/>
-** optionally require KYC<br/>
-
-
-<table>
-	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
-		<th>ERC</th>
-		<th>Title</th>
-		<th>Description</th>
-	</tr>
-	{erc.map((data, index) => {
-		if (data.keywords == 'principles.compliance') {
-			return (
-				<tr>
-					<td><a href={data.url} target="_blank">{data.erc}</a></td>
-					<td>{data.title}</td>
-					<td>{data.desc}</td>
-				</tr>
-			)
-		}
-	})}
-</table>
-
+* **MUST allow holders about governance decisions**<br/>
+** **Token Transparency**: Provide to holders all details about the token<br/>
+**** provide consolidated data <br/>
+** **Token Reporting**: Provide to holders all details about the token<br/>
