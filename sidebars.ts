@@ -91,6 +91,7 @@ const sidebars: SidebarsConfig = {
 				'stack/principles/integrity',
 				'stack/principles/friendly',
 				'stack/principles/disclosure',
+				'stack/principles/metrics',
 			]
 		}, {
 			type: 'category',
