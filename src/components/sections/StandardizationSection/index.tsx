@@ -4,7 +4,7 @@ import GenericSection from "../../basic/GenericSection";
 import styles from './index.module.css';
 import SplitSection from "../../basic/SplitSection";
 import CodeShowcase from "../../basic/CodeShowcase";
-import { FaAddressBook, FaBolt, FaCheck, FaHandshake, FaRocket } from "react-icons/fa";
+import { FaCheck, FaHandshake } from "react-icons/fa";
 import CardsRow from '../../basic/cardrow/CardsRow';
 import { MdOutlineSecurity } from "react-icons/md";
 import { FaMoneyBillTransfer } from "react-icons/fa6";
@@ -100,31 +100,31 @@ export default function StandardizationSection(): JSX.Element {
 								</span>
 							</li>
 							<li className={styles.featureItem}>
-								<FaBolt className={styles.featureIcon} />
+								<FaCheck className={styles.featureIcon} />
 								<span className={styles.featureText}>
 									<strong> Supply Management:</strong> as Mint, Burn, 
 								</span>
 							</li>
 							<li className={styles.featureItem}>
-								<FaAddressBook className={styles.featureIcon} />
+								<FaCheck className={styles.featureIcon} />
 								<span className={styles.featureText}>
 									<strong> Transfer Automation:</strong> as Transfer and Call
 								</span>
 							</li>
 							<li className={styles.featureItem}>
-								<FaAddressBook className={styles.featureIcon} />
+								<FaCheck className={styles.featureIcon} />
 								<span className={styles.featureText}>
 									<strong> Security:</strong> as Owner transfer, Owner Renounce, 
 								</span>
 							</li>
 							<li className={styles.featureItem}>
-								<FaAddressBook className={styles.featureIcon} />
+								<FaCheck className={styles.featureIcon} />
 								<span className={styles.featureText}>
 									<strong> Permit Features:</strong> as Permit
 								</span>
 							</li>
 							<li className={styles.featureItem}>
-								<FaAddressBook className={styles.featureIcon} />
+								<FaCheck className={styles.featureIcon} />
 								<span className={styles.featureText}>
 									<strong> Upgradeability:</strong> as Diamond Standard
 								</span>

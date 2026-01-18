@@ -26,3 +26,10 @@
   gap: 2rem;
   margin-top: 2rem;
 }
+
+.featureList {
+	list-style-type: none;
+}
+.featureItem {
+	margin: 0 0 10px 0;
+}
