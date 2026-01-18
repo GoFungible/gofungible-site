@@ -65,6 +65,7 @@ const BlockchainTable: React.FC = () => {
         showPagination={true}
         showGlobalFilter={true}
         defaultPageSize={50}
+				searchText='Search for EVM-based blockchain...'
       />
     </div>
   );

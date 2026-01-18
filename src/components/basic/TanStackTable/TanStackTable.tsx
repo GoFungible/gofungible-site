@@ -17,6 +17,7 @@ interface TanStackTableProps {
   showPagination?: boolean;
   showGlobalFilter?: boolean;
   defaultPageSize?: number;
+	searchText: string,
 }
 
 const TanStackTable: React.FC<TanStackTableProps> = ({
@@ -25,6 +26,7 @@ const TanStackTable: React.FC<TanStackTableProps> = ({
   showPagination = true,
   showGlobalFilter = true,
   defaultPageSize = 10,
+	searchText = "",
 }) => {
   const [globalFilter, setGlobalFilter] = React.useState('');
   
@@ -51,7 +53,7 @@ const TanStackTable: React.FC<TanStackTableProps> = ({
       {showGlobalFilter && (
         <div className="global-filter">
           <input
-            placeholder="Search for EVM-based blockchain..."
+            placeholder={searchText}
             value={globalFilter}
             onChange={(e) => setGlobalFilter(e.target.value)}
             className="filter-input"
