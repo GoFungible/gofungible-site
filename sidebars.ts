@@ -27,7 +27,20 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
-				'stack/ecosystem/blockchains',
+				{
+					type: 'category',
+					label: 'DLT Networks', // sidebar label
+					link: {
+						type: "doc",
+						id: 'stack/ecosystem/dlts/intro',
+					},
+					items: [
+						'stack/ecosystem/dlts/ecosystems/bitcoin',
+						'stack/ecosystem/dlts/ecosystems/ethereum',
+						'stack/ecosystem/dlts/ecosystems/modular',
+						'stack/ecosystem/dlts/list',
+					]
+				}, 
 				'stack/ecosystem/exchanges',
 				'stack/ecosystem/wallets',
 				{

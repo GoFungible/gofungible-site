@@ -1,4 +1,4 @@
-# Blockchains
+# DLT List
 ---
 
 import BlockchainTable from '@site/src/components/ui/BlockchainTable/BlockchainTable.tsx';

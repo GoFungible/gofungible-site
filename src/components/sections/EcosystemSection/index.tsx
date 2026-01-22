@@ -15,7 +15,7 @@ const featureCards: BaseCardProps[] = [
     title: "DLT Networks",
     description: "With hundreds of DLT networks with different consensus protocols, gas fees or ecosystems is necessary to understand which ones comply with value-based cryptocommodities.",
     buttonText: "More",
-    href: "/docs/stack/ecosystem/blockchains",
+    href: "/docs/stack/ecosystem/dlts/intro",
   },
   {
     variant: "primary",
