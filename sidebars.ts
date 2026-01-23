@@ -68,6 +68,47 @@ const sidebars: SidebarsConfig = {
 			items: [
 				{
 					type: 'category',
+					label: 'Tokenization', // sidebar label
+					link: {
+						type: "doc",
+						id: 'valueChain/tokenization/intro', // document ID
+					},
+					collapsible: true,
+					items: [
+						{
+							type: 'category',
+							label: 'Tokenization Process',
+							items: [
+								'stack/standardization/tokenization/process/tokens/index',
+								'stack/standardization/tokenization/process/tokenization-demand/index',
+								'stack/standardization/tokenization/process/tokenization-supply/index',
+								'stack/standardization/tokenization/process/tokenization-monetary-policy/index',
+							],
+						}, {
+							type: 'category',
+							label: 'Tokenization Models',
+							items: [
+								'stack/standardization/tokenization/models/asset/index',
+								'stack/standardization/tokenization/models/asset-unbacked/index',
+								'stack/standardization/tokenization/models/asset-utility/index',
+								'stack/standardization/tokenization/models/asset-security/index',
+								'stack/standardization/tokenization/models/asset-stablecoins/index',
+								'stack/standardization/tokenization/models/asset-uoa/index',
+								'stack/standardization/tokenization/models/asset-nft/index',
+							],
+						}, {
+							type: 'category',
+							label: 'Tokenization Utilities',
+							items: [
+								'stack/standardization/tokenization/utilities/utility/index',
+								'stack/standardization/tokenization/utilities/utility-id/index',
+								'stack/standardization/tokenization/utilities/utility-investment/index',
+								'stack/standardization/tokenization/utilities/utility-currency/index',
+							],
+						}, 
+					],
+				}, {
+					type: 'category',
 					label: 'ERC-20 Standard',
 					link: {
 						type: "doc",
@@ -171,7 +212,7 @@ const sidebars: SidebarsConfig = {
 			]
 		},   
   ],
-  valueSidebar: [
+  /*valueSidebar: [
 		{
 			type: 'doc',
 			id: 'value/intro', // document ID
@@ -204,8 +245,8 @@ const sidebars: SidebarsConfig = {
 			id: 'value/crommodity', 	// document ID
 			label: 'Crommodities', 		// sidebar label
 		},
-  ],
-	valueChainSidebar: [
+  ],*/
+	/*valueChainSidebar: [
 		{
 			type: 'doc',
 			id: 'valueChain/intro', // document ID
@@ -364,7 +405,7 @@ const sidebars: SidebarsConfig = {
 						'valueChain/suite/dapp-admin/exchanges/exchanges-deploy-dex',
 						'valueChain/suite/dapp-admin/exchanges/exchanges-deploy-cex',
 					],
-				},*/ {
+				}, {
 					type: 'category',
 					label: 'Trading',
 					items: [
@@ -493,8 +534,8 @@ const sidebars: SidebarsConfig = {
 				},
 			]
 		},
-  ],
-  ecosystemSidebar: [
+  ],*/
+  /*ecosystemSidebar: [
 		{
 			type: 'doc',
 			id: 'ecosystem/ecosystem', // document ID
@@ -584,7 +625,7 @@ const sidebars: SidebarsConfig = {
 				'ecosystem/transfers/intro',
 			]
 		}, 
-	]
+	]*/
 
 };
 
