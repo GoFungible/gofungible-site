@@ -12,9 +12,6 @@ sidebar_position: 1
 </div>
 <br/>
 
-import DocCardList from '@theme/DocCardList';
-
-<DocCardList />
 
 
 

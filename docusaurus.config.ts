@@ -149,86 +149,85 @@ const config: Config = {
 				title: 'Maturity Stack',
 						items: [{
 							label: 'Abstraction Layer',
-							href: '/docs/valueChain/principles/intro',
+							href: '/',
 						},{
 							label: 'Interoperability',
-							href: '/docs/valueChain/tokenization/intro',
+							href: '/',
 						}, {
 							label: 'Compose',
-							href: '/docs/valueChain/funding/intro',
+							href: '/',
 						}, {
 							label: 'Baseline',
-							href: '/docs/valueChain/negotiation/intro',
+							href: '/',
 						},
 					],
 				}, {
 					title: 'Captured Value',
 						items: [{
 							label: 'Memecoins',
-							href: '/docs/valueChain/principles/intro',
+							href: '/',
 						},{
 							label: 'Reputokens',
-							href: '/docs/valueChain/tokenization/intro',
+							href: '/',
 						}, {
 							label: 'Utility Tokens',
-							href: '/docs/valueChain/funding/intro',
+							href: '/',
 						}, {
 							label: 'Security Tokens',
-							href: '/docs/valueChain/negotiation/intro',
+							href: '/',
 						}, {
 							label: 'Stablecoins',
-							href: '/docs/valueChain/negotiation/intro',
+							href: '/',
 						}, {
 							label: 'Crommodity',
-							href: '/docs/valueChain/negotiation/intro',
+							href: '/',
 						},
 					],
 				}, {
 					title: 'Value Chain',
 						items: [{
 							label: 'Principles',
-							href: '/docs/valueChain/principles/intro',
+							href: '/',
 						},{
 							label: 'Tokenization',
-							href: '/docs/valueChain/tokenization/intro',
+							href: '/',
 						}, {
 							label: 'Project Funding',
-							href: '/docs/valueChain/funding/intro',
+							href: '/',
 						}, {
 							label: 'Token Negotiation',
-							href: '/docs/valueChain/negotiation/intro',
+							href: '/',
 						}, {
 							label: 'Token Operations',
-							href: '/docs/valueChain/distribution/intro',
+							href: '/',
 						}, {
 							label: 'DeFi Services',
-							href: '/docs/valueChain/defi/intro',
+							href: '/',
 						}, {
 							label: 'Crowdsolving',
-							href: '/docs/valueChain/crowdsolving/intro',
+							href: '/',
 						}
 					],
 				}, {
 					title: 'Ecosystems',
 					items: [{
 							label: 'Liquidity Provision',
-							href: '/docs/valueChain/defi/liquidity',
+							href: '/',
 						}, {
 							label: 'Launchap',
-							href: '/docs/valueChain/defi/launchpad',
+							href: '/',
 						}, {
 							label: 'Transfers',
-							href: '/docs/valueChain/defi/transfers',
+							href: '/',
 						}, {
 							label: 'Payments',
-							href: '/docs/valueChain/defi/payments',
+							href: '/',
 						}, {
 							label: 'Cards',
-							href: '/docs/valueChain/defi/cards',
+							href: '/',
 						}, {
 							label: 'Lending',
-							href: '/docs/valueChain/defi/lending',
-
+							href: '/',
 						}
 					],
 				}, 

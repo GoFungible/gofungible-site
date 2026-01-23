@@ -23,7 +23,3 @@ title: Prepare Funding Round
 
 > ISSUER: Pitch Investors
 
-
-import DocCardList from '@theme/DocCardList';
-
-<DocCardList />

@@ -71,7 +71,7 @@ const sidebars: SidebarsConfig = {
 					label: 'Tokenization', // sidebar label
 					link: {
 						type: "doc",
-						id: 'valueChain/tokenization/intro', // document ID
+						id: 'stack/standardization/tokenization/intro', // document ID
 					},
 					collapsible: true,
 					items: [

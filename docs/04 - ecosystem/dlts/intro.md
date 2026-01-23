@@ -19,6 +19,3 @@ Interoperability patterns aim to blur the separation between network ecosystems 
 
 There is not a network delivering all features for any required level of service. Therefore, it is up to the CryptoCommodity issuer to design what networks will be supported for what services and split the CryptoCommodity liquidity accordingly. The Tokenization Platform provides the issuer the ability to move liquidity between the supported networks and the know how to make wise decisions on chains supported by the CryptoCommodity.
 
-import DocCardList from '@theme/DocCardList';
-
-<DocCardList />
