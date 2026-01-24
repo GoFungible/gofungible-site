@@ -1,4 +1,6 @@
 
+import CardsRow from '@site/src/components/basic/cardrow/CardsRow';
+import TOCInline from '@theme/TOCInline';
 import JSONTable from '@site/src/components/ui/JSONTable';
 import erc from "/static/data/erc.json"
 
@@ -9,9 +11,42 @@ import erc from "/static/data/erc.json"
 
 The token must include provision to disclose its operations to any stakeholder at any time.
 
-## Non-compliant Use Cases
+## Scope
 
-import TOCInline from '@theme/TOCInline';
+<CardsRow
+	columns={2}
+	cards={[
+		{
+			variant: "primary",
+			image: "https://cdn-icons-png.flaticon.com/512/1317/1317755.png",
+			imageHeight: "120px",
+			title: "Reporting",
+			description: "Investor and users need fluid and trustfull information about the currency they are using. We must include configurable reports with enabled interoperability formats between servers.",
+			buttonText: "More",
+			href: "/docs/stack/ecosystem/dlts/intro",
+		},
+		{
+			variant: "primary",
+			image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmLav7s_5yeEZcwNyxf5DeD-F-gYt9FxFm8uvtvem8NNXLofDE6jFFx6r0_YgeNrqqf6U&usqp=CAU",
+			imageHeight: "120px",
+			title: "Privacy",
+			description: "Optionally, allow users hide their usage.",
+			buttonText: "More",
+			href: "/docs/stack/ecosystem/dlts/intro",
+		},
+		{
+			variant: "primary",
+			image: "https://cdn-icons-png.flaticon.com/512/8226/8226075.png",
+			imageHeight: "120px",
+			title: "Compliance",
+			description: "With juristictions increasingly stressing legilation around cryptocurrencies, any crypto must allow optional and configurable compliance mechanisms without reinvnting the wheel.",
+			buttonText: "More",
+			href: "/docs/stack/ecosystem/wallets",
+		}
+	]}
+/>
+
+## Non-compliant Use Cases
 
 <TOCInline toc={toc} 
 	 minHeadingLevel={3}

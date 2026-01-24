@@ -1,4 +1,5 @@
-
+import CardsRow from '@site/src/components/basic/cardrow/CardsRow';
+import TOCInline from '@theme/TOCInline';
 
 # II - Protect Holders Value
 ---
@@ -7,9 +8,33 @@
 
 The token must keep supply integrity according to maker operation. This means that there must not be manipulations on the supply by the token issuer or any third party as these manipulations would create price distortions that can benefit some stakeholder at the expense of another.
 
-## Non-compliant Use Cases
+## Scope
 
-import TOCInline from '@theme/TOCInline';
+<CardsRow
+	columns={2}
+	cards={[
+		{
+			variant: "primary",
+			image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmLav7s_5yeEZcwNyxf5DeD-F-gYt9FxFm8uvtvem8NNXLofDE6jFFx6r0_YgeNrqqf6U&usqp=CAU",
+			imageHeight: "120px",
+			title: "Decentralization",
+			description: "Protect value from issuer manipulation.",
+			buttonText: "More",
+			href: "/docs/stack/ecosystem/dlts/intro",
+		},
+		{
+			variant: "primary",
+			image: "https://cdn-icons-png.flaticon.com/512/2092/2092663.png",
+			imageHeight: "120px",
+			title: "Security",
+			description: "With billions stolen every year, ensuring security is a must or any cryptocurrency. This includes audits, testing, backups or any possible mechanism to guarantee that your funds are safu..",
+			buttonText: "More",
+			href: "/docs/stack/ecosystem/wallets",
+		}
+	]}
+/>
+
+## Non-compliant Use Cases
 
 <TOCInline toc={toc} 
 	 minHeadingLevel={3}

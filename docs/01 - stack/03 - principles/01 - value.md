@@ -1,3 +1,5 @@
+import CardsRow from '@site/src/components/basic/cardrow/CardsRow';
+import TOCInline from '@theme/TOCInline';
 
 # I - Capture Value faithfully
 ---
@@ -6,9 +8,24 @@
 
 The token must capture the value as claimed. This means that the algorithm to capture the value must be fixed and clearly disclosed.
 
-## Non-compliant Use Cases
+## Scope
 
-import TOCInline from '@theme/TOCInline';
+<CardsRow
+	columns={1}
+	cards={[
+		{
+			variant: "primary",
+			image: "https://www.catallactic.org/img/parking.png",
+			imageHeight: "120px",
+			title: "Proven Patterns",
+			description: "Reuse proven capture patterns.",
+			buttonText: "More",
+			href: "/docs/stack/ecosystem/wallets",
+		},
+	]}
+/>
+
+## Non-compliant Use Cases
 
 <TOCInline toc={toc} 
 	 minHeadingLevel={3}

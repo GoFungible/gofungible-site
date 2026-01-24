@@ -1,4 +1,5 @@
-
+import CardsRow from '@site/src/components/basic/cardrow/CardsRow';
+import TOCInline from '@theme/TOCInline';
 
 # III - User Friendly
 ---
@@ -6,11 +7,36 @@
 
 ## Statement
 
-The token must be fiendly accessible by all stakeholders.
+The token must be friendly accessible by all stakeholders.
+
+## Scope
+
+<CardsRow
+	columns={2}
+	cards={[
+		{
+			variant: "primary",
+			image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmLav7s_5yeEZcwNyxf5DeD-F-gYt9FxFm8uvtvem8NNXLofDE6jFFx6r0_YgeNrqqf6U&usqp=CAU",
+			imageHeight: "120px",
+			title: "Multichain",
+			description: "Maximize access across chains.",
+			buttonText: "More",
+			href: "/docs/stack/ecosystem/dlts/intro",
+		},
+		{
+			variant: "primary",
+			image: "https://www.catallactic.org/img/parking.png",
+			imageHeight: "120px",
+			title: "Multiwallet",
+			description: "Maximize access from multiple wallets.",
+			buttonText: "More",
+			href: "/docs/stack/ecosystem/wallets",
+		}
+	]}
+/>
 
 ## Non-compliant Use Cases
 
-import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc} 
 	 minHeadingLevel={3}
