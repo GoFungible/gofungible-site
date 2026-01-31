@@ -168,6 +168,7 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
+				'stack/interop/agents',
 				'stack/interop/communication',
 				'stack/interop/patterns',
 			]
