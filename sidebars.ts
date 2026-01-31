@@ -35,10 +35,10 @@ const sidebars: SidebarsConfig = {
 						id: 'stack/ecosystem/dlts/intro',
 					},
 					items: [
+						'stack/ecosystem/dlts/ecosystems/intro',
 						'stack/ecosystem/dlts/ecosystems/bitcoin',
 						'stack/ecosystem/dlts/ecosystems/ethereum',
 						'stack/ecosystem/dlts/ecosystems/modular',
-						'stack/ecosystem/dlts/list',
 					]
 				}, 
 				'stack/ecosystem/exchanges',
