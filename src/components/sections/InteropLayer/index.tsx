@@ -26,7 +26,7 @@ export default function InteropSection(): JSX.Element {
 			title: "Interoperability Agents",
 			description: "When issuing your value-based cryptocommodities it is necessary to understand what CEX, HEX, DEX, FEX, Liquidity Aggregators comply with the Trading, Operations and Distribution.",
 			buttonText: "View Agents",
-			href: "/docs/stack/ecosystem/exchanges",
+			href: "/docs/stack/interop/agents",
 		},
 		{
 			variant: "primary",
