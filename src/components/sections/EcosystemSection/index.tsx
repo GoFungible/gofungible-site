@@ -6,7 +6,6 @@ import CardsRow from '../../basic/cardrow/CardsRow';
 import { BaseCardProps } from '../../basic/cardrow/Card';
 import GenericSection from '../../basic/GenericSection';
 
-// Example with typed cards array
 const featureCards: BaseCardProps[] = [
   {
     variant: "primary",

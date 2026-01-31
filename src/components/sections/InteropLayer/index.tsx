@@ -3,64 +3,81 @@ import SplitSection from "../../basic/splitrow/SplitSection";
 
 import styles from './styles.module.css';
 import GenericSection from "../../basic/GenericSection";
+import { BaseCardProps } from "../../basic/cardrow/Card";
+import CardsRow from '../../basic/cardrow/CardsRow';
 
 export default function InteropSection(): JSX.Element {
+
+
+	const featureCards: BaseCardProps[] = [
+		{
+			variant: "primary",
+			image: "/img/interop.png",
+			imageHeight: "120px",
+			title: "Interchain Communication",
+			description: "With hundreds of DLT networks with different consensus protocols, gas fees or ecosystems is necessary to understand which ones comply with value-based cryptocommodities.",
+			buttonText: "View Communication",
+			href: "/docs/stack/interop/communication",
+		},
+		{
+			variant: "primary",
+			image: "/img/relayer.png",
+			imageHeight: "120px",
+			title: "Interoperability Agents",
+			description: "When issuing your value-based cryptocommodities it is necessary to understand what CEX, HEX, DEX, FEX, Liquidity Aggregators comply with the Trading, Operations and Distribution.",
+			buttonText: "View Agents",
+			href: "/docs/stack/ecosystem/exchanges",
+		},
+		{
+			variant: "primary",
+			image: "/img/interop-patterns.png",
+			imageHeight: "120px",
+			title: "Interoperability Patterns",
+			description: "Despite there are more than 1 hundred of wallets in offer in the crypto market, there is not a simple $20 HW wallet, as a Garage Door Opener, to pay in real markets and this is preventing massification.",
+			buttonText: "View Patterns",
+			href: "/docs/stack/interop/patterns",
+		},
+	];
+
   return (
     
 			<GenericSection
 				title="Layer 5: Interoperability Layer"
-				subtitle="Immutable principles are nothing if they are not accessible. But blockchains were not designed to communicate which each other causing a liquidity fragmentation problem and therefore destroying usability.  Something must be done."
+				subtitle="The cornerstone for blockchain adoption: blockchains were not designed to communicate which each other, creating a liquidity fragmentation problem and destroying usability. ."
 				variant="secondary"
 				padding="large"
 				headerSpacing="large"
 				headerClassName={styles.heroHeaderContent}
 			>
 
-				<SplitSection
-					image={{
-						src: 'https://stealthex.io/blog/wp-content/uploads/2022/06/%D0%A1ross_chain_bridge-5-min.png',
-						alt: 'Another great feature',
-						width: 800,
-						height: 400
-					}}
-					content={{
-						title: 'Interchain Communication',
-						titleLevel: 2,
-						text: (
-							<div>
-								<p>With several hundreds of blockchain <a href="https://chainlist.org/">networks</a>, more than 1700 <a href="https://blockspot.io/exchange/">exchanges</a>, 200 <a href="https://blockspot.io/wallet/">wallets</a> and more thn 1300 <a href="https://eips.ethereum.org/all">ERC standards</a> and the lack of role models and references the industry looks lost into the confusion which is the perfect climate for dishonest behaviour.</p>
-								<p>Learn More on <a href="https://www.fungible.work/" target="_blank">Fungible Communication</a>.</p>
-							</div>
-						)
-					}}
-					buttonLabel="See ERC Standards"
-					href="/docs/stack/interop/communication"
-					reverse={false}
-					spacing="large"
+				<CardsRow
+					columns={3}
+					cards={featureCards}
+					postdescription="With all these ingredients, we build a patterns-backed layer of abstraction on top of existing interoperability agents so issuers can deliver their tokens seamlessly in every EVM-enhanced chain."
 				/>
 
 				<SplitSection
-					image={{
-						src: 'https://static.vecteezy.com/system/resources/previews/060/422/273/non_2x/bright-and-glossy-jigsaw-puzzle-pieces-in-primary-colors-arranged-in-a-cohesive-and-artistic-manner-on-white-free-png.png',
-						alt: 'Another great feature',
-						width: 600,
-						height: 400
-					}}
-					content={{
-						title: 'Interoperability Patterns',
-						titleLevel: 2,
-						text: (
-							<div>
-								<p>With several hundreds of blockchain <a href="https://chainlist.org/">networks</a>, more than 1700 <a href="https://blockspot.io/exchange/">exchanges</a>, 200 <a href="https://blockspot.io/wallet/">wallets</a> and more thn 1300 <a href="https://eips.ethereum.org/all">ERC standards</a> and the lack of role models and references the industry looks lost into the confusion which is the perfect climate for dishonest behaviour.</p>
-								<p>Learn More on <a href="https://www.fungible.work/" target="_blank">Interoperability Patterns</a>.</p>
-							</div>
-						)
-					}}
-					buttonLabel="See ERC Standards"
-					href="/docs/stack/interop/patterns"
-					reverse={true}
-					spacing="large"
-				/>
+				image={{
+					src: 'https://www.fungible.work/img/drawings/patterns_erc20_multichain.svg',
+					alt: 'Another great feature',
+					width: 600,
+					height: 400
+				}}
+				content={{
+					title: 'Fungible Interoperability',
+					titleLevel: 2,
+					text: (
+						<div>
+							<p>Fungible Interoperability proposes and ERC-20 extension standard to guarantee holders and users integrity of the supply.</p>
+							<p>We also provide a hub of interoperability agents so they can be plugged in their token by the issuers.</p>
+						</div>
+					)
+				}}
+				buttonLabel="Visit Fungible Interoperablity"
+				href="https://www.fungible.work/"
+				reverse={false}
+				spacing="large"
+			/>
 
 			</GenericSection>
 
