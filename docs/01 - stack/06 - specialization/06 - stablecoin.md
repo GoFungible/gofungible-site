@@ -4,6 +4,12 @@ import erc from "/static/data/erc.json"
 # Stablecoin
 ---
 
+## How does it work?
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/drawings/patterns_stablecoin.svg" width="60%"></img>
+</div>
+
 ## Specialization Stablecoin related ERCs
 
 <table>
