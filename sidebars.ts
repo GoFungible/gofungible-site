@@ -109,6 +109,18 @@ const sidebars: SidebarsConfig = {
 					],
 				}, {
 					type: 'category',
+					label: 'Tokenization Patterns',
+					link: {
+						type: "doc",
+						id: 'stack/standardization/patterns/intro',
+					},
+					collapsible: true,
+					items: [
+						'stack/standardization/patterns/design',
+						'stack/standardization/patterns/security',
+					]
+				}, {
+					type: 'category',
 					label: 'Fungible Standards',
 					link: {
 						type: "doc",
@@ -140,17 +152,6 @@ const sidebars: SidebarsConfig = {
 							id: 'stack/standardization/fungiblestandards/other',
 							label: 'Alternative Token Standards',
 						}, 
-					]
-				}, {
-					type: 'category',
-					label: 'Token Patterns',
-					link: {
-						type: "doc",
-						id: 'stack/standardization/patterns/intro',
-					},
-					collapsible: true,
-					items: [
-						'stack/standardization/patterns/intro',
 					]
 				}, 
 			]
