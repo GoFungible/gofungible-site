@@ -109,7 +109,7 @@ const sidebars: SidebarsConfig = {
 					],
 				}, {
 					type: 'category',
-					label: 'Token Standards (Fungible)',
+					label: 'Fungible Standards',
 					link: {
 						type: "doc",
 						id: 'stack/standardization/fungiblestandards/intro',
