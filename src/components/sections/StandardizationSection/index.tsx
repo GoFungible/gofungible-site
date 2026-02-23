@@ -20,7 +20,7 @@ export default function StandardizationSection(): JSX.Element {
 			title: "Supply Features",
 			description: "Ability to create or remove supply.",
 			buttonText: "More",
-			href: "/docs/stack/standardization/erc20/supply",
+			href: "/docs/stack/standardization/fungiblestandards/erc20/supply",
 		},
 		{
 			variant: "primary",
@@ -28,7 +28,7 @@ export default function StandardizationSection(): JSX.Element {
 			title: "Permit Features",
 			description: "Allowance provided to third parties",
 			buttonText: "More",
-			href: "/docs/stack/standardization/erc20/permit",
+			href: "/docs/stack/standardization/fungiblestandards/erc20/permit",
 		},
 		{
 			variant: "primary",
@@ -36,7 +36,7 @@ export default function StandardizationSection(): JSX.Element {
 			title: "Transfer Features",
 			description: "Operations triggered on token transfers.",
 			buttonText: "More",
-			href: "/docs/stack/standardization/erc20/transfer",
+			href: "/docs/stack/standardization/fungiblestandards/erc20/transfer",
 		},
 		{
 			variant: "primary",
@@ -44,7 +44,7 @@ export default function StandardizationSection(): JSX.Element {
 			title: "Security Features",
 			description: "Such as token ownership.",
 			buttonText: "More",
-			href: "/docs/stack/standardization/erc20/security",
+			href: "/docs/stack/standardization/fungiblestandards/erc20/security",
 		},
 	]
 

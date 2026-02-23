@@ -68,7 +68,7 @@ const sidebars: SidebarsConfig = {
 			items: [
 				{
 					type: 'category',
-					label: 'Tokenization', // sidebar label
+					label: 'Tokenization Scope', // sidebar label
 					link: {
 						type: "doc",
 						id: 'stack/standardization/tokenization/intro', // document ID
@@ -109,27 +109,49 @@ const sidebars: SidebarsConfig = {
 					],
 				}, {
 					type: 'category',
-					label: 'ERC-20 Standard',
+					label: 'Token Standards (Fungible)',
 					link: {
 						type: "doc",
-						id: 'stack/standardization/erc20/intro',
+						id: 'stack/standardization/fungiblestandards/intro',
 					},
 					collapsible: true,
 					items: [
-						'stack/standardization/erc20/state',
-						'stack/standardization/erc20/supply',
-						'stack/standardization/erc20/permit',
-						'stack/standardization/erc20/transfer',
-						'stack/standardization/erc20/security',
+						{
+							type: 'category',
+							label: 'ERC-20 Standard',
+							link: {
+								type: "doc",
+								id: 'stack/standardization/fungiblestandards/erc20/intro',
+							},
+							collapsible: true,
+							items: [
+								'stack/standardization/fungiblestandards/erc20/state',
+								'stack/standardization/fungiblestandards/erc20/supply',
+								'stack/standardization/fungiblestandards/erc20/permit',
+								'stack/standardization/fungiblestandards/erc20/transfer',
+								'stack/standardization/fungiblestandards/erc20/security',
+							]
+						}, {
+							type: "doc",
+							id: 'stack/standardization/fungiblestandards/ecosystem',
+							label: 'ERC-20 Ecosystems',
+						}, {
+							type: "doc",
+							id: 'stack/standardization/fungiblestandards/other',
+							label: 'Alternative Token Standards',
+						}, 
 					]
 				}, {
-					type: "doc",
-					id: 'stack/standardization/ecosystem',
-					label: 'ERC-20 Ecosystems',
-				}, {
-					type: "doc",
-					id: 'stack/standardization/other',
-					label: 'Alternative Token Standards',
+					type: 'category',
+					label: 'Token Patterns',
+					link: {
+						type: "doc",
+						id: 'stack/standardization/patterns/intro',
+					},
+					collapsible: true,
+					items: [
+						'stack/standardization/patterns/intro',
+					]
 				}, 
 			]
 		}, {
