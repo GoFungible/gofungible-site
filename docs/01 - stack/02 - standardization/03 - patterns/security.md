@@ -21,4 +21,4 @@ State of the system is rolled back to a previous date.
 
 ## Migration Protection
 
-The whole logic of the smart contract is upgraded.
+All or part of the logic of the smart contract is upgraded and state is reverted to a previous date.
