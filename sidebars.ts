@@ -23,7 +23,7 @@ const sidebars: SidebarsConfig = {
 			label: 'Layer 1. Ecosystem',
 			link: {
 				type: "doc",
-				id: 'stack/ecosystem/intro',
+				id: 'stack/intro',
 			},
 			collapsible: true,
 			items: [
