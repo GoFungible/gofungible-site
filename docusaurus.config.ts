@@ -92,7 +92,13 @@ const config: Config = {
           position: 'left',
           label: 'Maturity Stack',
         },
-/*        {
+        {
+          type: 'docSidebar',
+          sidebarId: 'suiteSidebar',
+          position: 'left',
+          label: 'Suite',
+        },
+				/*        {
           type: 'docSidebar',
           sidebarId: 'ecosystemSidebar',
           position: 'left',
