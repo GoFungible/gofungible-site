@@ -6,11 +6,11 @@ Included proyects are:
 
 * The **Maturiy Stack**, the **Fungible Standard Principles** and **Features**
 
-* The **Multichain Token**
+* The **Fungible Multichain Token**
 
 * The interop features represented by The **ERC Standard** and the **Interop Implementation**
 
-* The Network artifacts including **Factory**, **Environment** and **Registry**
+* The **Fungible Network** artifacts including **Factory**, **Environment** and **Registry**
 
 * The **DApp Management** Application
 

@@ -1,2 +1,2 @@
-# DApp
+# DApp Management Tool
 
