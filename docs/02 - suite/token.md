@@ -1,4 +1,4 @@
-# Token
+# Fungible Multichain Token
 
 
 ## Token 

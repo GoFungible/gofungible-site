@@ -1,2 +1,2 @@
-# ERC Standard
+# The ERC Standard
 
