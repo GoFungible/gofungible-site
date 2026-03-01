@@ -19,11 +19,15 @@ const sidebars: SidebarsConfig = {
   // But you can create a sidebar manually
   stackSidebar: [
 		{
+			type: 'doc',
+			id: 'stack/intro', // document ID
+			label: 'Intro', // sidebar label
+		}, {
 			type: 'category',
 			label: 'Layer 1. Ecosystem',
 			link: {
 				type: "doc",
-				id: 'stack/intro',
+				id: 'stack/ecosystem/intro',
 			},
 			collapsible: true,
 			items: [
@@ -238,17 +242,20 @@ const sidebars: SidebarsConfig = {
   ],
   suiteSidebar: [
 		{
-			type: 'category',
-			label: 'Intro',
-			link: {
-				type: "doc",
-				id: 'suite/intro',
-			},
-			collapsible: true,
-			items: [
-				'suite/intro',
-			],
-		},
+			type: 'doc',
+			id: 'suite/intro', // document ID
+			label: 'Intro', // sidebar label
+		}, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, 
+			'suite/token',
+			'suite/interop',
+			'suite/dapp',
+			'suite/exchangelist',
+			'suite/relayerlist',
+			'suite/walletlist',
+			'suite/ercstandard',
 	],
   /*valueSidebar: [
 		{
