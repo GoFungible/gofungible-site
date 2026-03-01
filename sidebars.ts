@@ -244,7 +244,7 @@ const sidebars: SidebarsConfig = {
 		{
 			type: 'doc',
 			id: 'suite/intro', // document ID
-			label: 'Intro', // sidebar label
+			label: 'Suite', // sidebar label
 		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
@@ -252,11 +252,12 @@ const sidebars: SidebarsConfig = {
 			'suite/token',
 			'suite/interop',
 			'suite/dapp',
+			'suite/network',
+			'suite/ercstandard',
 			'suite/exchangelist',
 			'suite/relayerlist',
 			'suite/walletlist',
-			'suite/ercstandard',
-	],
+		],
   /*valueSidebar: [
 		{
 			type: 'doc',
