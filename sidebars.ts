@@ -247,13 +247,22 @@ const sidebars: SidebarsConfig = {
 			label: 'Intro', // sidebar label
 		}, {
 			type: 'html',
-      value: '<div class="border border-1 m-3" />',
+      value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
     }, 
 			'suite/token',
+			'suite/usage',
+		{
+			type: 'html',
+      value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
+		},
 			'suite/ercstandard',
 			'suite/interop',
 			'suite/network',
 			'suite/dapp',
+		{
+			type: 'html',
+      value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
+		},
 			'suite/exchangelist',
 			'suite/relayerlist',
 			'suite/walletlist',
