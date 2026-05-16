@@ -22,7 +22,12 @@ const sidebars: SidebarsConfig = {
 			type: 'doc',
 			id: 'stack/intro', // document ID
 			label: 'Intro', // sidebar label
-		}, {
+		}, 
+		{
+			type: 'html',
+      value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
+    }, 
+		{
 			type: 'category',
 			label: 'Layer 1. Ecosystem',
 			link: {
@@ -245,28 +250,29 @@ const sidebars: SidebarsConfig = {
 			type: 'doc',
 			id: 'suite/intro', // document ID
 			label: 'Intro', // sidebar label
-		}, {
+		},
+		{
 			type: 'html',
       value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
     }, 
-			'suite/token',
-			'suite/usage',
+		'suite/ercstandard',
+		'suite/token',
+		'suite/interop',
+		'suite/usage',
 		{
 			type: 'html',
-      value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
+			value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
 		},
-			'suite/ercstandard',
-			'suite/interop',
-			'suite/network',
-			'suite/dapp',
+		'suite/network',
+		'suite/dapp',
 		{
 			type: 'html',
-      value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
+			value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
 		},
-			'suite/exchangelist',
-			'suite/relayerlist',
-			'suite/walletlist',
-		],
+		'suite/exchangelist',
+		'suite/relayerlist',
+		'suite/walletlist',
+	],
   /*valueSidebar: [
 		{
 			type: 'doc',

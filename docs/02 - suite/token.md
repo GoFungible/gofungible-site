@@ -11,13 +11,19 @@
 
 
 
-## Multichain Token
 
 
 
 
 ## ERC-20 Token
 
+Single chain token
+
+
+
+## ERC-20x Token
+
+Multichain token
 
 
 
