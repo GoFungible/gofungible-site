@@ -258,6 +258,7 @@ const sidebars: SidebarsConfig = {
 		'suite/token',
 		'suite/ercsupplystandard',
 		'suite/ercrelayerstandard',
+		'suite/extensions',
 		'suite/dapptoken',
 		{
 			type: 'html',
