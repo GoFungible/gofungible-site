@@ -1,2 +1,0 @@
-# Fungible Multichain Token Usage
-
