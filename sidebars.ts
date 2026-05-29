@@ -255,8 +255,8 @@ const sidebars: SidebarsConfig = {
 			type: 'html',
       value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
     }, 
-		'suite/token',
 		'suite/ercsupplystandard',
+		'suite/token',
 		'suite/extensions',
 		'suite/dapptoken',
 		{
