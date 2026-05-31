@@ -68,7 +68,7 @@ const sidebars: SidebarsConfig = {
 			]
 		}, {
 			type: 'category',
-			label: 'Layer 2. Standardization',
+			label: 'Layer 2. Tokenization',
 			link: {
 				type: "doc",
 				id: 'stack/standardization/intro',
