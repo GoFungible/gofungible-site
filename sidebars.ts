@@ -257,7 +257,7 @@ const sidebars: SidebarsConfig = {
     }, 
 		'suite/ercsupplystandard',
 		'suite/token',
-		'suite/extensions',
+		'suite/extensionmechanism',
 		'suite/dapptoken',
 		{
 			type: 'html',
@@ -267,6 +267,11 @@ const sidebars: SidebarsConfig = {
 		'suite/interop',
 		'suite/network',
 		'suite/dappenv',
+		{
+			type: 'html',
+			value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
+		},
+		'suite/extension-crowdsale',
 		{
 			type: 'html',
 			value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
