@@ -255,30 +255,58 @@ const sidebars: SidebarsConfig = {
 			type: 'html',
       value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
     }, 
-		'suite/token',
-		'suite/ercsupplystandard',
-		'suite/ercrelayerstandard',
-		'suite/extensionmechanism',
-		'suite/dapptoken',
+		{
+			type: 'category',
+			label: 'Token',
+			collapsible: false,
+			items: [
+				'suite/token',
+				'suite/ercsupplystandard',
+				'suite/ercrelayerstandard',
+				'suite/extensionmechanism',
+				'suite/dapptoken',
+			]
+		}, 
 		{
 			type: 'html',
 			value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
 		},
-		'suite/interop',
-		'suite/network',
-		'suite/dappenv',
+		{
+			type: 'category',
+			label: 'Network',
+			collapsible: false,
+			items: [
+				'suite/interop',
+				'suite/network',
+				'suite/dappenv',
+			]
+		}, 
 		{
 			type: 'html',
 			value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
 		},
-		'suite/extension-crowdsale',
+		{
+			type: 'category',
+			label: 'Extensions',
+			collapsible: false,
+			items: [
+				'suite/extension-crowdsale',
+			]
+		}, 
 		{
 			type: 'html',
 			value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
 		},
-		'suite/exchangelist',
-		'suite/relayerlist',
-		'suite/walletlist',
+		{
+			type: 'category',
+			label: 'Environment',
+			collapsible: false,
+			items: [
+				'suite/exchangelist',
+				'suite/relayerlist',
+				'suite/walletlist',
+			]
+		}, 
 	],
   /*valueSidebar: [
 		{
