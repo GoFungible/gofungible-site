@@ -109,6 +109,13 @@ Included modules are below:
 				<td><a href="">102</a></td>
 				<td>EXT</td>
 				<td>EXT</td>
+				<td>The Antiwhale Extension</td>
+				<td></td>
+			</tr>
+				<tr>
+				<td><a href="">103</a></td>
+				<td>EXT</td>
+				<td>EXT</td>
 				<td>The Crowdsale Extension</td>
 				<td></td>
 			</tr>

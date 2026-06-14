@@ -290,6 +290,8 @@ const sidebars: SidebarsConfig = {
 			label: 'Extensions',
 			collapsible: false,
 			items: [
+				'suite/extension-ownership',
+				'suite/extension-antiwhale',
 				'suite/extension-crowdsale',
 			]
 		}, 
