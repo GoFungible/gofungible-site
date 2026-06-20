@@ -1,3 +1,3 @@
-# The ERC Global Supply Standard
+# ERC-20x Global Supply Standard
 
 Created to enforce the Assured Value Principles

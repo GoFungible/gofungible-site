@@ -1,4 +1,4 @@
-# Extension Mechanism
+# Extensions Connector
 
 
 # Extensions Points

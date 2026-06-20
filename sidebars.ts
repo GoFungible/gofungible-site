@@ -265,7 +265,8 @@ const sidebars: SidebarsConfig = {
 			collapsible: false,
 			items: [
 				'suite/token/token',
-				'suite/token/ercsupplystandard',
+				'suite/token/erctotalsupplystandard',
+				'suite/token/ercglobalsupplystandard',
 				'suite/token/ercrelayerstandard',
 				'suite/token/extensionmechanism',
 				'suite/token/dapptoken',
