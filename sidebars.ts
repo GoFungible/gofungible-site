@@ -258,13 +258,17 @@ const sidebars: SidebarsConfig = {
 		{
 			type: 'category',
 			label: 'Token',
+			link: {
+				type: "doc",
+				id: 'suite/token/intro',
+			},
 			collapsible: false,
 			items: [
-				'suite/token',
-				'suite/ercsupplystandard',
-				'suite/ercrelayerstandard',
-				'suite/extensionmechanism',
-				'suite/dapptoken',
+				'suite/token/token',
+				'suite/token/ercsupplystandard',
+				'suite/token/ercrelayerstandard',
+				'suite/token/extensionmechanism',
+				'suite/token/dapptoken',
 			]
 		}, 
 		{
@@ -274,11 +278,15 @@ const sidebars: SidebarsConfig = {
 		{
 			type: 'category',
 			label: 'Network',
+			link: {
+				type: "doc",
+				id: 'suite/network/intro',
+			},
 			collapsible: false,
 			items: [
-				'suite/interop',
-				'suite/network',
-				'suite/dappenv',
+				'suite/network/interop',
+				'suite/network/network',
+				'suite/network/dappenv',
 			]
 		}, 
 		{
@@ -288,12 +296,16 @@ const sidebars: SidebarsConfig = {
 		{
 			type: 'category',
 			label: 'Extensions',
+			link: {
+				type: "doc",
+				id: 'suite/extensions/intro',
+			},
 			collapsible: false,
 			items: [
-				'suite/extension-ownership',
-				'suite/extension-crowdsale',
-				'suite/extension-antiwhale',
-				'suite/extension-checkpoint',
+				'suite/extensions/extension-ownership',
+				'suite/extensions/extension-crowdsale',
+				'suite/extensions/extension-antiwhale',
+				'suite/extensions/extension-checkpoint',
 			]
 		}, 
 		{
@@ -303,11 +315,15 @@ const sidebars: SidebarsConfig = {
 		{
 			type: 'category',
 			label: 'Environment',
+			link: {
+				type: "doc",
+				id: 'suite/environment/intro',
+			},
 			collapsible: false,
 			items: [
-				'suite/exchangelist',
-				'suite/relayerlist',
-				'suite/walletlist',
+				'suite/environment/exchangelist',
+				'suite/environment/relayerlist',
+				'suite/environment/walletlist',
 			]
 		}, 
 	],

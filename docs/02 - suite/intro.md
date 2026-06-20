@@ -19,7 +19,7 @@ Included modules are below:
 			<tr>
 				<td><a href="https://www.fungible.design/">000</a></td>
 				<td>FOUNDATION</td>
-				<td>**Maturiy Stack** and **Fungible Standard Principles**</td>
+				<td>**Maturity Stack** and **Fungible Standard Principles**</td>
 				<td>Foundational Concepts</td>
 			</tr>
 			<tr>
