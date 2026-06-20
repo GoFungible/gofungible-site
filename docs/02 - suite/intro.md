@@ -14,46 +14,52 @@ Included modules are below:
 				<th style={{textAlign: 'center'}}>Description</th>
 			</tr>
 			<tr>
-				<td  style={{textAlign: 'center'}} colspan="4">TOKEN</td>
+				<td  style={{textAlign: 'center'}} colspan="4">**TOKEN**</td>
 			</tr>
 			<tr>
 				<td><a href="https://www.fungible.design/">000</a></td>
 				<td>FOUNDATION</td>
-				<td>The **Maturiy Stack**, the **Fungible Standard Principles** and **Features**</td>
+				<td>**Maturiy Stack** and **Fungible Standard Principles**</td>
 				<td>Foundational Concepts</td>
 			</tr>
 			<tr>
 				<td><a href="https://github.com/GoFungible/gofungible-suite-token">001</a></td>
 				<td>TOKEN</td>
-				<td>The **Fungible Multichain Token**</td>
+				<td>The **Fungible Multichain Token** Framework</td>
 				<td>Core framework implementing ERC-20, ERC-20x and Extensions</td>
 			</tr>
 			<tr>
-				<td><a href="https://github.com/GoFungible/gofungible-erc-20-multichain-supply-extension">011</a></td>
-				<td>NET-CON</td>
-				<td>The **ERC-20x Global Supply Standard**</td>
-				<td></td>
+				<td><a href="https://github.com/GoFungible/gofungible-suite-token">002</a></td>
+				<td>TOKEN</td>
+				<td>The **ERC-20 Total Supply** Standard</td>
+				<td>Interfaces with Chain Supply</td>
 			</tr>
 			<tr>
-				<td><a href="https://github.com/GoFungible/gofungible-erc-20-multichain-relayer-extension">012</a></td>
-				<td>NET-CON</td>
-				<td>The **ERC-XX Relayer Standard**</td>
-				<td>Wraps relayers</td>
+				<td><a href="https://github.com/GoFungible/gofungible-erc-20-multichain-supply-extension">003</a></td>
+				<td>TOKEN</td>
+				<td>The **ERC-20x Global Supply** Standard</td>
+				<td>Interfaces with MultiChain Supply</td>
 			</tr>
 			<tr>
-				<td><a href="https://github.com/GoFungible/gofungible-suite-network">021</a></td>
+				<td><a href="https://github.com/GoFungible/gofungible-erc-20-multichain-relayer-extension">011</a></td>
+				<td>NET-CON</td>
+				<td>The **ERC-XX Relayer Connector** Standard</td>
+				<td>Plugs relayers for multichain</td>
+			</tr>
+			<tr>
+				<td><a href="https://github.com/GoFungible/gofungible-suite-network">012</a></td>
 				<td>EXT-CON</td>
-				<td>The **Extension Mechanism** artifacts</td>
-				<td>Allows plugin in extensions for extended features</td>
+				<td>The **ERC-XX Extension Connector** Standard</td>
+				<td>Plugs extensions for extended features</td>
 			</tr>
 			<tr>
 				<td><a href="">031</a></td>
 				<td>ADMIN</td>
 				<td>The **DApp Token Management** Application</td>
-				<td></td>
+				<td>Fungible Standard Mutichain DAppmin</td>
 			</tr>
 			<tr>
-				<td  style={{textAlign: 'center'}} colspan="4">NETWORK</td>
+				<td  style={{textAlign: 'center'}} colspan="4">**NETWORK**</td>
 			</tr>
 			<tr>
 				<td><a href="https://github.com/GoFungible/gofungible-suite-interop">101</a></td>
@@ -74,7 +80,7 @@ Included modules are below:
 				<td></td>
 			</tr>
 			<tr>
-				<td  style={{textAlign: 'center'}} colspan="4">EXTENSIONS</td>
+				<td  style={{textAlign: 'center'}} colspan="4">**EXTENSIONS**</td>
 			</tr>
 			<tr>
 				<td><a href="">201</a></td>
@@ -125,7 +131,7 @@ Included modules are below:
 				<td>Crommodity style Supply Management</td>
 			</tr>
 			<tr>
-				<td  style={{textAlign: 'center'}} colspan="4">ECOSYSTEM</td>
+				<td  style={{textAlign: 'center'}} colspan="4">**ECOSYSTEM**</td>
 			</tr>
 			<tr>
 				<td><a href="https://github.com/GoFungible/exchange-list">301</a></td>
