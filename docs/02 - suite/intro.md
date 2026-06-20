@@ -14,7 +14,7 @@ Included modules are below:
 				<th style={{textAlign: 'center'}}>Description</th>
 			</tr>
 			<tr>
-				<td  style={{textAlign: 'center'}} colspan="4">CORE</td>
+				<td  style={{textAlign: 'center'}} colspan="4">TOKEN</td>
 			</tr>
 			<tr>
 				<td><a href="https://www.fungible.design/">000</a></td>
@@ -56,19 +56,19 @@ Included modules are below:
 				<td  style={{textAlign: 'center'}} colspan="4">NETWORK</td>
 			</tr>
 			<tr>
-				<td><a href="https://github.com/GoFungible/gofungible-suite-interop">013</a></td>
+				<td><a href="https://github.com/GoFungible/gofungible-suite-interop">101</a></td>
 				<td>NETWORK</td>
 				<td>The **Interop Implementation**</td>
 				<td>Uses relayer to exchange messages and data between networks</td>
 			</tr>
 			<tr>
-				<td><a href="https://github.com/GoFungible/gofungible-suite-network">014</a></td>
+				<td><a href="https://github.com/GoFungible/gofungible-suite-network">102</a></td>
 				<td>NETWORK</td>
 				<td>The **Fungible Network** artifacts</td>
 				<td>including **Factory**, **Environment** and **Registry**</td>
 			</tr>
 			<tr>
-				<td><a href="">032</a></td>
+				<td><a href="">103</a></td>
 				<td>ADMIN</td>
 				<td>The **DApp Env Management** Application</td>
 				<td></td>
@@ -77,49 +77,49 @@ Included modules are below:
 				<td  style={{textAlign: 'center'}} colspan="4">EXTENSIONS</td>
 			</tr>
 			<tr>
-				<td><a href="">101</a></td>
+				<td><a href="">201</a></td>
 				<td>EXT</td>
 				<td>The Ownership Extension</td>
 				<td></td>
 			</tr>
 			<tr>
-				<td><a href="">103</a></td>
+				<td><a href="">202</a></td>
 				<td>EXT</td>
 				<td>The Crowdsale Extension</td>
 				<td></td>
 			</tr>
 			<tr>
-				<td><a href="">102</a></td>
+				<td><a href="">203</a></td>
 				<td>EXT</td>
 				<td>The Antiwhale Extension</td>
 				<td></td>
 			</tr>
 			<tr>
-				<td><a href="">104</a></td>
+				<td><a href="">204</a></td>
 				<td>EXT</td>
 				<td>The Checkpoint Extension</td>
 				<td></td>
 			</tr>
 			<tr>
-				<td><a href="">021</a></td>
+				<td><a href="">205</a></td>
 				<td>SUPPLY</td>
 				<td>The Memecoin Extension</td>
 				<td>Memecoin style Supply Management</td>
 			</tr>
 			<tr>
-				<td><a href="">022</a></td>
+				<td><a href="">206</a></td>
 				<td>SUPPLY</td>
 				<td>The Reputoken Extension</td>
 				<td>Reputoken style Supply Management</td>
 			</tr>
 			<tr>
-				<td><a href="">023</a></td>
+				<td><a href="">207</a></td>
 				<td>SUPPLY</td>
 				<td>The Utility Extension</td>
 				<td>Utility style Supply Management</td>
 			</tr>
 			<tr>
-				<td><a href="">024</a></td>
+				<td><a href="">208</a></td>
 				<td>SUPPLY</td>
 				<td>The Crommodity Extension</td>
 				<td>Crommodity style Supply Management</td>
