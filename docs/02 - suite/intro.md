@@ -57,52 +57,17 @@ Included modules are below:
 				<td>including **Factory**, **Environment** and **Registry**</td>
 			</tr>
 			<tr>
-				<td><a href="">021</a></td>
-				<td>CORE</td>
-				<td>SUPPLY</td>
-				<td>The Memecoin Extension</td>
-				<td>Memecoin style Supply Management</td>
-			</tr>
-			<tr>
-				<td><a href="">022</a></td>
-				<td>CORE</td>
-				<td>SUPPLY</td>
-				<td>The Reputoken Extension</td>
-				<td>Reputoken style Supply Management</td>
-			</tr>
-			<tr>
-				<td><a href="">023</a></td>
-				<td>CORE</td>
-				<td>SUPPLY</td>
-				<td>The Utility Extension</td>
-				<td>Utility style Supply Management</td>
-			</tr>
-			<tr>
-				<td><a href="">024</a></td>
-				<td>CORE</td>
-				<td>SUPPLY</td>
-				<td>The Crommodity Extension</td>
-				<td>Crommodity style Supply Management</td>
-			</tr>
-			<tr>
-				<td><a href="">031</a></td>
-				<td>CORE</td>
-				<td>ADMIN</td>
-				<td>The **DApp Token Management** Application</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td><a href="">032</a></td>
-				<td>CORE</td>
-				<td>ADMIN</td>
-				<td>The **DApp Env Management** Application</td>
-				<td></td>
-			</tr>
-			<tr>
 				<td><a href="">101</a></td>
 				<td>EXT</td>
 				<td>EXT</td>
 				<td>The Ownership Extension</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><a href="">103</a></td>
+				<td>EXT</td>
+				<td>EXT</td>
+				<td>The Crowdsale Extension</td>
 				<td></td>
 			</tr>
 			<tr>
@@ -112,11 +77,53 @@ Included modules are below:
 				<td>The Antiwhale Extension</td>
 				<td></td>
 			</tr>
-				<tr>
-				<td><a href="">103</a></td>
+			<tr>
+				<td><a href="">104</a></td>
 				<td>EXT</td>
 				<td>EXT</td>
-				<td>The Crowdsale Extension</td>
+				<td>The Checkpoint Extension</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><a href="">021</a></td>
+				<td>EXT</td>
+				<td>SUPPLY</td>
+				<td>The Memecoin Extension</td>
+				<td>Memecoin style Supply Management</td>
+			</tr>
+			<tr>
+				<td><a href="">022</a></td>
+				<td>EXT</td>
+				<td>SUPPLY</td>
+				<td>The Reputoken Extension</td>
+				<td>Reputoken style Supply Management</td>
+			</tr>
+			<tr>
+				<td><a href="">023</a></td>
+				<td>EXT</td>
+				<td>SUPPLY</td>
+				<td>The Utility Extension</td>
+				<td>Utility style Supply Management</td>
+			</tr>
+			<tr>
+				<td><a href="">024</a></td>
+				<td>EXT</td>
+				<td>SUPPLY</td>
+				<td>The Crommodity Extension</td>
+				<td>Crommodity style Supply Management</td>
+			</tr>
+			<tr>
+				<td><a href="">031</a></td>
+				<td>ADMIN</td>
+				<td>ADMIN</td>
+				<td>The **DApp Token Management** Application</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><a href="">032</a></td>
+				<td>ADMIN</td>
+				<td>ADMIN</td>
+				<td>The **DApp Env Management** Application</td>
 				<td></td>
 			</tr>
 			<tr>
