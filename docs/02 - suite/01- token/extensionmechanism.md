@@ -1,7 +1,7 @@
-# ERC-yy Extensions Connector
+# ERC-20x Extensions Connector
 
 
-# Extensions Points
+# Extension Points
 
 
 # Transfer Extension Point
