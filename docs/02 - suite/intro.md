@@ -37,19 +37,19 @@ Included modules are below:
 			<tr>
 				<td><a href="https://github.com/GoFungible/gofungible-erc-20-multichain-supply-extension">003</a></td>
 				<td>TOKEN</td>
-				<td>The **ERC-20x Global Supply** Standard</td>
+				<td>The **ERC-20g Global Supply** Standard</td>
 				<td>Interfaces with MultiChain Supply</td>
 			</tr>
 			<tr>
 				<td><a href="https://github.com/GoFungible/gofungible-erc-20-multichain-relayer-extension">011</a></td>
 				<td>NET-CON</td>
-				<td>The **ERC-XX Relayer Connector** Standard</td>
+				<td>The **ERC-20n Relayer Connector** Standard</td>
 				<td>Plugs relayers for multichain</td>
 			</tr>
 			<tr>
 				<td><a href="https://github.com/GoFungible/gofungible-suite-network">012</a></td>
 				<td>EXT-CON</td>
-				<td>The **ERC-XX Extension Connector** Standard</td>
+				<td>The **ERC-20x Extension Connector** Standard</td>
 				<td>Plugs extensions for extended features</td>
 			</tr>
 			<tr>
