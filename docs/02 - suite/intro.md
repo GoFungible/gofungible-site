@@ -30,15 +30,30 @@ Included modules are below:
 			</tr>
 			<tr>
 				<td><a href="https://github.com/GoFungible/gofungible-erc-20-multichain-supply-extension">011</a></td>
-				<td>NETWORK</td>
+				<td>NET-CON</td>
 				<td>The **ERC-20x Global Supply Standard**</td>
 				<td></td>
 			</tr>
 			<tr>
 				<td><a href="https://github.com/GoFungible/gofungible-erc-20-multichain-relayer-extension">012</a></td>
-				<td>NETWORK</td>
+				<td>NET-CON</td>
 				<td>The **ERC-XX Relayer Standard**</td>
 				<td>Wraps relayers</td>
+			</tr>
+			<tr>
+				<td><a href="https://github.com/GoFungible/gofungible-suite-network">021</a></td>
+				<td>EXT-CON</td>
+				<td>The **Extension Mechanism** artifacts</td>
+				<td>Allows plugin in extensions for extended features</td>
+			</tr>
+			<tr>
+				<td><a href="">031</a></td>
+				<td>ADMIN</td>
+				<td>The **DApp Token Management** Application</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td  style={{textAlign: 'center'}} colspan="4">NETWORK</td>
 			</tr>
 			<tr>
 				<td><a href="https://github.com/GoFungible/gofungible-suite-interop">013</a></td>
@@ -51,6 +66,12 @@ Included modules are below:
 				<td>NETWORK</td>
 				<td>The **Fungible Network** artifacts</td>
 				<td>including **Factory**, **Environment** and **Registry**</td>
+			</tr>
+			<tr>
+				<td><a href="">032</a></td>
+				<td>ADMIN</td>
+				<td>The **DApp Env Management** Application</td>
+				<td></td>
 			</tr>
 			<tr>
 				<td  style={{textAlign: 'center'}} colspan="4">EXTENSIONS</td>
@@ -102,21 +123,6 @@ Included modules are below:
 				<td>SUPPLY</td>
 				<td>The Crommodity Extension</td>
 				<td>Crommodity style Supply Management</td>
-			</tr>
-			<tr>
-				<td  style={{textAlign: 'center'}} colspan="4">ADMIN</td>
-			</tr>
-			<tr>
-				<td><a href="">031</a></td>
-				<td>ADMIN</td>
-				<td>The **DApp Token Management** Application</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td><a href="">032</a></td>
-				<td>ADMIN</td>
-				<td>The **DApp Env Management** Application</td>
-				<td></td>
 			</tr>
 			<tr>
 				<td  style={{textAlign: 'center'}} colspan="4">ECOSYSTEM</td>
