@@ -301,7 +301,7 @@ const sidebars: SidebarsConfig = {
 				type: "doc",
 				id: 'suite/extensions/intro',
 			},
-			collapsible: false,
+			collapsible: true,
 			items: [
 				'suite/extensions/extension-ownership',
 				'suite/extensions/extension-crowdsale',
