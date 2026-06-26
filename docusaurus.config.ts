@@ -140,8 +140,8 @@ const config: Config = {
           position: 'left',
           label: 'Value Chain',
         },
-*/
 				{to: '/blog', label: 'Blog', position: 'right'},
+*/
         {
           href: 'https://github.com/GoFungible',
           label: 'GitHub',
