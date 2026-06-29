@@ -16,6 +16,14 @@ export default function StandardizationSection(): JSX.Element {
 	const fungibleFeatures: BaseCardProps[] = [
 		{
 			variant: "primary",
+			icon: <MdOutlineSecurity size={120} />,
+			title: "Access Features",
+			description: "Such as ownership or role-based access.",
+			buttonText: "More",
+			href: "/docs/stack/standardization/fungiblestandards/erc20/access",
+		},
+		{
+			variant: "primary",
 			icon: <HiMiniPrinter size={120} />,
 			title: "Supply Features",
 			description: "Ability to create or remove supply.",
@@ -37,14 +45,6 @@ export default function StandardizationSection(): JSX.Element {
 			description: "Operations triggered on token transfers.",
 			buttonText: "More",
 			href: "/docs/stack/standardization/fungiblestandards/erc20/transfer",
-		},
-		{
-			variant: "primary",
-			icon: <MdOutlineSecurity size={120} />,
-			title: "Security Features",
-			description: "Such as token ownership.",
-			buttonText: "More",
-			href: "/docs/stack/standardization/fungiblestandards/erc20/security",
 		},
 	]
 

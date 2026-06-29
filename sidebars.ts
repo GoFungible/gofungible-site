@@ -147,10 +147,10 @@ const sidebars: SidebarsConfig = {
 							collapsible: true,
 							items: [
 								'stack/standardization/fungiblestandards/erc20/state',
+								'stack/standardization/fungiblestandards/erc20/access',
 								'stack/standardization/fungiblestandards/erc20/supply',
 								'stack/standardization/fungiblestandards/erc20/permit',
 								'stack/standardization/fungiblestandards/erc20/transfer',
-								'stack/standardization/fungiblestandards/erc20/security',
 							]
 						}, {
 							type: "doc",
