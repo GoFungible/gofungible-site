@@ -50,7 +50,7 @@ const defaultLayers: Layer[] = [
   },
 	{
     id: 2,
-    title: "Standardization Layer",
+    title: "Tokenization Layer",
     description: "Provides technical capabilities that support higher layers, including security, logging, caching, and external service integrations. This layer handles cross-cutting concerns and infrastructure services.",
     //icon: "🏗️"
   },
