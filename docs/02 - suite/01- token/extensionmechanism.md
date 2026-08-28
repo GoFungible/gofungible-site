@@ -9,3 +9,12 @@ As part of the framework as set of extensions provided by the community can be p
 
 
 # Transfer Extension Point
+
+
+# Resources Injection
+
+
+# Proxies
+
+
+# Resources Configuration

@@ -1,3 +1,9 @@
 # ERC-20g Multichain
 
 Backed by ERC-7786 adapters and Fungible Standard messaging protocol, a suite of use cases for multichain expansion are embedded in the Fungible Standard Framework.
+
+## Master Chain
+
+## Network State
+
+## Token Perimeter
