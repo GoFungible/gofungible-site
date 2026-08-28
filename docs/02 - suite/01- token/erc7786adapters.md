@@ -1,4 +1,4 @@
-# ERC-7786 Adapters
+# ERC-7786 Crosschain Adapters
 
 Fungible Standard is built on top of ERC-7786. This provides crosschain capabilities.
 
