@@ -1,4 +1,4 @@
-# ERC-20x Extensions Connector
+# Extensions Connector
 
 
 # Extension Points

@@ -1,3 +1,3 @@
-# ERC-7786 Relayer Connector
+# ERC-7786 Adapters
 
 Created to enforce the Assured Value Principles

@@ -257,37 +257,21 @@ const sidebars: SidebarsConfig = {
     }, 
 		{
 			type: 'category',
-			label: 'Token',
+			label: 'Token Framework',
 			link: {
 				type: "doc",
 				id: 'suite/token/intro',
 			},
 			collapsible: false,
 			items: [
-				'suite/token/token',
-				'suite/token/erctotalsupplystandard',
-				'suite/token/ercglobalsupplystandard',
-				'suite/token/ercrelayerstandard',
+				'suite/token/access',
+				'suite/token/erc20',
+				'suite/token/erc7786adapters',
+				'suite/token/messaging',
+				'suite/token/ercmultichain',
+				'suite/token/ercglobalsupply',
 				'suite/token/extensionmechanism',
 				'suite/token/dapptoken',
-			]
-		}, 
-		{
-			type: 'html',
-			value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
-		},
-		{
-			type: 'category',
-			label: 'Network',
-			link: {
-				type: "doc",
-				id: 'suite/network/intro',
-			},
-			collapsible: false,
-			items: [
-				'suite/network/interop',
-				'suite/network/network',
-				'suite/network/dappenv',
 			]
 		}, 
 		{
@@ -307,6 +291,24 @@ const sidebars: SidebarsConfig = {
 				'suite/extensions/extension-crowdsale',
 				'suite/extensions/extension-antiwhale',
 				'suite/extensions/extension-checkpoint',
+			]
+		}, 
+		{
+			type: 'html',
+			value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
+		},
+		{
+			type: 'category',
+			label: 'Network Management',
+			link: {
+				type: "doc",
+				id: 'suite/network/intro',
+			},
+			collapsible: false,
+			items: [
+				'suite/network/interop',
+				'suite/network/network',
+				'suite/network/dappenv',
 			]
 		}, 
 		{
