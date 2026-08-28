@@ -1,2 +1,3 @@
 # ERC-20g Multichain
-Created to enforce the Assured Value Principles
+
+Backed by ERC-7786 adapters and Fungible Standard messaging protocol, a suite of use cases for multichain expansion are embedded in the Fungible Standard Framework.
