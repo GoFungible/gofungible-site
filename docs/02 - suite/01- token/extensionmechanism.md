@@ -8,9 +8,6 @@ As part of the framework as set of extensions provided by the community can be p
 # Extension Points
 
 
-# Transfer Extension Point
-
-
 # Resources Injection
 
 
