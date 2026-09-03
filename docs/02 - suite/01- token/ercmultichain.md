@@ -4,6 +4,6 @@ Backed by ERC-7786 adapters and Fungible Standard messaging protocol, a suite of
 
 ## Master Chain
 
-## Network State
-
 ## Token Perimeter
+
+## Network State
