@@ -266,11 +266,12 @@ const sidebars: SidebarsConfig = {
 			items: [
 				'suite/token/access',
 				'suite/token/erc20',
-				'suite/token/erc7786adapters',
-				'suite/token/messaging',
-				'suite/token/ercmultichain',
-				'suite/token/ercglobalsupply',
-				'suite/token/extensionmechanism',
+				'suite/token/erc7786xgateways',
+				'suite/token/erc7786xadapters',
+				'suite/token/erc7786xmessaging',
+				'suite/token/erc20gnetwork',
+				'suite/token/erc20gsupply',
+				'suite/token/extensions',
 				'suite/token/dapptoken',
 			]
 		}, 
