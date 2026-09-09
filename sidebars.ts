@@ -266,8 +266,8 @@ const sidebars: SidebarsConfig = {
 			items: [
 				'suite/token/access',
 				'suite/token/erc20',
-				'suite/token/erc7786xgateways',
-				'suite/token/erc7786xadapters',
+				'suite/token/erc7786gateways',
+				'suite/token/erc7786adapters',
 				'suite/token/erc7786xmessaging',
 				'suite/token/erc20gnetwork',
 				'suite/token/erc20gsupply',
