@@ -3,23 +3,26 @@
 Crosschain messaging is the more critical component of a decentralized multichain token. fungible standard is designed to deal with failure.
 
 
-## Sending Messages with Fire and Forget
+## Sending Messages with Fire and Forget / One Way
 
-Cross-chain messaging protocols operate using an asynchronous, fire-and-forget pattern
+Blockchains are inherently isolated, they cannot independently listen to external networks. Cross-chain message passing is asynchronous, one-way by design using a fire-and-forget pattern. Once a transaction is successfully sent and the MessageBus contract on the source chain emits the message event, the source chain considers its job done. General Message Passing protocols does not automatically notify the sender contract on the source chain if a message fails or is "lost" on the destination chain. 
 
-most of relayers accept losing messages, their view is to solve the problem with manual intervention. this leads to non atomic transactions and destroys decentralization.
+Most of relayers accept losing messages
+
+
 
 
 ### Centralization by Design
 
+Solve the problem with manual intervention leads to non atomic transactions and destroys decentralization.
 
 
 
-## Sending Messages with Async Callback
+## Sending Messages with Async Callback / Two Way
 
-fungible standard is designed for failure to guarantee consistency and decentralation
+fungible standard needs to be designed for failure to guarantee consistency and decentralation
 
-Fungible Standard features a custom crosschain message implementation structured in 12 steps as shown below.
+Fungible Standard features a custom crosschain message implementation as shown below.
 
 <br/>
 <div style={{textAlign: 'center'}}>
