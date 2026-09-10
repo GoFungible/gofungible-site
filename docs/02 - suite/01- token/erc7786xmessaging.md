@@ -12,9 +12,15 @@ Most of relayers accept losing messages
 
 
 
-### Centralization by Design
+### Relayers Centralized by Design
 
 Solve the problem with manual intervention leads to non atomic transactions and destroys decentralization.
+
+### The ERC-7786 Standard (2024-10-14)
+
+
+### The ERC-7683 Standard (Intents, 2024-04-11)
+
 
 
 
