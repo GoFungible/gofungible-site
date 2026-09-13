@@ -3,7 +3,7 @@
 Crosschain messaging is the more critical component of a decentralized multichain token. fungible standard is designed to deal with failure.
 
 
-## Sending 1-Way Messages
+## 1-Way Messages
 
 Fire and Forget
 
@@ -25,8 +25,18 @@ This pattern does not support rolling back messages in a consistent way.
 
 Optionally ids can be stored to memorize the transactions done. Optionally pruned.
 
+## 1-Way Idempotent Messages
 
-## Sending 2-Way Messages
+<br/>
+<div style={{textAlign: 'center'}}>
+	<img src="/img/drawings/patterns_messaging_1way_idempotent.svg" width="100%"></img>
+</div>
+<br/>
+
+Can be rolled back with 2 way roll back message.
+
+
+## 2-Way Messages
 
 Async Callback
 
@@ -46,12 +56,12 @@ Specially suitable to business operations that can be executed on iterations so 
 This pattern does not support rolling back messages in a consistent way.
 
 
-## Sending 2-Way Idempotent Messages
+## 2-Way Idempotent Messages
 
 
 <br/>
 <div style={{textAlign: 'center'}}>
-	<img src="/img/drawings/patterns_messaging_recovery.svg" width="100%"></img>
+	<img src="/img/drawings/patterns_messaging_2way_idempotent.svg" width="100%"></img>
 </div>
 <br/>
 
