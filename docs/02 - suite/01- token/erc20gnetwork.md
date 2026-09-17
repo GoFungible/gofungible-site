@@ -9,3 +9,11 @@ Backed by ERC-7786 adapters and Fungible Standard messaging protocol, a suite of
 	<img src="/img/drawings/patterns_perimeter.svg" width="80%"></img>
 </div>
 <br/>
+
+## Execution Model
+
+<br/>
+<div style={{textAlign: 'center'}}>
+	<img src="/img/drawings/patterns_messaging_1way_idempotent.svg" width="80%"></img>
+</div>
+<br/>

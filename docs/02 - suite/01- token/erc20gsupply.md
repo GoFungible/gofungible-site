@@ -10,6 +10,16 @@ Especially important for any tokens is management of its supply. Fungible Standa
 </div>
 <br/>
 
+## Execution Model
+
+<br/>
+<div style={{textAlign: 'center'}}>
+	<img src="/img/drawings/patterns_messaging_2way_idempotent.svg" width="80%"></img>
+</div>
+<br/>
+
+
+
 ## Supply by Network
 
 
