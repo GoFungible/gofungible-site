@@ -290,6 +290,7 @@ const sidebars: SidebarsConfig = {
 				'suite/extensions/extension-crowdsale',
 				'suite/extensions/extension-antiwhale',
 				'suite/extensions/extension-checkpoint',
+				'suite/extensions/extension-supply',
 			]
 		}, 
 		{
