@@ -1,4 +1,4 @@
-# Checkpoint Extension
+# Security Extensions
 
 <div style={{overflowX : 'auto'}}>
 	<table>
