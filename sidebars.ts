@@ -286,10 +286,9 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
-				'suite/extensions/extension-ownership',
-				'suite/extensions/extension-crowdsale',
-				'suite/extensions/extension-antiwhale',
-				'suite/extensions/extension-checkpoint',
+				'suite/extensions/extension-access',
+				'suite/extensions/extension-defi',
+				'suite/extensions/extension-security',
 				'suite/extensions/extension-supply',
 			]
 		}, 
