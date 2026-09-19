@@ -188,7 +188,7 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
-				'stack/immutability/proxy',
+				'stack/immutability/standards',
 			]
 		}, {
 			type: 'category',
