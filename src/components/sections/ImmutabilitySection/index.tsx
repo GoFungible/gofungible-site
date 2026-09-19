@@ -79,7 +79,7 @@ export default function ImmutabilitySection(): JSX.Element {
 					)
 				}}
 				buttonLabel="How this works?"
-				href="/docs/stack/immutability/immutability"
+				href="/docs/stack/immutability/intro"
 				reverse={true}
 				spacing="large"
 			/>
