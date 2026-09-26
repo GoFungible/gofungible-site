@@ -31,7 +31,7 @@ const RelayerTable: React.FC<RelayerTableProps> = (params: RelayerTableProps) =>
       header: 'Name (URL)',
 			cell: (info: any) => {
 				const name = info.getValue();
-				const url = info.row.original.infoURL;
+				const url = info.row.original.url;
 
 				return (
 					<a href={url} target='_blank'><strong>{name}</strong></a>
@@ -39,8 +39,12 @@ const RelayerTable: React.FC<RelayerTableProps> = (params: RelayerTableProps) =>
 			},
     },
 		{
+      accessorKey: 'builtOn',
+      header: 'Built On',
+    },
+		{
       accessorKey: 'code',
-      header: 'Github',
+      header: 'Code',
     },
   ];
 
