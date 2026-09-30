@@ -22,10 +22,6 @@ const RelayerTable: React.FC<RelayerTableProps> = (params: RelayerTableProps) =>
       accessorKey: 'type',
       header: 'Type',
     },
-		{
-      accessorKey: 'trust',
-      header: 'Trust Model',
-    },
     {
       accessorKey: 'name',
       header: 'Name (URL)',
@@ -43,10 +39,10 @@ const RelayerTable: React.FC<RelayerTableProps> = (params: RelayerTableProps) =>
       header: 'Built On',
     },
 		{
-      accessorKey: 'code',
-      header: 'Code',
+      accessorKey: 'trust',
+      header: 'Trust Model',
     },
-  ];
+	];
 
   return (
     <div>
